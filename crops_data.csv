@@ -1,0 +1,584 @@
+crop_name,crop_type,growth_stage,stage_duration,disease,pest,soil_type,climate,season,fertilizer
+Cà chua,FruitVegetable,Nảy mầm,7,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Cà chua,FruitVegetable,Thắt thân,15,Bệnh héo xanh,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Cà chua,FruitVegetable,Ra hoa,30,Bệnh sương mai,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Cà chua,FruitVegetable,Đậu quả,25,Bệnh mốc sương,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Cà chua,FruitVegetable,Thu hoạch,20,Bệnh đốm lá,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Rau muống,LeafyVegetable,Nảy mầm,5,Bệnh thán thư,Sâu xanh,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau muống,LeafyVegetable,Phát triển thân lá,15,Bệnh gỉ sắt,Bọ nhảy,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau muống,LeafyVegetable,Thu hoạch,20,Bệnh thán thư,Sâu xanh,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Cà rốt,RootVegetable,Nảy mầm,10,Bệnh thối rễ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân lân
+Cà rốt,RootVegetable,Phát triển rễ,30,Bệnh cháy lá,Rệp sáp,Đất cát pha,Mát mẻ,Đông Xuân,Phân NPK
+Cà rốt,RootVegetable,Hình thành củ,35,Bệnh thối đen,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Cà rốt,RootVegetable,Thu hoạch,15,Bệnh thối rễ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Bắp cải,LeafyVegetable,Nảy mầm,8,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Hữu cơ
+Bắp cải,LeafyVegetable,Phát triển lá,25,Bệnh thối nhũn,Sâu xanh,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân đạm
+Bắp cải,LeafyVegetable,Cuộn bắp,30,Bệnh sương mai,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân NPK
+Bắp cải,LeafyVegetable,Thu hoạch,15,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Kali
+Mướp đắng,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Mướp đắng,FruitVegetable,Leo giàn,20,Bệnh héo rũ,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân NPK
+Mướp đắng,FruitVegetable,Ra hoa,15,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân NPK
+Mướp đắng,FruitVegetable,Đậu quả,20,Bệnh sương mai,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Mướp đắng,FruitVegetable,Thu hoạch,25,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Dưa leo,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Dưa leo,FruitVegetable,Phát triển thân vòi,15,Bệnh sương mai,Sâu vẽ bùa,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Dưa leo,FruitVegetable,Ra hoa,10,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Dưa leo,FruitVegetable,Đậu quả,15,Bệnh héo xanh,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Dưa leo,FruitVegetable,Thu hoạch,20,Bệnh phấn trắng,Sâu ăn lá,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Khoai tây,RootVegetable,Nảy mầm,12,Bệnh mốc sương,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Khoai tây,RootVegetable,Mọc mầm thân,20,Bệnh mốc sương,Sâu 28 chấm,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Khoai tây,RootVegetable,Hình thành củ,25,Bệnh héo xanh,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Khoai tây,RootVegetable,Tích lũy tinh bột,30,Bệnh mốc sương,Tuyến trùng,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Khoai tây,RootVegetable,Thu hoạch,10,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Hành tây,RootVegetable,Nảy mầm,12,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành tây,RootVegetable,Phát triển lá,30,Bệnh cháy đầu lá,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Hành tây,RootVegetable,Phát triển củ,40,Bệnh sương mai,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Hành tây,RootVegetable,Thu hoạch,15,Bệnh thối củ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Ớt,FruitVegetable,Nảy mầm,10,Bệnh thán thư,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Ớt,FruitVegetable,Phát triển tán,25,Bệnh khảm lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân NPK
+Ớt,FruitVegetable,Ra hoa,20,Bệnh thán thư,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân NPK
+Ớt,FruitVegetable,Đậu quả,30,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Ớt,FruitVegetable,Thu hoạch,45,Bệnh thán thư,Nhện đỏ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Rau cải cúc,LeafyVegetable,Nảy mầm,4,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau cải cúc,LeafyVegetable,Phát triển lá,15,Bệnh sương mai,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau cải cúc,LeafyVegetable,Thu hoạch,10,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Đậu cô le,FruitVegetable,Nảy mầm,6,Bệnh gỉ sắt,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu cô le,FruitVegetable,Leo giàn,20,Bệnh gỉ sắt,Rệp muội,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Đậu cô le,FruitVegetable,Ra hoa,15,Bệnh thán thư,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Đậu cô le,FruitVegetable,Thu hoạch,25,Bệnh gỉ sắt,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Bí đỏ,FruitVegetable,Nảy mầm,7,Bệnh phấn trắng,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Hữu cơ
+Bí đỏ,FruitVegetable,Bò giàn,25,Bệnh phấn trắng,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân NPK
+Bí đỏ,FruitVegetable,Ra hoa,15,Bệnh sương mai,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân NPK
+Bí đỏ,FruitVegetable,Đậu quả,40,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Kali
+Bí đỏ,FruitVegetable,Thu hoạch,20,Bệnh phấn trắng,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Kali
+Rau dền,LeafyVegetable,Nảy mầm,4,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền,LeafyVegetable,Phát triển thân lá,15,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền,LeafyVegetable,Thu hoạch,10,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau mồng tơi,LeafyVegetable,Nảy mầm,5,Bệnh đốm mắt cua,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau mồng tơi,LeafyVegetable,Bò leo,20,Bệnh đốm lá,Sâu ăn lá,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau mồng tơi,LeafyVegetable,Thu hoạch,30,Bệnh đốm mắt cua,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Thì là,LeafyVegetable,Nảy mầm,7,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Thì là,LeafyVegetable,Phát triển lá,20,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Thì là,LeafyVegetable,Thu hoạch,15,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cà bát,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Cà bát,FruitVegetable,Phát triển tán,25,Bệnh đốm lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Cà bát,FruitVegetable,Ra hoa,20,Bệnh héo xanh,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Cà bát,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Củ cải trắng,RootVegetable,Nảy mầm,5,Bệnh thối nhũn,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ cải trắng,RootVegetable,Phát triển củ,30,Bệnh cháy lá,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân NPK
+Củ cải trắng,RootVegetable,Thu hoạch,15,Bệnh thối củ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Rau xà lách,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau xà lách,LeafyVegetable,Phát triển tán lá,20,Bệnh cháy đầu lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau xà lách,LeafyVegetable,Thu hoạch,10,Bệnh thối bẹ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Củ dền,RootVegetable,Nảy mầm,7,Bệnh đốm lá,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ dền,RootVegetable,Phát triển củ,35,Bệnh thối rễ,Rệp muội,Đất cát pha,Mát mẻ,Đông Xuân,Phân NPK
+Củ dền,RootVegetable,Thu hoạch,15,Bệnh đốm lá,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Măng tây,StemVegetable,Nảy mầm,15,Bệnh thán thư,Bọ trĩ,Đất cát pha,Ấm áp,Quanh năm,Phân Hữu cơ
+Măng tây,StemVegetable,Mọc măng,40,Bệnh héo rũ,Bọ trĩ,Đất cát pha,Ấm áp,Quanh năm,Phân NPK
+Măng tây,StemVegetable,Thu hoạch,60,Bệnh thán thư,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân Kali
+Rau ngót,LeafyVegetable,Nảy mầm,15,Bệnh đốm lá,Nhện đỏ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau ngót,LeafyVegetable,Phát triển cành lá,30,Bệnh xoăn lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Rau ngót,LeafyVegetable,Thu hoạch,45,Bệnh đốm lá,Nhện đỏ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Hành lá,LeafyVegetable,Nảy mầm,7,Bệnh sương mai,Sâu hành,Đất tơi xốp,Mát mẻ,Quanh năm,Phân Hữu cơ
+Hành lá,LeafyVegetable,Đẻ nhánh,25,Bệnh cháy đầu lá,Bọ trĩ,Đất tơi xốp,Mát mẻ,Quanh năm,Phân đạm
+Hành lá,LeafyVegetable,Thu hoạch,15,Bệnh sương mai,Sâu hành,Đất tơi xốp,Mát mẻ,Quanh năm,Phân đạm
+Hẹ,LeafyVegetable,Nảy mầm,8,Bệnh gỉ sắt,Bọ trĩ,Đất tơi xốp,Ấm áp,Quanh năm,Phân Hữu cơ
+Hẹ,LeafyVegetable,Phát triển bẹ,30,Bệnh thối rễ,Sâu ăn lá,Đất tơi xốp,Ấm áp,Quanh năm,Phân đạm
+Hẹ,LeafyVegetable,Thu hoạch,20,Bệnh gỉ sắt,Bọ trĩ,Đất tơi xốp,Ấm áp,Quanh năm,Phân đạm
+Cần tây,LeafyVegetable,Nảy mầm,10,Bệnh cháy lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cần tây,LeafyVegetable,Phát triển thân lá,40,Bệnh thối thâm,Sâu khoang,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Cần tây,LeafyVegetable,Thu hoạch,20,Bệnh cháy lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Su hào,RootVegetable,Nảy mầm,7,Bệnh thối nhũn,Bọ nhảy,Đất thịt nhẹ,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Su hào,RootVegetable,Phát triển củ,35,Bệnh sương mai,Sâu tơ,Đất thịt nhẹ,Mát mẻ,Đông Xuân,Phân NPK
+Su hào,RootVegetable,Thu hoạch,15,Bệnh thối nhũn,Bọ nhảy,Đất thịt nhẹ,Mát mẻ,Đông Xuân,Phân Kali
+Đậu Hà Lan,FruitVegetable,Nảy mầm,8,Bệnh phấn trắng,Sâu đục quả,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Đậu Hà Lan,FruitVegetable,Ra hoa,20,Bệnh phấn trắng,Rệp muội,Đất cát pha,Mát mẻ,Đông Xuân,Phân NPK
+Đậu Hà Lan,FruitVegetable,Thu hoạch,25,Bệnh thán thư,Sâu đục quả,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Bí xanh,FruitVegetable,Nảy mầm,7,Bệnh sương mai,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bí xanh,FruitVegetable,Leo giàn,30,Bệnh phấn trắng,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Bí xanh,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Măng sặt,StemVegetable,Mọc mầm,20,Bệnh thối măng,Bọ xít,Đất đồi núi,Mát mẻ,Xuân Hè,Phân Hữu cơ
+Măng sặt,StemVegetable,Thu hoạch,30,Bệnh thối măng,Sâu vòi xịt,Đất đồi núi,Mát mẻ,Xuân Hè,Phân NPK
+Đậu đũa,FruitVegetable,Nảy mầm,6,Bệnh thán thư,Rệp muội,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu đũa,FruitVegetable,Bò giàn,20,Bệnh gỉ sắt,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Đậu đũa,FruitVegetable,Ra hoa,15,Bệnh thán thư,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Đậu đũa,FruitVegetable,Thu hoạch,30,Bệnh gỉ sắt,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Cà pháo,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà pháo,FruitVegetable,Phát triển tán,25,Bệnh đốm lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân NPK
+Cà pháo,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Khổ qua rừng,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Hữu cơ
+Khổ qua rừng,FruitVegetable,Leo giàn,20,Bệnh héo rũ,Sâu ăn lá,Đất tơi xốp,Ấm áp,Xuân Hè,Phân NPK
+Khổ qua rừng,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Ruồi đục quả,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Kali
+Súp lơ xanh,LeafyVegetable,Nảy mầm,8,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Hữu cơ
+Súp lơ xanh,LeafyVegetable,Phát triển lá,30,Bệnh sương mai,Sâu xanh,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân đạm
+Súp lơ xanh,LeafyVegetable,Hình thành hoa,25,Bệnh thối hoa,Bọ nhảy,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân NPK
+Súp lơ xanh,LeafyVegetable,Thu hoạch,15,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Kali
+Súp lơ trắng,LeafyVegetable,Nảy mầm,8,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Hữu cơ
+Súp lơ trắng,LeafyVegetable,Hình thành hoa,25,Bệnh thối hoa,Sâu xanh,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân NPK
+Súp lơ trắng,LeafyVegetable,Thu hoạch,15,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Kali
+Cải củ đỏ,RootVegetable,Nảy mầm,5,Bệnh thối rễ,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải củ đỏ,RootVegetable,Phát triển củ,20,Bệnh đốm lá,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân NPK
+Cải củ đỏ,RootVegetable,Thu hoạch,10,Bệnh thối củ,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Rau bồ ngót,LeafyVegetable,Mọc mầm,12,Bệnh đốm lá,Nhện đỏ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau bồ ngót,LeafyVegetable,Thu hoạch,40,Bệnh xoăn lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Cải bẹ xanh,LeafyVegetable,Nảy mầm,4,Bệnh thối nhũn,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải bẹ xanh,LeafyVegetable,Phát triển lá,20,Bệnh sương mai,Sâu tơ,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải bẹ xanh,LeafyVegetable,Thu hoạch,10,Bệnh thối nhũn,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải thìa,LeafyVegetable,Nảy mầm,4,Bệnh thối bẹ,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải thìa,LeafyVegetable,Phát triển thân lá,18,Bệnh sương mai,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải thìa,LeafyVegetable,Thu hoạch,10,Bệnh thối bẹ,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải ngọt,LeafyVegetable,Nảy mầm,4,Bệnh thối nhũn,Sâu tơ,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải ngọt,LeafyVegetable,Phát triển lá,18,Bệnh gỉ trắng,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải ngọt,LeafyVegetable,Thu hoạch,10,Bệnh thối nhũn,Sâu tơ,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải cúc tía,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải cúc tía,LeafyVegetable,Thu hoạch,20,Bệnh sương mai,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Hành tây tím,RootVegetable,Nảy mầm,12,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành tây tím,RootVegetable,Phát triển củ,40,Bệnh cháy đầu lá,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Hành tây tím,RootVegetable,Thu hoạch,15,Bệnh thối củ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Tỏi,RootVegetable,Nảy mầm,10,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Tỏi,RootVegetable,Phát triển củ,60,Bệnh gỉ sắt,Sâu gặm củ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Tỏi,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Hành củ,RootVegetable,Nảy mầm,8,Bệnh sương mai,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành củ,RootVegetable,Phát triển củ,35,Bệnh cháy đầu lá,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Hành củ,RootVegetable,Thu hoạch,15,Bệnh thối củ,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Củ nần,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất đồi núi,Ấm áp,Xuân Hè,Phân Hữu cơ
+Củ nần,RootVegetable,Thu hoạch,90,Bệnh đốm lá,Rệp sáp,Đất đồi núi,Ấm áp,Xuân Hè,Phân Kali
+Củ sắn,RootVegetable,Nảy mầm,15,Bệnh khảm lá,Rệp sáp,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ sắn,RootVegetable,Phát triển củ,120,Bệnh thối rễ,Tuyến trùng,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Củ sắn,RootVegetable,Thu hoạch,30,Bệnh thối củ,Rệp sáp,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai lang,RootVegetable,Nảy mầm,10,Bệnh héo rũ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Hữu cơ
+Khoai lang,RootVegetable,Phát triển thân lá,30,Bệnh đốm lá,Sâu ăn lá,Đất cát pha,Ấm áp,Hè Thu,Phân NPK
+Khoai lang,RootVegetable,Phát triển củ,50,Bệnh thối củ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Kali
+Khoai lang,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Kali
+Khoai môn,RootVegetable,Nảy mầm,15,Bệnh sương mai,Nhện đỏ,Đất trũng,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Khoai môn,RootVegetable,Phát triển củ,90,Bệnh thối củ,Bọ trĩ,Đất trũng,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai môn,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất trũng,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai sọ,RootVegetable,Nảy mầm,15,Bệnh sương mai,Rệp muội,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Khoai sọ,RootVegetable,Phát triển củ,80,Bệnh thối củ,Sâu ăn lá,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai sọ,RootVegetable,Thu hoạch,25,Bệnh thối củ,Tuyến trùng,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Đậu rồng,FruitVegetable,Nảy mầm,7,Bệnh thán thư,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu rồng,FruitVegetable,Leo giàn,25,Bệnh gỉ sắt,Rệp muội,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Đậu rồng,FruitVegetable,Thu hoạch,40,Bệnh thán thư,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Đậu bắp,FruitVegetable,Nảy mầm,5,Bệnh héo xanh,Bọ trĩ,Đất thịt nhẹ,Nóng ẩm,Hè Thu,Phân Hữu cơ
+Đậu bắp,FruitVegetable,Phát triển thân,20,Bệnh đốm lá,Rệp muội,Đất thịt nhẹ,Nóng ẩm,Hè Thu,Phân NPK
+Đậu bắp,FruitVegetable,Thu hoạch,45,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Nóng ẩm,Hè Thu,Phân Kali
+Bầu,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bầu,FruitVegetable,Bò giàn,25,Bệnh phấn trắng,Sâu ăn lá,Đất phù sa,Ấm áp,Xuân Hè,Phân NPK
+Bầu,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Ấm áp,Xuân Hè,Phân Kali
+Bí đao,FruitVegetable,Nảy mầm,7,Bệnh sương mai,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bí đao,FruitVegetable,Leo giàn,30,Bệnh phấn trắng,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Bí đao,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Mướp hương,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Mướp hương,FruitVegetable,Leo giàn,20,Bệnh héo rũ,Sâu ăn lá,Đất phù sa,Nóng ẩm,Xuân Hè,Phân NPK
+Mướp hương,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Mướp khía,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Mướp khía,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Cà bung,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Cà bung,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Cà dĩa,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Cà dĩa,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Rau rau đắng,LeafyVegetable,Nảy mầm,5,Bệnh thối rễ,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau rau đắng,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Sâu khoang,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau cần nước,LeafyVegetable,Nảy mầm,7,Bệnh thối bẹ,Sâu gặm lá,Đất trũng,Mát mẻ,Đông Xuân,Phân đạm
+Rau cần nước,LeafyVegetable,Thu hoạch,30,Bệnh thối gốc,Bọ trĩ,Đất trũng,Mát mẻ,Đông Xuân,Phân đạm
+Rau ngổ,LeafyVegetable,Nảy mầm,6,Bệnh thối rễ,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau ngổ,LeafyVegetable,Thu hoạch,25,Bệnh đốm lá,Rệp muội,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau ráy,LeafyVegetable,Nảy mầm,10,Bệnh thối củ,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau ráy,LeafyVegetable,Thu hoạch,40,Bệnh thối gốc,Rệp sáp,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Cải cúc đắng,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải cúc đắng,LeafyVegetable,Thu hoạch,20,Bệnh sương mai,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau bina,LeafyVegetable,Nảy mầm,6,Bệnh sương mai,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau bina,LeafyVegetable,Phát triển lá,20,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau bina,LeafyVegetable,Thu hoạch,10,Bệnh sương mai,Sâu khoang,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau diếp cá,LeafyVegetable,Nảy mầm,8,Bệnh đốm lá,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau diếp cá,LeafyVegetable,Thu hoạch,30,Bệnh thối rễ,Rệp muội,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau tía tía,LeafyVegetable,Nảy mầm,6,Bệnh đốm lá,Sâu khoang,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau tía tía,LeafyVegetable,Thu hoạch,25,Bệnh cháy lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Tía tơ,LeafyVegetable,Nảy mầm,6,Bệnh đốm lá,Sâu khoang,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Tía tơ,LeafyVegetable,Thu hoạch,25,Bệnh cháy lá,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Kinh giới,LeafyVegetable,Nảy mầm,6,Bệnh đốm lá,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Kinh giới,LeafyVegetable,Thu hoạch,25,Bệnh thối rễ,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Húng cây,LeafyVegetable,Nảy mầm,5,Bệnh đốm lá,Sâu khoang,Đất phù sa,Ấm áp,Quanh năm,Phân Hữu cơ
+Húng cây,LeafyVegetable,Thu hoạch,20,Bệnh thối gốc,Rệp muội,Đất phù sa,Ấm áp,Quanh năm,Phân đạm
+Húng chanh,LeafyVegetable,Nảy mầm,6,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Ấm áp,Quanh năm,Phân Hữu cơ
+Húng chanh,LeafyVegetable,Thu hoạch,25,Bệnh đốm lá,Sâu ăn lá,Đất tơi xốp,Ấm áp,Quanh năm,Phân đạm
+Húng quế,LeafyVegetable,Nảy mầm,5,Bệnh cháy lá,Sâu khoang,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Húng quế,LeafyVegetable,Phát triển cành lá,20,Bệnh đốm lá,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Húng quế,LeafyVegetable,Thu hoạch,15,Bệnh thối rễ,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Rau quế vị,LeafyVegetable,Nảy mầm,6,Bệnh thối gốc,Sâu khoang,Đất ẩm,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau quế vị,LeafyVegetable,Thu hoạch,25,Bệnh đốm lá,Rệp muội,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau ngổ đắng,LeafyVegetable,Nảy mầm,7,Bệnh thối rễ,Sâu ăn lá,Đất trũng,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau ngổ đắng,LeafyVegetable,Thu hoạch,30,Bệnh đốm lá,Bọ trĩ,Đất trũng,Ấm áp,Quanh năm,Phân đạm
+Rau om,LeafyVegetable,Nảy mầm,6,Bệnh thối gốc,Sâu khoang,Đất ẩm,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Rau om,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Rệp muội,Đất ẩm,Nóng ẩm,Quanh năm,Phân đạm
+Ngò gai,LeafyVegetable,Nảy mầm,12,Bệnh đốm lá,Bọ trĩ,Đất thịt nhẹ,Mát mẻ,Quanh năm,Phân Hữu cơ
+Ngò gai,LeafyVegetable,Phát triển lá,35,Bệnh cháy đầu lá,Nhện đỏ,Đất thịt nhẹ,Mát mẻ,Quanh năm,Phân đạm
+Ngò gai,LeafyVegetable,Thu hoạch,20,Bệnh thối gốc,Bọ trĩ,Đất thịt nhẹ,Mát mẻ,Quanh năm,Phân đạm
+Ngò rí,LeafyVegetable,Nảy mầm,7,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Ngò rí,LeafyVegetable,Phát triển lá,18,Bệnh sương mai,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Ngò rí,LeafyVegetable,Thu hoạch,10,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau cần tây Mỹ,LeafyVegetable,Nảy mầm,12,Bệnh cháy lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau cần tây Mỹ,LeafyVegetable,Phát triển thân,45,Bệnh thối bẹ,Sâu khoang,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Rau cần tây Mỹ,LeafyVegetable,Thu hoạch,20,Bệnh cháy lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cải kale,LeafyVegetable,Nảy mầm,7,Bệnh thối nhũn,Sâu tơ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải kale,LeafyVegetable,Phát triển tán lá,40,Bệnh sương mai,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Cải kale,LeafyVegetable,Thu hoạch,30,Bệnh đốm lá,Sâu xanh,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cải cầu vồng,LeafyVegetable,Nảy mầm,7,Bệnh thối gốc,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải cầu vồng,LeafyVegetable,Phát triển lá,35,Bệnh đốm lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Cải cầu vồng,LeafyVegetable,Thu hoạch,25,Bệnh cháy lá,Sâu khoang,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau màng màng,LeafyVegetable,Nảy mầm,5,Bệnh thối rễ,Sâu khoang,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Rau màng màng,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Rệp muội,Đất cát pha,Ấm áp,Xuân Hè,Phân đạm
+Rau má,LeafyVegetable,Nảy mầm,10,Bệnh đốm lá,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau má,LeafyVegetable,Phát triển bò,25,Bệnh lở cổ rễ,Nhện đỏ,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau má,LeafyVegetable,Thu hoạch,15,Bệnh đốm lá,Sâu khoang,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau càng cua,LeafyVegetable,Nảy mầm,7,Bệnh thối gốc,Sâu ăn lá,Đất ẩm,Mát mẻ,Quanh năm,Phân Hữu cơ
+Rau càng cua,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Rệp muội,Đất ẩm,Mát mẻ,Quanh năm,Phân đạm
+Rau khoai lang,LeafyVegetable,Nảy mầm,6,Bệnh đốm lá,Sâu ăn lá,Đất cát pha,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau khoai lang,LeafyVegetable,Phát triển ngọn,20,Bệnh thối rễ,Bọ hà,Đất cát pha,Ấm áp,Quanh năm,Phân đạm
+Rau khoai lang,LeafyVegetable,Thu hoạch,15,Bệnh đốm lá,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân đạm
+Rau bóp củ,LeafyVegetable,Nảy mầm,8,Bệnh thối rễ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau bóp củ,LeafyVegetable,Thu hoạch,25,Bệnh đốm lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Củ dong,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Hữu cơ
+Củ dong,RootVegetable,Phát triển củ,90,Bệnh đốm lá,Sâu gặm củ,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Kali
+Củ dong,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Kali
+Củ mỡ,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Củ mỡ,RootVegetable,Phát triển củ,100,Bệnh đốm lá,Bọ hà,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Củ mỡ,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Củ từ,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Củ từ,RootVegetable,Phát triển củ,90,Bệnh đốm lá,Bọ hà,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Củ từ,RootVegetable,Thu hoạch,25,Bệnh thối củ,Tuyến trùng,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Củ củ năng,RootVegetable,Nảy mầm,12,Bệnh thối củ,Bọ trĩ,Đất trũng,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ củ năng,RootVegetable,Phát triển củ,80,Bệnh đốm lá,Tuyến trùng,Đất trũng,Nóng ẩm,Xuân Hè,Phân Kali
+Củ củ năng,RootVegetable,Thu hoạch,30,Bệnh thối củ,Bọ trĩ,Đất trũng,Nóng ẩm,Xuân Hè,Phân Kali
+Củ ấu,FruitVegetable,Nảy mầm,10,Bệnh thối lá,Bọ trĩ,Đất bùn,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ ấu,FruitVegetable,Phát triển quả,60,Bệnh thối quả,Sâu ăn lá,Đất bùn,Nóng ẩm,Xuân Hè,Phân Kali
+Củ ấu,FruitVegetable,Thu hoạch,30,Bệnh thối quả,Bọ trĩ,Đất bùn,Nóng ẩm,Xuân Hè,Phân Kali
+Gừng,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Gừng,RootVegetable,Phát triển củ,120,Bệnh héo xanh,Sâu đục thân,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Gừng,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Nghệ,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Nghệ,RootVegetable,Phát triển củ,150,Bệnh héo xanh,Sâu đục thân,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Nghệ,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Riềng,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Riềng,RootVegetable,Phát triển củ,180,Bệnh đốm lá,Sâu đục thân,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Riềng,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Sả,StemVegetable,Nảy mầm,10,Bệnh đốm lá,Rệp sáp,Đất đồi núi,Ấm áp,Quanh năm,Phân Hữu cơ
+Sả,StemVegetable,Đẻ nhánh,60,Bệnh cháy lá,Sâu đục thân,Đất đồi núi,Ấm áp,Quanh năm,Phân NPK
+Sả,StemVegetable,Thu hoạch,30,Bệnh thối gốc,Rệp sáp,Đất đồi núi,Ấm áp,Quanh năm,Phân Kali
+Hành hẹ hoa,LeafyVegetable,Nảy mầm,7,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành hẹ hoa,LeafyVegetable,Phát triển ngồng,25,Bệnh cháy đầu lá,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Hành hẹ hoa,LeafyVegetable,Thu hoạch,15,Bệnh thối bẹ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Bí ngòi xanh,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ôn hòa,Xuân Hè,Phân Hữu cơ
+Bí ngòi xanh,FruitVegetable,Phát triển tán,20,Bệnh sương mai,Sâu ăn lá,Đất cát pha,Ôn hòa,Xuân Hè,Phân NPK
+Bí ngòi xanh,FruitVegetable,Thu hoạch,25,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Ôn hòa,Xuân Hè,Phân Kali
+Bí ngòi vàng,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ôn hòa,Xuân Hè,Phân Hữu cơ
+Bí ngòi vàng,FruitVegetable,Phát triển tán,20,Bệnh sương mai,Sâu ăn lá,Đất cát pha,Ôn hòa,Xuân Hè,Phân NPK
+Bí ngòi vàng,FruitVegetable,Thu hoạch,25,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Ôn hòa,Xuân Hè,Phân Kali
+Bí rợ,FruitVegetable,Nảy mầm,7,Bệnh phấn trắng,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Hữu cơ
+Bí rợ,FruitVegetable,Bò giàn,30,Bệnh sương mai,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân NPK
+Bí rợ,FruitVegetable,Thu hoạch,30,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Kali
+Bí nụ,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bí nụ,FruitVegetable,Phát triển nụ,20,Bệnh phấn trắng,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân NPK
+Bí nụ,FruitVegetable,Thu hoạch,15,Bệnh thối nụ,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Dưa hấu,FruitVegetable,Nảy mầm,5,Bệnh héo xanh,Bọ trĩ,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Dưa hấu,FruitVegetable,Bò dây,20,Bệnh sương mai,Sâu vẽ bùa,Đất cát pha,Nóng ẩm,Xuân Hè,Phân NPK
+Dưa hấu,FruitVegetable,Đậu quả,25,Bệnh thán thư,Bọ trĩ,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Dưa hấu,FruitVegetable,Thu hoạch,20,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Dưa lưới,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ôn hòa,Xuân Hè,Phân Hữu cơ
+Dưa lưới,FruitVegetable,Leo giàn,20,Bệnh sương mai,Nhện đỏ,Đất cát pha,Ôn hòa,Xuân Hè,Phân NPK
+Dưa lưới,FruitVegetable,Tạo lưới,30,Bệnh héo rũ,Bọ trĩ,Đất cát pha,Ôn hòa,Xuân Hè,Phân Kali
+Dưa lưới,FruitVegetable,Thu hoạch,15,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Ôn hòa,Xuân Hè,Phân Kali
+Dưa lê,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Dưa lê,FruitVegetable,Bò dây,20,Bệnh sương mai,Sâu ăn lá,Đất cát pha,Ấm áp,Xuân Hè,Phân NPK
+Dưa lê,FruitVegetable,Thu hoạch,20,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Dưa gang,FruitVegetable,Nảy mầm,6,Bệnh phấn trắng,Bọ trĩ,Đất phù sa,Nóng ẩm,Hè Thu,Phân Hữu cơ
+Dưa gang,FruitVegetable,Phát triển quả,30,Bệnh sương mai,Sâu ăn lá,Đất phù sa,Nóng ẩm,Hè Thu,Phân NPK
+Dưa gang,FruitVegetable,Thu hoạch,20,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Nóng ẩm,Hè Thu,Phân Kali
+Cà chua cherry,FruitVegetable,Nảy mầm,7,Bệnh héo xanh,Bọ trĩ,Đất tơi xốp,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà chua cherry,FruitVegetable,Ra hoa,25,Bệnh sương mai,Sâu đục quả,Đất tơi xốp,Ấm áp,Quanh năm,Phân NPK
+Cà chua cherry,FruitVegetable,Thu hoạch,40,Bệnh mốc sương,Rệp muội,Đất tơi xốp,Ấm áp,Quanh năm,Phân Kali
+Cà chua socola,FruitVegetable,Nảy mầm,7,Bệnh héo xanh,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cà chua socola,FruitVegetable,Thu hoạch,35,Bệnh mốc sương,Sâu đục quả,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Cà tím,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà tím,FruitVegetable,Phát triển tán,30,Bệnh đốm lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân NPK
+Cà tím,FruitVegetable,Thu hoạch,50,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Ớt chuông,FruitVegetable,Nảy mầm,10,Bệnh thán thư,Bọ trĩ,Đất tơi xốp,Ôn hòa,Quanh năm,Phân Hữu cơ
+Ớt chuông,FruitVegetable,Ra hoa,30,Bệnh khảm lá,Rệp muội,Đất tơi xốp,Ôn hòa,Quanh năm,Phân NPK
+Ớt chuông,FruitVegetable,Thu hoạch,45,Bệnh thán thư,Sâu đục quả,Đất tơi xốp,Ôn hòa,Quanh năm,Phân Kali
+Ớt chỉ thiên,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Bọ trĩ,Đất thịt nhẹ,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Ớt chỉ thiên,FruitVegetable,Phát triển tán,25,Bệnh khảm lá,Nhện đỏ,Đất thịt nhẹ,Nóng ẩm,Quanh năm,Phân NPK
+Ớt chỉ thiên,FruitVegetable,Thu hoạch,50,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Nóng ẩm,Quanh năm,Phân Kali
+Ớt hiểm,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Bọ trĩ,Đất thịt nhẹ,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Ớt hiểm,FruitVegetable,Thu hoạch,60,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Nóng ẩm,Quanh năm,Phân Kali
+Đậu Hà Lan leo,FruitVegetable,Nảy mầm,8,Bệnh phấn trắng,Sâu đục quả,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Đậu Hà Lan leo,FruitVegetable,Leo giàn,25,Bệnh gỉ sắt,Rệp muội,Đất cát pha,Mát mẻ,Đông Xuân,Phân NPK
+Đậu Hà Lan leo,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Sâu đục quả,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Đậu ngự,FruitVegetable,Nảy mầm,10,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu ngự,FruitVegetable,Thu hoạch,45,Bệnh gỉ sắt,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Đậu ván,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu ván,FruitVegetable,Thu hoạch,50,Bệnh gỉ sắt,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Đậu nành edamame,FruitVegetable,Nảy mầm,5,Bệnh gỉ sắt,Sâu khoang,Đất phù sa,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu nành edamame,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Sâu đục quả,Đất phù sa,Ấm áp,Xuân Hè,Phân Kali
+Cải củ sâm,RootVegetable,Nảy mầm,7,Bệnh thối rễ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải củ sâm,RootVegetable,Thu hoạch,40,Bệnh thối củ,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Măng trúc,StemVegetable,Mọc mầm,20,Bệnh thối măng,Bọ xít,Đất đồi núi,Mát mẻ,Quanh năm,Phân Hữu cơ
+Măng trúc,StemVegetable,Thu hoạch,40,Bệnh thối măng,Sâu vòi xịt,Đất đồi núi,Mát mẻ,Quanh năm,Phân NPK
+Măng điền trúc,StemVegetable,Mọc mầm,15,Bệnh thối măng,Bọ xít,Đất phù sa,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Măng điền trúc,StemVegetable,Thu hoạch,45,Bệnh thối măng,Sâu đục thân,Đất phù sa,Nóng ẩm,Quanh năm,Phân NPK
+Rau bắp cải tím,LeafyVegetable,Nảy mầm,8,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Hữu cơ
+Rau bắp cải tím,LeafyVegetable,Cuộn bắp,35,Bệnh sương mai,Sâu xanh,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân NPK
+Rau bắp cải tím,LeafyVegetable,Thu hoạch,20,Bệnh thối nhũn,Sâu tơ,Đất thịt nhẹ,Ôn hòa,Đông Xuân,Phân Kali
+Bắp cải tí hon,LeafyVegetable,Nảy mầm,8,Bệnh thối nhũn,Sâu tơ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Bắp cải tí hon,LeafyVegetable,Thu hoạch,40,Bệnh sương mai,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Cải thìa thìa,LeafyVegetable,Nảy mầm,4,Bệnh thối bẹ,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải thìa thìa,LeafyVegetable,Thu hoạch,15,Bệnh thối nhũn,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau xà lách lốm đốm,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau xà lách lốm đốm,LeafyVegetable,Thu hoạch,20,Bệnh cháy đầu lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau xà lách mỡ,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau xà lách mỡ,LeafyVegetable,Thu hoạch,20,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau xà lách lolo xanh,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau xà lách lolo xanh,LeafyVegetable,Thu hoạch,20,Bệnh cháy đầu lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau xà lách lolo đỏ,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau xà lách lolo đỏ,LeafyVegetable,Thu hoạch,20,Bệnh cháy đầu lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau romaine,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau romaine,LeafyVegetable,Thu hoạch,25,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau cúc tần,LeafyVegetable,Nảy mầm,8,Bệnh đốm lá,Sâu ăn lá,Đất đồi núi,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau cúc tần,LeafyVegetable,Thu hoạch,30,Bệnh thối gốc,Rệp muội,Đất đồi núi,Ấm áp,Quanh năm,Phân đạm
+Rau ngải cứu,LeafyVegetable,Nảy mầm,8,Bệnh đốm lá,Rệp muội,Đất tơi xốp,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau ngải cứu,LeafyVegetable,Thu hoạch,30,Bệnh thối rễ,Sâu ăn lá,Đất tơi xốp,Ấm áp,Quanh năm,Phân đạm
+Rau lốt,LeafyVegetable,Nảy mầm,10,Bệnh đốm lá,Nhện đỏ,Đất ẩm,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau lốt,LeafyVegetable,Thu hoạch,35,Bệnh thối gốc,Rệp sáp,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau tía tô dại,LeafyVegetable,Nảy mầm,6,Bệnh đốm lá,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau tía tô dại,LeafyVegetable,Thu hoạch,25,Bệnh cháy lá,Bọ trĩ,Đất cát pha,Ấm áp,Quanh năm,Phân đạm
+Rau tầm bóp,LeafyVegetable,Nảy mầm,6,Bệnh héo xanh,Bọ trĩ,Đất tơi xốp,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau tầm bóp,LeafyVegetable,Thu hoạch,30,Bệnh thối quả,Sâu đục quả,Đất tơi xốp,Ấm áp,Quanh năm,Phân NPK
+Rau dớn,LeafyVegetable,Mọc mầm,12,Bệnh thối bẹ,Sâu ăn lá,Đất ẩm,Mát mẻ,Quanh năm,Phân Hữu cơ
+Rau dớn,LeafyVegetable,Thu hoạch,30,Bệnh đốm lá,Rệp muội,Đất ẩm,Mát mẻ,Quanh năm,Phân đạm
+Rau bò khai,LeafyVegetable,Mọc mầm,15,Bệnh thối rễ,Sâu ăn lá,Đất đồi núi,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau bò khai,LeafyVegetable,Thu hoạch,40,Bệnh đốm lá,Rệp sáp,Đất đồi núi,Ấm áp,Quanh năm,Phân đạm
+Rau sắng,LeafyVegetable,Mọc mầm,20,Bệnh thối rễ,Sâu ăn lá,Đất đồi núi,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau sắng,LeafyVegetable,Thu hoạch,60,Bệnh đốm lá,Sâu đục thân,Đất đồi núi,Ấm áp,Quanh năm,Phân đạm
+Củ hũ khóm,StemVegetable,Phát triển,90,Bệnh thối thâm,Rệp sáp,Đất phèn,Nóng ẩm,Quanh năm,Phân NPK
+Củ hũ khóm,StemVegetable,Thu hoạch,30,Bệnh thối gốc,Tuyến trùng,Đất phèn,Nóng ẩm,Quanh năm,Phân Kali
+Thì là dại,LeafyVegetable,Nảy mầm,7,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Thì là dại,LeafyVegetable,Thu hoạch,20,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cà dĩa tím,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Cà dĩa tím,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Cà pháo trắng,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà pháo trắng,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Cà pháo xanh,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà pháo xanh,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Mướp đắng rừng,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Hữu cơ
+Mướp đắng rừng,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Ruồi đục quả,Đất tơi xốp,Ấm áp,Xuân Hè,Phân Kali
+Dưa chuột nếp,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Dưa chuột nếp,FruitVegetable,Thu hoạch,20,Bệnh phấn trắng,Sâu ăn lá,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Dưa chuột bao tử,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Dưa chuột bao tử,FruitVegetable,Thu hoạch,15,Bệnh sương mai,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Củ cải xanh,RootVegetable,Nảy mầm,5,Bệnh thối nhũn,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ cải xanh,RootVegetable,Thu hoạch,20,Bệnh thối củ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Củ cải khổng lồ,RootVegetable,Nảy mầm,6,Bệnh thối nhũn,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ cải khổng lồ,RootVegetable,Thu hoạch,40,Bệnh thối củ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Hành tỏi băm,RootVegetable,Nảy mầm,8,Bệnh sương mai,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành tỏi băm,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Củ gừng gió,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ gừng gió,RootVegetable,Thu hoạch,90,Bệnh héo xanh,Sâu đục thân,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Rau cải cúc đắng,LeafyVegetable,Nảy mầm,4,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau cải cúc đắng,LeafyVegetable,Thu hoạch,15,Bệnh sương mai,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau đắng biển,LeafyVegetable,Nảy mầm,5,Bệnh thối rễ,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau đắng biển,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Sâu khoang,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau má ngố,LeafyVegetable,Nảy mầm,10,Bệnh đốm lá,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau má ngố,LeafyVegetable,Thu hoạch,20,Bệnh lở cổ rễ,Nhện đỏ,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Thì là tây,LeafyVegetable,Nảy mầm,7,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Thì là tây,LeafyVegetable,Thu hoạch,20,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Hành boa rô,LeafyVegetable,Nảy mầm,10,Bệnh sương mai,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành boa rô,LeafyVegetable,Phát triển thân,40,Bệnh cháy đầu lá,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Hành boa rô,LeafyVegetable,Thu hoạch,20,Bệnh thối bẹ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Củ riềng nếp,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Củ riềng nếp,RootVegetable,Thu hoạch,120,Bệnh đốm lá,Sâu đục thân,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Rau chùm ngây,LeafyVegetable,Nảy mầm,10,Bệnh thối rễ,Sâu ăn lá,Đất tơi xốp,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Rau chùm ngây,LeafyVegetable,Thu hoạch,30,Bệnh đốm lá,Rệp muội,Đất tơi xốp,Nóng ẩm,Quanh năm,Phân đạm
+Rau sắn,LeafyVegetable,Mọc ngọn,10,Bệnh khảm lá,Rệp sáp,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Rau sắn,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Sâu ăn lá,Đất cát pha,Nóng ẩm,Xuân Hè,Phân đạm
+Húng quế Tây,LeafyVegetable,Nảy mầm,5,Bệnh cháy lá,Sâu khoang,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Húng quế Tây,LeafyVegetable,Phát triển cành lá,20,Bệnh đốm lá,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Húng quế Tây,LeafyVegetable,Thu hoạch,15,Bệnh thối rễ,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân đạm
+Ngò tây,LeafyVegetable,Nảy mầm,8,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Ngò tây,LeafyVegetable,Phát triển lá,25,Bệnh sương mai,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Ngò tây,LeafyVegetable,Thu hoạch,15,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cần tây nếp,LeafyVegetable,Nảy mầm,10,Bệnh cháy lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cần tây nếp,LeafyVegetable,Phát triển thân lá,35,Bệnh thối bẹ,Sâu khoang,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Cần tây nếp,LeafyVegetable,Thu hoạch,15,Bệnh cháy lá,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cải xoong,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Bọ nhảy,Đất trũng,Mát mẻ,Đông Xuân,Phân đạm
+Cải xoong,LeafyVegetable,Phát triển thân lá,20,Bệnh sương mai,Sâu ăn lá,Đất trũng,Mát mẻ,Đông Xuân,Phân đạm
+Cải xoong,LeafyVegetable,Thu hoạch,15,Bệnh thối gốc,Sâu xanh,Đất trũng,Mát mẻ,Đông Xuân,Phân đạm
+Cải làn,LeafyVegetable,Nảy mầm,7,Bệnh thối nhũn,Sâu tơ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải làn,LeafyVegetable,Phát triển ngồng,30,Bệnh sương mai,Sâu xanh,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân NPK
+Cải làn,LeafyVegetable,Thu hoạch,15,Bệnh thối bẹ,Bọ nhảy,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Cải ngồng,LeafyVegetable,Nảy mầm,6,Bệnh thối nhũn,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải ngồng,LeafyVegetable,Phát triển ngồng,25,Bệnh sương mai,Sâu tơ,Đất phù sa,Mát mẻ,Đông Xuân,Phân NPK
+Cải ngồng,LeafyVegetable,Thu hoạch,12,Bệnh thối bẹ,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải mơ,LeafyVegetable,Nảy mầm,4,Bệnh thối nhũn,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải mơ,LeafyVegetable,Phát triển lá,18,Bệnh gỉ trắng,Sâu tơ,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải mơ,LeafyVegetable,Thu hoạch,10,Bệnh thối bẹ,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải bẹ nhún,LeafyVegetable,Nảy mầm,4,Bệnh thối nhũn,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải bẹ nhún,LeafyVegetable,Phát triển lá,20,Bệnh sương mai,Sâu tơ,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải bẹ nhún,LeafyVegetable,Thu hoạch,10,Bệnh thối bẹ,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Cải bẹ dún,LeafyVegetable,Nảy mầm,4,Bệnh thối nhũn,Sâu xanh,Đất phù sa,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Cải bẹ dún,LeafyVegetable,Thu hoạch,20,Bệnh gỉ trắng,Bọ nhảy,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau muống hạt,LeafyVegetable,Nảy mầm,4,Bệnh thán thư,Sâu xanh,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau muống hạt,LeafyVegetable,Phát triển thân lá,16,Bệnh gỉ sắt,Bọ nhảy,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau muống hạt,LeafyVegetable,Thu hoạch,15,Bệnh thán thư,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau muống ngọn,LeafyVegetable,Nảy mầm,5,Bệnh thán thư,Sâu xanh,Đất trũng,Nóng ẩm,Quanh năm,Phân đạm
+Rau muống ngọn,LeafyVegetable,Thu hoạch,20,Bệnh gỉ sắt,Bọ nhảy,Đất trũng,Nóng ẩm,Quanh năm,Phân đạm
+Cà tím dài,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà tím dài,FruitVegetable,Phát triển tán,30,Bệnh đốm lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân NPK
+Cà tím dài,FruitVegetable,Thu hoạch,45,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Cà tím tròn,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Cà tím tròn,FruitVegetable,Thu hoạch,45,Bệnh thối quả,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Cà dĩa xanh,FruitVegetable,Nảy mầm,8,Bệnh héo xanh,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Cà dĩa xanh,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Ớt xiêm,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Bọ trĩ,Đất đồi núi,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Ớt xiêm,FruitVegetable,Thu hoạch,60,Bệnh thán thư,Sâu đục quả,Đất đồi núi,Nóng ẩm,Quanh năm,Phân Kali
+Ớt sừng,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Hữu cơ
+Ớt sừng,FruitVegetable,Phát triển tán,25,Bệnh khảm lá,Rệp muội,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân NPK
+Ớt sừng,FruitVegetable,Thu hoạch,45,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Quanh năm,Phân Kali
+Ớt ngọt,FruitVegetable,Nảy mầm,10,Bệnh thán thư,Bọ trĩ,Đất tơi xốp,Ôn hòa,Quanh năm,Phân Hữu cơ
+Ớt ngọt,FruitVegetable,Thu hoạch,45,Bệnh thán thư,Sâu đục quả,Đất tơi xốp,Ôn hòa,Quanh năm,Phân Kali
+Đậu đũa đỏ,FruitVegetable,Nảy mầm,6,Bệnh thán thư,Rệp muội,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu đũa đỏ,FruitVegetable,Thu hoạch,30,Bệnh gỉ sắt,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Đậu ván trắng,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu ván trắng,FruitVegetable,Thu hoạch,50,Bệnh gỉ sắt,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Đậu ván tím,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu ván tím,FruitVegetable,Thu hoạch,50,Bệnh gỉ sắt,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Đậu bắp đỏ,FruitVegetable,Nảy mầm,5,Bệnh héo xanh,Bọ trĩ,Đất thịt nhẹ,Nóng ẩm,Hè Thu,Phân Hữu cơ
+Đậu bắp đỏ,FruitVegetable,Thu hoạch,45,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Nóng ẩm,Hè Thu,Phân Kali
+Đậu cúc,FruitVegetable,Nảy mầm,7,Bệnh gỉ sắt,Sâu đục quả,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu cúc,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Rệp muội,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Đậu ngự đỏ,FruitVegetable,Nảy mầm,10,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu ngự đỏ,FruitVegetable,Thu hoạch,45,Bệnh gỉ sắt,Rệp muội,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Đậu đao,FruitVegetable,Nảy mầm,8,Bệnh thán thư,Sâu đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Đậu đao,FruitVegetable,Thu hoạch,40,Bệnh gỉ sắt,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Bầu hồ lô,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bầu hồ lô,FruitVegetable,Bò giàn,25,Bệnh phấn trắng,Sâu ăn lá,Đất phù sa,Ấm áp,Xuân Hè,Phân NPK
+Bầu hồ lô,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Ấm áp,Xuân Hè,Phân Kali
+Bầu sao,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bầu sao,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Ấm áp,Xuân Hè,Phân Kali
+Bầu dài,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bầu dài,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Ấm áp,Xuân Hè,Phân Kali
+Bí đao chanh,FruitVegetable,Nảy mầm,7,Bệnh sương mai,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bí đao chanh,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Bí đao thơm,FruitVegetable,Nảy mầm,7,Bệnh sương mai,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Bí đao thơm,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Bí đỏ hồ lô,FruitVegetable,Nảy mầm,7,Bệnh phấn trắng,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Hữu cơ
+Bí đỏ hồ lô,FruitVegetable,Bò giàn,25,Bệnh phấn trắng,Sâu ăn lá,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân NPK
+Bí đỏ hồ lô,FruitVegetable,Thu hoạch,40,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Kali
+Bí đỏ bánh xe,FruitVegetable,Nảy mầm,7,Bệnh phấn trắng,Bọ trĩ,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Hữu cơ
+Bí đỏ bánh xe,FruitVegetable,Thu hoạch,45,Bệnh thối quả,Ruồi đục quả,Đất thịt nhẹ,Ấm áp,Hè Thu,Phân Kali
+Mướp đắng trái dài,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Mướp đắng trái dài,FruitVegetable,Thu hoạch,25,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Mướp tây,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Mướp tây,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Mướp đắn,FruitVegetable,Nảy mầm,6,Bệnh sương mai,Bọ trĩ,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Mướp đắn,FruitVegetable,Thu hoạch,30,Bệnh thán thư,Ruồi đục quả,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Dưa leo gai,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Dưa leo gai,FruitVegetable,Thu hoạch,20,Bệnh phấn trắng,Sâu ăn lá,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Dưa leo chùm,FruitVegetable,Nảy mầm,5,Bệnh phấn trắng,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Dưa leo chùm,FruitVegetable,Thu hoạch,20,Bệnh sương mai,Bọ trĩ,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Dưa chuột mèo,FruitVegetable,Nảy mầm,6,Bệnh phấn trắng,Bọ trĩ,Đất đồi núi,Mát mẻ,Xuân Hè,Phân Hữu cơ
+Dưa chuột mèo,FruitVegetable,Thu hoạch,30,Bệnh sương mai,Sâu ăn lá,Đất đồi núi,Mát mẻ,Xuân Hè,Phân Kali
+Dưa gang tây,FruitVegetable,Nảy mầm,6,Bệnh phấn trắng,Bọ trĩ,Đất phù sa,Nóng ẩm,Hè Thu,Phân Hữu cơ
+Dưa gang tây,FruitVegetable,Thu hoạch,35,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Nóng ẩm,Hè Thu,Phân Kali
+Dưa gang tròn,FruitVegetable,Nảy mầm,6,Bệnh phấn trắng,Bọ trĩ,Đất phù sa,Nóng ẩm,Hè Thu,Phân Hữu cơ
+Dưa gang tròn,FruitVegetable,Thu hoạch,30,Bệnh thối quả,Ruồi đục quả,Đất phù sa,Nóng ẩm,Hè Thu,Phân Kali
+Dưa hấu hắc mỹ nhân,FruitVegetable,Nảy mầm,5,Bệnh héo xanh,Bọ trĩ,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Dưa hấu hắc mỹ nhân,FruitVegetable,Thu hoạch,20,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Dưa hấu không hạt,FruitVegetable,Nảy mầm,5,Bệnh héo xanh,Bọ trĩ,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Dưa hấu không hạt,FruitVegetable,Thu hoạch,25,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Dưa hấu ruột vàng,FruitVegetable,Nảy mầm,5,Bệnh héo xanh,Bọ trĩ,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Dưa hấu ruột vàng,FruitVegetable,Thu hoạch,20,Bệnh thối quả,Ruồi đục quả,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai tây ruột vàng,RootVegetable,Nảy mầm,12,Bệnh mốc sương,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Khoai tây ruột vàng,RootVegetable,Phát triển củ,30,Bệnh héo xanh,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Khoai tây ruột vàng,RootVegetable,Thu hoạch,10,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Khoai tây ruột trắng,RootVegetable,Nảy mầm,12,Bệnh mốc sương,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Khoai tây ruột trắng,RootVegetable,Thu hoạch,10,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Khoai tây tím,RootVegetable,Nảy mầm,12,Bệnh mốc sương,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Khoai tây tím,RootVegetable,Thu hoạch,10,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Khoai lang tím,RootVegetable,Nảy mầm,10,Bệnh héo rũ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Hữu cơ
+Khoai lang tím,RootVegetable,Phát triển củ,50,Bệnh thối củ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Kali
+Khoai lang tím,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Kali
+Khoai lang nhật,RootVegetable,Nảy mầm,10,Bệnh héo rũ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Hữu cơ
+Khoai lang nhật,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Kali
+Khoai lang mật,RootVegetable,Nảy mầm,10,Bệnh héo rũ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Hữu cơ
+Khoai lang mật,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ hà,Đất cát pha,Ấm áp,Hè Thu,Phân Kali
+Khoai sọ sáp,RootVegetable,Nảy mầm,15,Bệnh sương mai,Rệp muội,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Khoai sọ sáp,RootVegetable,Thu hoạch,25,Bệnh thối củ,Tuyến trùng,Đất phù sa,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai môn cao,RootVegetable,Nảy mầm,15,Bệnh sương mai,Nhện đỏ,Đất trũng,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Khoai môn cao,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất trũng,Nóng ẩm,Xuân Hè,Phân Kali
+Khoai mỡ tím,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Khoai mỡ tím,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Khoai mỡ trắng,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Hữu cơ
+Khoai mỡ trắng,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất thịt nhẹ,Ấm áp,Xuân Hè,Phân Kali
+Củ cải đỏ tí hon,RootVegetable,Nảy mầm,4,Bệnh thối rễ,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ cải đỏ tí hon,RootVegetable,Thu hoạch,10,Bệnh thối củ,Bọ nhảy,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Củ cải đường,RootVegetable,Nảy mầm,7,Bệnh đốm lá,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ cải đường,RootVegetable,Thu hoạch,20,Bệnh thối củ,Tuyến trùng,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Củ sắn dây,RootVegetable,Nảy mầm,20,Bệnh khảm lá,Rệp sáp,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ sắn dây,RootVegetable,Phát triển củ,150,Bệnh thối rễ,Tuyến trùng,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Củ sắn dây,RootVegetable,Thu hoạch,30,Bệnh thối củ,Rệp sáp,Đất cát pha,Nóng ẩm,Xuân Hè,Phân Kali
+Củ củ đậu,RootVegetable,Nảy mầm,10,Bệnh thối rễ,Tuyến trùng,Đất cát pha,Ấm áp,Xuân Hè,Phân Hữu cơ
+Củ củ đậu,RootVegetable,Phát triển củ,90,Bệnh đốm lá,Sâu ăn lá,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Củ củ đậu,RootVegetable,Thu hoạch,20,Bệnh thối củ,Tuyến trùng,Đất cát pha,Ấm áp,Xuân Hè,Phân Kali
+Hành tỏi Lý Sơn,RootVegetable,Nảy mầm,10,Bệnh sương mai,Bọ trĩ,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành tỏi Lý Sơn,RootVegetable,Phát triển củ,60,Bệnh gỉ sắt,Sâu gặm củ,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Hành tỏi Lý Sơn,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ trĩ,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Hành tăm,RootVegetable,Nảy mầm,8,Bệnh sương mai,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành tăm,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ trĩ,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Củ kiệu,RootVegetable,Nảy mầm,12,Bệnh sương mai,Bọ trĩ,Đất cát pha,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Củ kiệu,RootVegetable,Phát triển củ,70,Bệnh thối rễ,Sâu gặm củ,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Củ kiệu,RootVegetable,Thu hoạch,20,Bệnh thối củ,Bọ trĩ,Đất cát pha,Mát mẻ,Đông Xuân,Phân Kali
+Hành hương,RootVegetable,Nảy mầm,8,Bệnh sương mai,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Hành hương,RootVegetable,Thu hoạch,15,Bệnh thối củ,Sâu hành,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Kali
+Củ nghệ đen,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ nghệ đen,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Củ nghệ trắng,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ nghệ trắng,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Củ gừng sẻ,RootVegetable,Nảy mầm,15,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Hữu cơ
+Củ gừng sẻ,RootVegetable,Thu hoạch,30,Bệnh thối củ,Tuyến trùng,Đất tơi xốp,Nóng ẩm,Xuân Hè,Phân Kali
+Măng bát độ,StemVegetable,Mọc mầm,15,Bệnh thối măng,Bọ xít,Đất đồi núi,Nóng ẩm,Quanh năm,Phân Hữu cơ
+Măng bát độ,StemVegetable,Thu hoạch,45,Bệnh thối măng,Sâu đục thân,Đất đồi núi,Nóng ẩm,Quanh năm,Phân NPK
+Măng giang,StemVegetable,Mọc mầm,20,Bệnh thối măng,Bọ xít,Đất đồi núi,Mát mẻ,Quanh năm,Phân Hữu cơ
+Măng giang,StemVegetable,Thu hoạch,40,Bệnh thối măng,Sâu vòi xịt,Đất đồi núi,Mát mẻ,Quanh năm,Phân NPK
+Măng nứa,StemVegetable,Mọc mầm,20,Bệnh thối măng,Bọ xít,Đất đồi núi,Mát mẻ,Quanh năm,Phân Hữu cơ
+Măng nứa,StemVegetable,Thu hoạch,40,Bệnh thối măng,Sâu vòi xịt,Đất đồi núi,Mát mẻ,Quanh năm,Phân NPK
+Rau sắng chùa Hương,LeafyVegetable,Mọc mầm,20,Bệnh thối rễ,Sâu ăn lá,Đất đồi núi,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau sắng chùa Hương,LeafyVegetable,Thu hoạch,60,Bệnh đốm lá,Sâu đục thân,Đất đồi núi,Ấm áp,Quanh năm,Phân đạm
+Rau bò khai rừng,LeafyVegetable,Mọc mầm,15,Bệnh thối rễ,Sâu ăn lá,Đất đồi núi,Ấm áp,Quanh năm,Phân Hữu cơ
+Rau bò khai rừng,LeafyVegetable,Thu hoạch,40,Bệnh đốm lá,Rệp sáp,Đất đồi núi,Ấm áp,Quanh năm,Phân đạm
+Rau đắng đất,LeafyVegetable,Nảy mầm,5,Bệnh thối rễ,Sâu ăn lá,Đất cát pha,Ấm áp,Quanh năm,Phân đạm
+Rau đắng đất,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân đạm
+Rau dền gai,LeafyVegetable,Nảy mầm,4,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền gai,LeafyVegetable,Thu hoạch,10,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền cơm,LeafyVegetable,Nảy mầm,4,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền cơm,LeafyVegetable,Thu hoạch,10,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền ba màu,LeafyVegetable,Nảy mầm,4,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau dền ba màu,LeafyVegetable,Thu hoạch,10,Bệnh đốm lá,Sâu khoang,Đất phù sa,Nóng ẩm,Hè Thu,Phân đạm
+Rau diếp ngô,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau diếp ngô,LeafyVegetable,Thu hoạch,20,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau diếp thơm,LeafyVegetable,Nảy mầm,5,Bệnh thối bẹ,Sâu ăn lá,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Rau diếp thơm,LeafyVegetable,Thu hoạch,20,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau tần ô,LeafyVegetable,Nảy mầm,4,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Rau tần ô,LeafyVegetable,Thu hoạch,10,Bệnh thối bẹ,Sâu đo,Đất phù sa,Mát mẻ,Đông Xuân,Phân đạm
+Thì là lá rậm,LeafyVegetable,Nảy mầm,7,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân Hữu cơ
+Thì là lá rậm,LeafyVegetable,Thu hoạch,15,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Đông Xuân,Phân đạm
+Rau thì là thân gỗ,LeafyVegetable,Nảy mầm,8,Bệnh thối rễ,Rệp muội,Đất tơi xốp,Mát mẻ,Quanh năm,Phân Hữu cơ
+Rau thì là thân gỗ,LeafyVegetable,Thu hoạch,25,Bệnh thối gốc,Rệp muội,Đất tơi xốp,Mát mẻ,Quanh năm,Phân đạm
+Măng tây xanh,StemVegetable,Nảy mầm,15,Bệnh thán thư,Bọ trĩ,Đất cát pha,Ấm áp,Quanh năm,Phân Hữu cơ
+Măng tây xanh,StemVegetable,Thu hoạch,60,Bệnh thán thư,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân Kali
+Măng tây tím,StemVegetable,Nảy mầm,15,Bệnh thán thư,Bọ trĩ,Đất cát pha,Ấm áp,Quanh năm,Phân Hữu cơ
+Măng tây tím,StemVegetable,Thu hoạch,60,Bệnh thán thư,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân Kali
+Măng tây trắng,StemVegetable,Nảy mầm,15,Bệnh thán thư,Bọ trĩ,Đất cát pha,Ấm áp,Quanh năm,Phân Hữu cơ
+Măng tây trắng,StemVegetable,Thu hoạch,60,Bệnh thán thư,Sâu khoang,Đất cát pha,Ấm áp,Quanh năm,Phân Kali
+Rau mương,LeafyVegetable,Nảy mầm,6,Bệnh thối rễ,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau mương,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Rệp muội,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau trai,LeafyVegetable,Nảy mầm,5,Bệnh thối rễ,Sâu ăn lá,Đất ẩm,Ấm áp,Quanh năm,Phân đạm
+Rau trai,LeafyVegetable,Thu hoạch,20,Bệnh đốm lá,Sâu khoang,Đất ẩm,Ấm áp,Quanh năm,Phân đạm

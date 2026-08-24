@@ -1,0 +1,21 @@
+# API keys & secrets - TUYỆT ĐỐI không đẩy lên GitHub
+api-key.env
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Vector DB & cache (dữ liệu sinh ra tự động, không cần versioning)
+chroma_db/
+chunks_cache.pkl
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5322 @@
+@prefix agri: <http://www.semanticweb.org/admin/ontologies/2026/7/untitled-ontology-2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+agri:Bí_ngòi_vàng a agri:FruitVegetable ;
+    rdfs:label "Bí ngòi vàng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_ngòi_vàng_Nảy_mầm,
+        agri:Bí_ngòi_vàng_Phát_triển_tán,
+        agri:Bí_ngòi_vàng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_ngòi_xanh a agri:FruitVegetable ;
+    rdfs:label "Bí ngòi xanh"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_ngòi_xanh_Nảy_mầm,
+        agri:Bí_ngòi_xanh_Phát_triển_tán,
+        agri:Bí_ngòi_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_nụ a agri:FruitVegetable ;
+    rdfs:label "Bí nụ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_nụ_Nảy_mầm,
+        agri:Bí_nụ_Phát_triển_nụ,
+        agri:Bí_nụ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nụ .
+
+agri:Bí_rợ a agri:FruitVegetable ;
+    rdfs:label "Bí rợ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_rợ_Bò_giàn,
+        agri:Bí_rợ_Nảy_mầm,
+        agri:Bí_rợ_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_xanh a agri:FruitVegetable ;
+    rdfs:label "Bí xanh"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_xanh_Leo_giàn,
+        agri:Bí_xanh_Nảy_mầm,
+        agri:Bí_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_đao a agri:FruitVegetable ;
+    rdfs:label "Bí đao"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_đao_Leo_giàn,
+        agri:Bí_đao_Nảy_mầm,
+        agri:Bí_đao_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_đao_chanh a agri:FruitVegetable ;
+    rdfs:label "Bí đao chanh"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Bí_đao_chanh_Nảy_mầm,
+        agri:Bí_đao_chanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_đao_thơm a agri:FruitVegetable ;
+    rdfs:label "Bí đao thơm"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Bí_đao_thơm_Nảy_mầm,
+        agri:Bí_đao_thơm_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_đỏ a agri:FruitVegetable ;
+    rdfs:label "Bí đỏ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_đỏ_Bò_giàn,
+        agri:Bí_đỏ_Nảy_mầm,
+        agri:Bí_đỏ_Ra_hoa,
+        agri:Bí_đỏ_Thu_hoạch,
+        agri:Bí_đỏ_Đậu_quả ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_đỏ_bánh_xe a agri:FruitVegetable ;
+    rdfs:label "Bí đỏ bánh xe"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Bí_đỏ_bánh_xe_Nảy_mầm,
+        agri:Bí_đỏ_bánh_xe_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_thối_quả .
+
+agri:Bí_đỏ_hồ_lô a agri:FruitVegetable ;
+    rdfs:label "Bí đỏ hồ lô"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bí_đỏ_hồ_lô_Bò_giàn,
+        agri:Bí_đỏ_hồ_lô_Nảy_mầm,
+        agri:Bí_đỏ_hồ_lô_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_thối_quả .
+
+agri:Bầu a agri:FruitVegetable ;
+    rdfs:label "Bầu"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bầu_Bò_giàn,
+        agri:Bầu_Nảy_mầm,
+        agri:Bầu_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bầu_dài a agri:FruitVegetable ;
+    rdfs:label "Bầu dài"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Bầu_dài_Nảy_mầm,
+        agri:Bầu_dài_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bầu_hồ_lô a agri:FruitVegetable ;
+    rdfs:label "Bầu hồ lô"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Bầu_hồ_lô_Bò_giàn,
+        agri:Bầu_hồ_lô_Nảy_mầm,
+        agri:Bầu_hồ_lô_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bầu_sao a agri:FruitVegetable ;
+    rdfs:label "Bầu sao"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Bầu_sao_Nảy_mầm,
+        agri:Bầu_sao_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Bắp_cải a agri:LeafyVegetable ;
+    rdfs:label "Bắp cải"@vi ;
+    agri:attackedBy agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Bắp_cải_Cuộn_bắp,
+        agri:Bắp_cải_Nảy_mầm,
+        agri:Bắp_cải_Phát_triển_lá,
+        agri:Bắp_cải_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nhũn .
+
+agri:Bắp_cải_tí_hon a agri:LeafyVegetable ;
+    rdfs:label "Bắp cải tí hon"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_tơ ;
+    agri:hasGrowthStage agri:Bắp_cải_tí_hon_Nảy_mầm,
+        agri:Bắp_cải_tí_hon_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cà_bung a agri:FruitVegetable ;
+    rdfs:label "Cà bung"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_bung_Nảy_mầm,
+        agri:Cà_bung_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cà_bát a agri:FruitVegetable ;
+    rdfs:label "Cà bát"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_bát_Nảy_mầm,
+        agri:Cà_bát_Phát_triển_tán,
+        agri:Cà_bát_Ra_hoa,
+        agri:Cà_bát_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả,
+        agri:Bệnh_đốm_lá .
+
+agri:Cà_chua a agri:FruitVegetable ;
+    rdfs:label "Cà chua"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_chua_Nảy_mầm,
+        agri:Cà_chua_Ra_hoa,
+        agri:Cà_chua_Thu_hoạch,
+        agri:Cà_chua_Thắt_thân,
+        agri:Cà_chua_Đậu_quả ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_mốc_sương,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_đốm_lá .
+
+agri:Cà_chua_cherry a agri:FruitVegetable ;
+    rdfs:label "Cà chua cherry"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_chua_cherry_Nảy_mầm,
+        agri:Cà_chua_cherry_Ra_hoa,
+        agri:Cà_chua_cherry_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_mốc_sương,
+        agri:Bệnh_sương_mai .
+
+agri:Cà_chua_socola a agri:FruitVegetable ;
+    rdfs:label "Cà chua socola"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_chua_socola_Nảy_mầm,
+        agri:Cà_chua_socola_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_mốc_sương .
+
+agri:Cà_dĩa a agri:FruitVegetable ;
+    rdfs:label "Cà dĩa"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_dĩa_Nảy_mầm,
+        agri:Cà_dĩa_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cà_dĩa_tím a agri:FruitVegetable ;
+    rdfs:label "Cà dĩa tím"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_dĩa_tím_Nảy_mầm,
+        agri:Cà_dĩa_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cà_dĩa_xanh a agri:FruitVegetable ;
+    rdfs:label "Cà dĩa xanh"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_dĩa_xanh_Nảy_mầm,
+        agri:Cà_dĩa_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cà_pháo a agri:FruitVegetable ;
+    rdfs:label "Cà pháo"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_pháo_Nảy_mầm,
+        agri:Cà_pháo_Phát_triển_tán,
+        agri:Cà_pháo_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả,
+        agri:Bệnh_đốm_lá .
+
+agri:Cà_pháo_trắng a agri:FruitVegetable ;
+    rdfs:label "Cà pháo trắng"@vi ;
+    agri:attackedBy agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_pháo_trắng_Nảy_mầm,
+        agri:Cà_pháo_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cà_pháo_xanh a agri:FruitVegetable ;
+    rdfs:label "Cà pháo xanh"@vi ;
+    agri:attackedBy agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_pháo_xanh_Nảy_mầm,
+        agri:Cà_pháo_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cà_rốt a agri:RootVegetable ;
+    rdfs:label "Cà rốt"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Cà_rốt_Hình_thành_củ,
+        agri:Cà_rốt_Nảy_mầm,
+        agri:Cà_rốt_Phát_triển_rễ,
+        agri:Cà_rốt_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_rễ,
+        agri:Bệnh_thối_đen .
+
+agri:Cà_tím a agri:FruitVegetable ;
+    rdfs:label "Cà tím"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_tím_Nảy_mầm,
+        agri:Cà_tím_Phát_triển_tán,
+        agri:Cà_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả,
+        agri:Bệnh_đốm_lá .
+
+agri:Cà_tím_dài a agri:FruitVegetable ;
+    rdfs:label "Cà tím dài"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_tím_dài_Nảy_mầm,
+        agri:Cà_tím_dài_Phát_triển_tán,
+        agri:Cà_tím_dài_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả,
+        agri:Bệnh_đốm_lá .
+
+agri:Cà_tím_tròn a agri:FruitVegetable ;
+    rdfs:label "Cà tím tròn"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Cà_tím_tròn_Nảy_mầm,
+        agri:Cà_tím_tròn_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Cải_bẹ_dún a agri:LeafyVegetable ;
+    rdfs:label "Cải bẹ dún"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Cải_bẹ_dún_Nảy_mầm,
+        agri:Cải_bẹ_dún_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_gỉ_trắng,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_bẹ_nhún a agri:LeafyVegetable ;
+    rdfs:label "Cải bẹ nhún"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ ;
+    agri:hasGrowthStage agri:Cải_bẹ_nhún_Nảy_mầm,
+        agri:Cải_bẹ_nhún_Phát_triển_lá,
+        agri:Cải_bẹ_nhún_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_bẹ_xanh a agri:LeafyVegetable ;
+    rdfs:label "Cải bẹ xanh"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ ;
+    agri:hasGrowthStage agri:Cải_bẹ_xanh_Nảy_mầm,
+        agri:Cải_bẹ_xanh_Phát_triển_lá,
+        agri:Cải_bẹ_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_cúc_tía a agri:LeafyVegetable ;
+    rdfs:label "Cải cúc tía"@vi ;
+    agri:attackedBy agri:Sâu_xanh,
+        agri:Sâu_đo ;
+    agri:hasGrowthStage agri:Cải_cúc_tía_Nảy_mầm,
+        agri:Cải_cúc_tía_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Cải_cúc_đắng a agri:LeafyVegetable ;
+    rdfs:label "Cải cúc đắng"@vi ;
+    agri:attackedBy agri:Sâu_xanh,
+        agri:Sâu_đo ;
+    agri:hasGrowthStage agri:Cải_cúc_đắng_Nảy_mầm,
+        agri:Cải_cúc_đắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Cải_cầu_vồng a agri:LeafyVegetable ;
+    rdfs:label "Cải cầu vồng"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Cải_cầu_vồng_Nảy_mầm,
+        agri:Cải_cầu_vồng_Phát_triển_lá,
+        agri:Cải_cầu_vồng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Cải_củ_sâm a agri:RootVegetable ;
+    rdfs:label "Cải củ sâm"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Cải_củ_sâm_Nảy_mầm,
+        agri:Cải_củ_sâm_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ .
+
+agri:Cải_củ_đỏ a agri:RootVegetable ;
+    rdfs:label "Cải củ đỏ"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Cải_củ_đỏ_Nảy_mầm,
+        agri:Cải_củ_đỏ_Phát_triển_củ,
+        agri:Cải_củ_đỏ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Cải_kale a agri:LeafyVegetable ;
+    rdfs:label "Cải kale"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Cải_kale_Nảy_mầm,
+        agri:Cải_kale_Phát_triển_tán_lá,
+        agri:Cải_kale_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nhũn,
+        agri:Bệnh_đốm_lá .
+
+agri:Cải_làn a agri:LeafyVegetable ;
+    rdfs:label "Cải làn"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Cải_làn_Nảy_mầm,
+        agri:Cải_làn_Phát_triển_ngồng,
+        agri:Cải_làn_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_mơ a agri:LeafyVegetable ;
+    rdfs:label "Cải mơ"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ ;
+    agri:hasGrowthStage agri:Cải_mơ_Nảy_mầm,
+        agri:Cải_mơ_Phát_triển_lá,
+        agri:Cải_mơ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_gỉ_trắng,
+        agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_ngọt a agri:LeafyVegetable ;
+    rdfs:label "Cải ngọt"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ ;
+    agri:hasGrowthStage agri:Cải_ngọt_Nảy_mầm,
+        agri:Cải_ngọt_Phát_triển_lá,
+        agri:Cải_ngọt_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_gỉ_trắng,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_ngồng a agri:LeafyVegetable ;
+    rdfs:label "Cải ngồng"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Cải_ngồng_Nảy_mầm,
+        agri:Cải_ngồng_Phát_triển_ngồng,
+        agri:Cải_ngồng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_thìa a agri:LeafyVegetable ;
+    rdfs:label "Cải thìa"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Cải_thìa_Nảy_mầm,
+        agri:Cải_thìa_Phát_triển_thân_lá,
+        agri:Cải_thìa_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Cải_thìa_thìa a agri:LeafyVegetable ;
+    rdfs:label "Cải thìa thìa"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Cải_thìa_thìa_Nảy_mầm,
+        agri:Cải_thìa_thìa_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Cải_xoong a agri:LeafyVegetable ;
+    rdfs:label "Cải xoong"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_xanh,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Cải_xoong_Nảy_mầm,
+        agri:Cải_xoong_Phát_triển_thân_lá,
+        agri:Cải_xoong_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_gốc .
+
+agri:Cần_tây a agri:LeafyVegetable ;
+    rdfs:label "Cần tây"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Cần_tây_Nảy_mầm,
+        agri:Cần_tây_Phát_triển_thân_lá,
+        agri:Cần_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_thâm .
+
+agri:Cần_tây_nếp a agri:LeafyVegetable ;
+    rdfs:label "Cần tây nếp"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Cần_tây_nếp_Nảy_mầm,
+        agri:Cần_tây_nếp_Phát_triển_thân_lá,
+        agri:Cần_tây_nếp_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_bẹ .
+
+agri:Củ_cải_khổng_lồ a agri:RootVegetable ;
+    rdfs:label "Củ cải khổng lồ"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_cải_khổng_lồ_Nảy_mầm,
+        agri:Củ_cải_khổng_lồ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Củ_cải_trắng a agri:RootVegetable ;
+    rdfs:label "Củ cải trắng"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_cải_trắng_Nảy_mầm,
+        agri:Củ_cải_trắng_Phát_triển_củ,
+        agri:Củ_cải_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Củ_cải_xanh a agri:RootVegetable ;
+    rdfs:label "Củ cải xanh"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_cải_xanh_Nảy_mầm,
+        agri:Củ_cải_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_nhũn .
+
+agri:Củ_cải_đường a agri:RootVegetable ;
+    rdfs:label "Củ cải đường"@vi ;
+    agri:attackedBy agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_cải_đường_Nảy_mầm,
+        agri:Củ_cải_đường_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_cải_đỏ_tí_hon a agri:RootVegetable ;
+    rdfs:label "Củ cải đỏ tí hon"@vi ;
+    agri:attackedBy agri:Bọ_nhảy ;
+    agri:hasGrowthStage agri:Củ_cải_đỏ_tí_hon_Nảy_mầm,
+        agri:Củ_cải_đỏ_tí_hon_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ .
+
+agri:Củ_củ_năng a agri:RootVegetable ;
+    rdfs:label "Củ củ năng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_củ_năng_Nảy_mầm,
+        agri:Củ_củ_năng_Phát_triển_củ,
+        agri:Củ_củ_năng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_củ_đậu a agri:RootVegetable ;
+    rdfs:label "Củ củ đậu"@vi ;
+    agri:attackedBy agri:Sâu_ăn_lá,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_củ_đậu_Nảy_mầm,
+        agri:Củ_củ_đậu_Phát_triển_củ,
+        agri:Củ_củ_đậu_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_dong a agri:RootVegetable ;
+    rdfs:label "Củ dong"@vi ;
+    agri:attackedBy agri:Sâu_gặm_củ,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_dong_Nảy_mầm,
+        agri:Củ_dong_Phát_triển_củ,
+        agri:Củ_dong_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_dền a agri:RootVegetable ;
+    rdfs:label "Củ dền"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_dền_Nảy_mầm,
+        agri:Củ_dền_Phát_triển_củ,
+        agri:Củ_dền_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_gừng_gió a agri:RootVegetable ;
+    rdfs:label "Củ gừng gió"@vi ;
+    agri:attackedBy agri:Sâu_đục_thân,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_gừng_gió_Nảy_mầm,
+        agri:Củ_gừng_gió_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_củ .
+
+agri:Củ_gừng_sẻ a agri:RootVegetable ;
+    rdfs:label "Củ gừng sẻ"@vi ;
+    agri:attackedBy agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_gừng_sẻ_Nảy_mầm,
+        agri:Củ_gừng_sẻ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_củ .
+
+agri:Củ_hũ_khóm a agri:StemVegetable ;
+    rdfs:label "Củ hũ khóm"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_hũ_khóm_Phát_triển,
+        agri:Củ_hũ_khóm_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_phèn ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_thâm .
+
+agri:Củ_kiệu a agri:RootVegetable ;
+    rdfs:label "Củ kiệu"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_gặm_củ ;
+    agri:hasGrowthStage agri:Củ_kiệu_Nảy_mầm,
+        agri:Củ_kiệu_Phát_triển_củ,
+        agri:Củ_kiệu_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ .
+
+agri:Củ_mỡ a agri:RootVegetable ;
+    rdfs:label "Củ mỡ"@vi ;
+    agri:attackedBy agri:Bọ_hà,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_mỡ_Nảy_mầm,
+        agri:Củ_mỡ_Phát_triển_củ,
+        agri:Củ_mỡ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_nghệ_trắng a agri:RootVegetable ;
+    rdfs:label "Củ nghệ trắng"@vi ;
+    agri:attackedBy agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_nghệ_trắng_Nảy_mầm,
+        agri:Củ_nghệ_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_củ .
+
+agri:Củ_nghệ_đen a agri:RootVegetable ;
+    rdfs:label "Củ nghệ đen"@vi ;
+    agri:attackedBy agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_nghệ_đen_Nảy_mầm,
+        agri:Củ_nghệ_đen_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_củ .
+
+agri:Củ_nần a agri:RootVegetable ;
+    rdfs:label "Củ nần"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_nần_Nảy_mầm,
+        agri:Củ_nần_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_riềng_nếp a agri:RootVegetable ;
+    rdfs:label "Củ riềng nếp"@vi ;
+    agri:attackedBy agri:Sâu_đục_thân,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_riềng_nếp_Nảy_mầm,
+        agri:Củ_riềng_nếp_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_sắn a agri:RootVegetable ;
+    rdfs:label "Củ sắn"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_sắn_Nảy_mầm,
+        agri:Củ_sắn_Phát_triển_củ,
+        agri:Củ_sắn_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ .
+
+agri:Củ_sắn_dây a agri:RootVegetable ;
+    rdfs:label "Củ sắn dây"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_sắn_dây_Nảy_mầm,
+        agri:Củ_sắn_dây_Phát_triển_củ,
+        agri:Củ_sắn_dây_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_rễ .
+
+agri:Củ_từ a agri:RootVegetable ;
+    rdfs:label "Củ từ"@vi ;
+    agri:attackedBy agri:Bọ_hà,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Củ_từ_Nảy_mầm,
+        agri:Củ_từ_Phát_triển_củ,
+        agri:Củ_từ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Củ_ấu a agri:FruitVegetable ;
+    rdfs:label "Củ ấu"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Củ_ấu_Nảy_mầm,
+        agri:Củ_ấu_Phát_triển_quả,
+        agri:Củ_ấu_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_bùn ;
+    agri:susceptibleTo agri:Bệnh_thối_lá,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_chuột_bao_tử a agri:FruitVegetable ;
+    rdfs:label "Dưa chuột bao tử"@vi ;
+    agri:attackedBy agri:Bọ_trĩ ;
+    agri:hasGrowthStage agri:Dưa_chuột_bao_tử_Nảy_mầm,
+        agri:Dưa_chuột_bao_tử_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai .
+
+agri:Dưa_chuột_mèo a agri:FruitVegetable ;
+    rdfs:label "Dưa chuột mèo"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Dưa_chuột_mèo_Nảy_mầm,
+        agri:Dưa_chuột_mèo_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai .
+
+agri:Dưa_chuột_nếp a agri:FruitVegetable ;
+    rdfs:label "Dưa chuột nếp"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Dưa_chuột_nếp_Nảy_mầm,
+        agri:Dưa_chuột_nếp_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng .
+
+agri:Dưa_gang a agri:FruitVegetable ;
+    rdfs:label "Dưa gang"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Dưa_gang_Nảy_mầm,
+        agri:Dưa_gang_Phát_triển_quả,
+        agri:Dưa_gang_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_gang_tròn a agri:FruitVegetable ;
+    rdfs:label "Dưa gang tròn"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Dưa_gang_tròn_Nảy_mầm,
+        agri:Dưa_gang_tròn_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_gang_tây a agri:FruitVegetable ;
+    rdfs:label "Dưa gang tây"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Dưa_gang_tây_Nảy_mầm,
+        agri:Dưa_gang_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_hấu a agri:FruitVegetable ;
+    rdfs:label "Dưa hấu"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_vẽ_bùa ;
+    agri:hasGrowthStage agri:Dưa_hấu_Bò_dây,
+        agri:Dưa_hấu_Nảy_mầm,
+        agri:Dưa_hấu_Thu_hoạch,
+        agri:Dưa_hấu_Đậu_quả ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_hấu_hắc_mỹ_nhân a agri:FruitVegetable ;
+    rdfs:label "Dưa hấu hắc mỹ nhân"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Dưa_hấu_hắc_mỹ_nhân_Nảy_mầm,
+        agri:Dưa_hấu_hắc_mỹ_nhân_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_hấu_không_hạt a agri:FruitVegetable ;
+    rdfs:label "Dưa hấu không hạt"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Dưa_hấu_không_hạt_Nảy_mầm,
+        agri:Dưa_hấu_không_hạt_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_hấu_ruột_vàng a agri:FruitVegetable ;
+    rdfs:label "Dưa hấu ruột vàng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Dưa_hấu_ruột_vàng_Nảy_mầm,
+        agri:Dưa_hấu_ruột_vàng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_leo a agri:FruitVegetable ;
+    rdfs:label "Dưa leo"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_vẽ_bùa,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Dưa_leo_Nảy_mầm,
+        agri:Dưa_leo_Phát_triển_thân_vòi,
+        agri:Dưa_leo_Ra_hoa,
+        agri:Dưa_leo_Thu_hoạch,
+        agri:Dưa_leo_Đậu_quả ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai .
+
+agri:Dưa_leo_chùm a agri:FruitVegetable ;
+    rdfs:label "Dưa leo chùm"@vi ;
+    agri:attackedBy agri:Bọ_trĩ ;
+    agri:hasGrowthStage agri:Dưa_leo_chùm_Nảy_mầm,
+        agri:Dưa_leo_chùm_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai .
+
+agri:Dưa_leo_gai a agri:FruitVegetable ;
+    rdfs:label "Dưa leo gai"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Dưa_leo_gai_Nảy_mầm,
+        agri:Dưa_leo_gai_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng .
+
+agri:Dưa_lê a agri:FruitVegetable ;
+    rdfs:label "Dưa lê"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Dưa_lê_Bò_dây,
+        agri:Dưa_lê_Nảy_mầm,
+        agri:Dưa_lê_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Dưa_lưới a agri:FruitVegetable ;
+    rdfs:label "Dưa lưới"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Nhện_đỏ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Dưa_lưới_Leo_giàn,
+        agri:Dưa_lưới_Nảy_mầm,
+        agri:Dưa_lưới_Thu_hoạch,
+        agri:Dưa_lưới_Tạo_lưới ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_phấn_trắng,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_quả .
+
+agri:Gừng a agri:RootVegetable ;
+    rdfs:label "Gừng"@vi ;
+    agri:attackedBy agri:Sâu_đục_thân,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Gừng_Nảy_mầm,
+        agri:Gừng_Phát_triển_củ,
+        agri:Gừng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_boa_rô a agri:LeafyVegetable ;
+    rdfs:label "Hành boa rô"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_boa_rô_Nảy_mầm,
+        agri:Hành_boa_rô_Phát_triển_thân,
+        agri:Hành_boa_rô_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Hành_củ a agri:RootVegetable ;
+    rdfs:label "Hành củ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_củ_Nảy_mầm,
+        agri:Hành_củ_Phát_triển_củ,
+        agri:Hành_củ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_hương a agri:RootVegetable ;
+    rdfs:label "Hành hương"@vi ;
+    agri:attackedBy agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_hương_Nảy_mầm,
+        agri:Hành_hương_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_hẹ_hoa a agri:LeafyVegetable ;
+    rdfs:label "Hành hẹ hoa"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_hẹ_hoa_Nảy_mầm,
+        agri:Hành_hẹ_hoa_Phát_triển_ngồng,
+        agri:Hành_hẹ_hoa_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Hành_lá a agri:LeafyVegetable ;
+    rdfs:label "Hành lá"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_lá_Nảy_mầm,
+        agri:Hành_lá_Thu_hoạch,
+        agri:Hành_lá_Đẻ_nhánh ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_sương_mai .
+
+agri:Hành_tây a agri:RootVegetable ;
+    rdfs:label "Hành tây"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Hành_tây_Nảy_mầm,
+        agri:Hành_tây_Phát_triển_củ,
+        agri:Hành_tây_Phát_triển_lá,
+        agri:Hành_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_tây_tím a agri:RootVegetable ;
+    rdfs:label "Hành tây tím"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Hành_tây_tím_Nảy_mầm,
+        agri:Hành_tây_tím_Phát_triển_củ,
+        agri:Hành_tây_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_tăm a agri:RootVegetable ;
+    rdfs:label "Hành tăm"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_tăm_Nảy_mầm,
+        agri:Hành_tăm_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_tỏi_Lý_Sơn a agri:RootVegetable ;
+    rdfs:label "Hành tỏi Lý Sơn"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_gặm_củ ;
+    agri:hasGrowthStage agri:Hành_tỏi_Lý_Sơn_Nảy_mầm,
+        agri:Hành_tỏi_Lý_Sơn_Phát_triển_củ,
+        agri:Hành_tỏi_Lý_Sơn_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Hành_tỏi_băm a agri:RootVegetable ;
+    rdfs:label "Hành tỏi băm"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_hành ;
+    agri:hasGrowthStage agri:Hành_tỏi_băm_Nảy_mầm,
+        agri:Hành_tỏi_băm_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Húng_chanh a agri:LeafyVegetable ;
+    rdfs:label "Húng chanh"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Húng_chanh_Nảy_mầm,
+        agri:Húng_chanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Húng_cây a agri:LeafyVegetable ;
+    rdfs:label "Húng cây"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Húng_cây_Nảy_mầm,
+        agri:Húng_cây_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Húng_quế a agri:LeafyVegetable ;
+    rdfs:label "Húng quế"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Húng_quế_Nảy_mầm,
+        agri:Húng_quế_Phát_triển_cành_lá,
+        agri:Húng_quế_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Húng_quế_Tây a agri:LeafyVegetable ;
+    rdfs:label "Húng quế Tây"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Húng_quế_Tây_Nảy_mầm,
+        agri:Húng_quế_Tây_Phát_triển_cành_lá,
+        agri:Húng_quế_Tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Hẹ a agri:LeafyVegetable ;
+    rdfs:label "Hẹ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Hẹ_Nảy_mầm,
+        agri:Hẹ_Phát_triển_bẹ,
+        agri:Hẹ_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thối_rễ .
+
+agri:Khoai_lang a agri:RootVegetable ;
+    rdfs:label "Khoai lang"@vi ;
+    agri:attackedBy agri:Bọ_hà,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Khoai_lang_Nảy_mầm,
+        agri:Khoai_lang_Phát_triển_củ,
+        agri:Khoai_lang_Phát_triển_thân_lá,
+        agri:Khoai_lang_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Khoai_lang_mật a agri:RootVegetable ;
+    rdfs:label "Khoai lang mật"@vi ;
+    agri:attackedBy agri:Bọ_hà ;
+    agri:hasGrowthStage agri:Khoai_lang_mật_Nảy_mầm,
+        agri:Khoai_lang_mật_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_lang_nhật a agri:RootVegetable ;
+    rdfs:label "Khoai lang nhật"@vi ;
+    agri:attackedBy agri:Bọ_hà ;
+    agri:hasGrowthStage agri:Khoai_lang_nhật_Nảy_mầm,
+        agri:Khoai_lang_nhật_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_lang_tím a agri:RootVegetable ;
+    rdfs:label "Khoai lang tím"@vi ;
+    agri:attackedBy agri:Bọ_hà ;
+    agri:hasGrowthStage agri:Khoai_lang_tím_Nảy_mầm,
+        agri:Khoai_lang_tím_Phát_triển_củ,
+        agri:Khoai_lang_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_môn a agri:RootVegetable ;
+    rdfs:label "Khoai môn"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Nhện_đỏ,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_môn_Nảy_mầm,
+        agri:Khoai_môn_Phát_triển_củ,
+        agri:Khoai_môn_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_môn_cao a agri:RootVegetable ;
+    rdfs:label "Khoai môn cao"@vi ;
+    agri:attackedBy agri:Nhện_đỏ,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_môn_cao_Nảy_mầm,
+        agri:Khoai_môn_cao_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_mỡ_trắng a agri:RootVegetable ;
+    rdfs:label "Khoai mỡ trắng"@vi ;
+    agri:attackedBy agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_mỡ_trắng_Nảy_mầm,
+        agri:Khoai_mỡ_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_củ .
+
+agri:Khoai_mỡ_tím a agri:RootVegetable ;
+    rdfs:label "Khoai mỡ tím"@vi ;
+    agri:attackedBy agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_mỡ_tím_Nảy_mầm,
+        agri:Khoai_mỡ_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_củ .
+
+agri:Khoai_sọ a agri:RootVegetable ;
+    rdfs:label "Khoai sọ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_sọ_Nảy_mầm,
+        agri:Khoai_sọ_Phát_triển_củ,
+        agri:Khoai_sọ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_sọ_sáp a agri:RootVegetable ;
+    rdfs:label "Khoai sọ sáp"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_sọ_sáp_Nảy_mầm,
+        agri:Khoai_sọ_sáp_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_tây a agri:RootVegetable ;
+    rdfs:label "Khoai tây"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_28_chấm,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_tây_Hình_thành_củ,
+        agri:Khoai_tây_Mọc_mầm_thân,
+        agri:Khoai_tây_Nảy_mầm,
+        agri:Khoai_tây_Thu_hoạch,
+        agri:Khoai_tây_Tích_lũy_tinh_bột ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_mốc_sương,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_tây_ruột_trắng a agri:RootVegetable ;
+    rdfs:label "Khoai tây ruột trắng"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_tây_ruột_trắng_Nảy_mầm,
+        agri:Khoai_tây_ruột_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_mốc_sương,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_tây_ruột_vàng a agri:RootVegetable ;
+    rdfs:label "Khoai tây ruột vàng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_tây_ruột_vàng_Nảy_mầm,
+        agri:Khoai_tây_ruột_vàng_Phát_triển_củ,
+        agri:Khoai_tây_ruột_vàng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_mốc_sương,
+        agri:Bệnh_thối_củ .
+
+agri:Khoai_tây_tím a agri:RootVegetable ;
+    rdfs:label "Khoai tây tím"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Khoai_tây_tím_Nảy_mầm,
+        agri:Khoai_tây_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_mốc_sương,
+        agri:Bệnh_thối_củ .
+
+agri:Khổ_qua_rừng a agri:FruitVegetable ;
+    rdfs:label "Khổ qua rừng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Khổ_qua_rừng_Leo_giàn,
+        agri:Khổ_qua_rừng_Nảy_mầm,
+        agri:Khổ_qua_rừng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Kinh_giới a agri:LeafyVegetable ;
+    rdfs:label "Kinh giới"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Kinh_giới_Nảy_mầm,
+        agri:Kinh_giới_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Mát_mẻ a agri:ClimateCondition ;
+    rdfs:label "Mát mẻ"@vi .
+
+agri:Măng_bát_độ a agri:StemVegetable ;
+    rdfs:label "Măng bát độ"@vi ;
+    agri:attackedBy agri:Bọ_xít,
+        agri:Sâu_đục_thân ;
+    agri:hasGrowthStage agri:Măng_bát_độ_Mọc_mầm,
+        agri:Măng_bát_độ_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_măng .
+
+agri:Măng_giang a agri:StemVegetable ;
+    rdfs:label "Măng giang"@vi ;
+    agri:attackedBy agri:Bọ_xít,
+        agri:Sâu_vòi_xịt ;
+    agri:hasGrowthStage agri:Măng_giang_Mọc_mầm,
+        agri:Măng_giang_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_măng .
+
+agri:Măng_nứa a agri:StemVegetable ;
+    rdfs:label "Măng nứa"@vi ;
+    agri:attackedBy agri:Bọ_xít,
+        agri:Sâu_vòi_xịt ;
+    agri:hasGrowthStage agri:Măng_nứa_Mọc_mầm,
+        agri:Măng_nứa_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_măng .
+
+agri:Măng_sặt a agri:StemVegetable ;
+    rdfs:label "Măng sặt"@vi ;
+    agri:attackedBy agri:Bọ_xít,
+        agri:Sâu_vòi_xịt ;
+    agri:hasGrowthStage agri:Măng_sặt_Mọc_mầm,
+        agri:Măng_sặt_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_măng .
+
+agri:Măng_trúc a agri:StemVegetable ;
+    rdfs:label "Măng trúc"@vi ;
+    agri:attackedBy agri:Bọ_xít,
+        agri:Sâu_vòi_xịt ;
+    agri:hasGrowthStage agri:Măng_trúc_Mọc_mầm,
+        agri:Măng_trúc_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_măng .
+
+agri:Măng_tây a agri:StemVegetable ;
+    rdfs:label "Măng tây"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Măng_tây_Mọc_măng,
+        agri:Măng_tây_Nảy_mầm,
+        agri:Măng_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_thán_thư .
+
+agri:Măng_tây_trắng a agri:StemVegetable ;
+    rdfs:label "Măng tây trắng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Măng_tây_trắng_Nảy_mầm,
+        agri:Măng_tây_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thán_thư .
+
+agri:Măng_tây_tím a agri:StemVegetable ;
+    rdfs:label "Măng tây tím"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Măng_tây_tím_Nảy_mầm,
+        agri:Măng_tây_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thán_thư .
+
+agri:Măng_tây_xanh a agri:StemVegetable ;
+    rdfs:label "Măng tây xanh"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Măng_tây_xanh_Nảy_mầm,
+        agri:Măng_tây_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thán_thư .
+
+agri:Măng_điền_trúc a agri:StemVegetable ;
+    rdfs:label "Măng điền trúc"@vi ;
+    agri:attackedBy agri:Bọ_xít,
+        agri:Sâu_đục_thân ;
+    agri:hasGrowthStage agri:Măng_điền_trúc_Mọc_mầm,
+        agri:Măng_điền_trúc_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_thối_măng .
+
+agri:Mướp_hương a agri:FruitVegetable ;
+    rdfs:label "Mướp hương"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Mướp_hương_Leo_giàn,
+        agri:Mướp_hương_Nảy_mầm,
+        agri:Mướp_hương_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Mướp_khía a agri:FruitVegetable ;
+    rdfs:label "Mướp khía"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Mướp_khía_Nảy_mầm,
+        agri:Mướp_khía_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Mướp_tây a agri:FruitVegetable ;
+    rdfs:label "Mướp tây"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Mướp_tây_Nảy_mầm,
+        agri:Mướp_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Mướp_đắn a agri:FruitVegetable ;
+    rdfs:label "Mướp đắn"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Mướp_đắn_Nảy_mầm,
+        agri:Mướp_đắn_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Mướp_đắng a agri:FruitVegetable ;
+    rdfs:label "Mướp đắng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Mướp_đắng_Leo_giàn,
+        agri:Mướp_đắng_Nảy_mầm,
+        agri:Mướp_đắng_Ra_hoa,
+        agri:Mướp_đắng_Thu_hoạch,
+        agri:Mướp_đắng_Đậu_quả ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_héo_rũ,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Mướp_đắng_rừng a agri:FruitVegetable ;
+    rdfs:label "Mướp đắng rừng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Mướp_đắng_rừng_Nảy_mầm,
+        agri:Mướp_đắng_rừng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Mướp_đắng_trái_dài a agri:FruitVegetable ;
+    rdfs:label "Mướp đắng trái dài"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Ruồi_đục_quả ;
+    agri:hasGrowthStage agri:Mướp_đắng_trái_dài_Nảy_mầm,
+        agri:Mướp_đắng_trái_dài_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thán_thư .
+
+agri:Nghệ a agri:RootVegetable ;
+    rdfs:label "Nghệ"@vi ;
+    agri:attackedBy agri:Sâu_đục_thân,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Nghệ_Nảy_mầm,
+        agri:Nghệ_Phát_triển_củ,
+        agri:Nghệ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_củ .
+
+agri:Ngò_gai a agri:LeafyVegetable ;
+    rdfs:label "Ngò gai"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Nhện_đỏ ;
+    agri:hasGrowthStage agri:Ngò_gai_Nảy_mầm,
+        agri:Ngò_gai_Phát_triển_lá,
+        agri:Ngò_gai_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Ngò_rí a agri:LeafyVegetable ;
+    rdfs:label "Ngò rí"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Ngò_rí_Nảy_mầm,
+        agri:Ngò_rí_Phát_triển_lá,
+        agri:Ngò_rí_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_rễ .
+
+agri:Ngò_tây a agri:LeafyVegetable ;
+    rdfs:label "Ngò tây"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Ngò_tây_Nảy_mầm,
+        agri:Ngò_tây_Phát_triển_lá,
+        agri:Ngò_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_rễ .
+
+agri:Nóng_ẩm a agri:ClimateCondition ;
+    rdfs:label "Nóng ẩm"@vi .
+
+agri:Rau_bina a agri:LeafyVegetable ;
+    rdfs:label "Rau bina"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_bina_Nảy_mầm,
+        agri:Rau_bina_Phát_triển_lá,
+        agri:Rau_bina_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_rễ .
+
+agri:Rau_bò_khai a agri:LeafyVegetable ;
+    rdfs:label "Rau bò khai"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_bò_khai_Mọc_mầm,
+        agri:Rau_bò_khai_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_bò_khai_rừng a agri:LeafyVegetable ;
+    rdfs:label "Rau bò khai rừng"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_bò_khai_rừng_Mọc_mầm,
+        agri:Rau_bò_khai_rừng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_bóp_củ a agri:LeafyVegetable ;
+    rdfs:label "Rau bóp củ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_bóp_củ_Nảy_mầm,
+        agri:Rau_bóp_củ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_bắp_cải_tím a agri:LeafyVegetable ;
+    rdfs:label "Rau bắp cải tím"@vi ;
+    agri:attackedBy agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Rau_bắp_cải_tím_Cuộn_bắp,
+        agri:Rau_bắp_cải_tím_Nảy_mầm,
+        agri:Rau_bắp_cải_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nhũn .
+
+agri:Rau_bồ_ngót a agri:LeafyVegetable ;
+    rdfs:label "Rau bồ ngót"@vi ;
+    agri:attackedBy agri:Nhện_đỏ,
+        agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Rau_bồ_ngót_Mọc_mầm,
+        agri:Rau_bồ_ngót_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_xoăn_lá,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_chùm_ngây a agri:LeafyVegetable ;
+    rdfs:label "Rau chùm ngây"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_chùm_ngây_Nảy_mầm,
+        agri:Rau_chùm_ngây_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_càng_cua a agri:LeafyVegetable ;
+    rdfs:label "Rau càng cua"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_càng_cua_Nảy_mầm,
+        agri:Rau_càng_cua_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_cúc_tần a agri:LeafyVegetable ;
+    rdfs:label "Rau cúc tần"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_cúc_tần_Nảy_mầm,
+        agri:Rau_cúc_tần_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_cải_cúc a agri:LeafyVegetable ;
+    rdfs:label "Rau cải cúc"@vi ;
+    agri:attackedBy agri:Sâu_xanh,
+        agri:Sâu_đo ;
+    agri:hasGrowthStage agri:Rau_cải_cúc_Nảy_mầm,
+        agri:Rau_cải_cúc_Phát_triển_lá,
+        agri:Rau_cải_cúc_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_cải_cúc_đắng a agri:LeafyVegetable ;
+    rdfs:label "Rau cải cúc đắng"@vi ;
+    agri:attackedBy agri:Sâu_xanh,
+        agri:Sâu_đo ;
+    agri:hasGrowthStage agri:Rau_cải_cúc_đắng_Nảy_mầm,
+        agri:Rau_cải_cúc_đắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_cần_nước a agri:LeafyVegetable ;
+    rdfs:label "Rau cần nước"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_gặm_lá ;
+    agri:hasGrowthStage agri:Rau_cần_nước_Nảy_mầm,
+        agri:Rau_cần_nước_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_gốc .
+
+agri:Rau_cần_tây_Mỹ a agri:LeafyVegetable ;
+    rdfs:label "Rau cần tây Mỹ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_cần_tây_Mỹ_Nảy_mầm,
+        agri:Rau_cần_tây_Mỹ_Phát_triển_thân,
+        agri:Rau_cần_tây_Mỹ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_diếp_cá a agri:LeafyVegetable ;
+    rdfs:label "Rau diếp cá"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_diếp_cá_Nảy_mầm,
+        agri:Rau_diếp_cá_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_diếp_ngô a agri:LeafyVegetable ;
+    rdfs:label "Rau diếp ngô"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_diếp_ngô_Nảy_mầm,
+        agri:Rau_diếp_ngô_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_rễ .
+
+agri:Rau_diếp_thơm a agri:LeafyVegetable ;
+    rdfs:label "Rau diếp thơm"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_diếp_thơm_Nảy_mầm,
+        agri:Rau_diếp_thơm_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_rễ .
+
+agri:Rau_dền a agri:LeafyVegetable ;
+    rdfs:label "Rau dền"@vi ;
+    agri:attackedBy agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_dền_Nảy_mầm,
+        agri:Rau_dền_Phát_triển_thân_lá,
+        agri:Rau_dền_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_đốm_lá .
+
+agri:Rau_dền_ba_màu a agri:LeafyVegetable ;
+    rdfs:label "Rau dền ba màu"@vi ;
+    agri:attackedBy agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_dền_ba_màu_Nảy_mầm,
+        agri:Rau_dền_ba_màu_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_đốm_lá .
+
+agri:Rau_dền_cơm a agri:LeafyVegetable ;
+    rdfs:label "Rau dền cơm"@vi ;
+    agri:attackedBy agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_dền_cơm_Nảy_mầm,
+        agri:Rau_dền_cơm_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_đốm_lá .
+
+agri:Rau_dền_gai a agri:LeafyVegetable ;
+    rdfs:label "Rau dền gai"@vi ;
+    agri:attackedBy agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_dền_gai_Nảy_mầm,
+        agri:Rau_dền_gai_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_đốm_lá .
+
+agri:Rau_dớn a agri:LeafyVegetable ;
+    rdfs:label "Rau dớn"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_dớn_Mọc_mầm,
+        agri:Rau_dớn_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_khoai_lang a agri:LeafyVegetable ;
+    rdfs:label "Rau khoai lang"@vi ;
+    agri:attackedBy agri:Bọ_hà,
+        agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_khoai_lang_Nảy_mầm,
+        agri:Rau_khoai_lang_Phát_triển_ngọn,
+        agri:Rau_khoai_lang_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_lốt a agri:LeafyVegetable ;
+    rdfs:label "Rau lốt"@vi ;
+    agri:attackedBy agri:Nhện_đỏ,
+        agri:Rệp_sáp ;
+    agri:hasGrowthStage agri:Rau_lốt_Nảy_mầm,
+        agri:Rau_lốt_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_muống a agri:LeafyVegetable ;
+    rdfs:label "Rau muống"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Rau_muống_Nảy_mầm,
+        agri:Rau_muống_Phát_triển_thân_lá,
+        agri:Rau_muống_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Rau_muống_hạt a agri:LeafyVegetable ;
+    rdfs:label "Rau muống hạt"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_khoang,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Rau_muống_hạt_Nảy_mầm,
+        agri:Rau_muống_hạt_Phát_triển_thân_lá,
+        agri:Rau_muống_hạt_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Rau_muống_ngọn a agri:LeafyVegetable ;
+    rdfs:label "Rau muống ngọn"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Rau_muống_ngọn_Nảy_mầm,
+        agri:Rau_muống_ngọn_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Rau_màng_màng a agri:LeafyVegetable ;
+    rdfs:label "Rau màng màng"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_màng_màng_Nảy_mầm,
+        agri:Rau_màng_màng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_má a agri:LeafyVegetable ;
+    rdfs:label "Rau má"@vi ;
+    agri:attackedBy agri:Nhện_đỏ,
+        agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_má_Nảy_mầm,
+        agri:Rau_má_Phát_triển_bò,
+        agri:Rau_má_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_lở_cổ_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_má_ngố a agri:LeafyVegetable ;
+    rdfs:label "Rau má ngố"@vi ;
+    agri:attackedBy agri:Nhện_đỏ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_má_ngố_Nảy_mầm,
+        agri:Rau_má_ngố_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_lở_cổ_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_mương a agri:LeafyVegetable ;
+    rdfs:label "Rau mương"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_mương_Nảy_mầm,
+        agri:Rau_mương_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_mồng_tơi a agri:LeafyVegetable ;
+    rdfs:label "Rau mồng tơi"@vi ;
+    agri:attackedBy agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_mồng_tơi_Bò_leo,
+        agri:Rau_mồng_tơi_Nảy_mầm,
+        agri:Rau_mồng_tơi_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_đốm_lá,
+        agri:Bệnh_đốm_mắt_cua .
+
+agri:Rau_ngót a agri:LeafyVegetable ;
+    rdfs:label "Rau ngót"@vi ;
+    agri:attackedBy agri:Nhện_đỏ,
+        agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Rau_ngót_Nảy_mầm,
+        agri:Rau_ngót_Phát_triển_cành_lá,
+        agri:Rau_ngót_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_xoăn_lá,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_ngải_cứu a agri:LeafyVegetable ;
+    rdfs:label "Rau ngải cứu"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_ngải_cứu_Nảy_mầm,
+        agri:Rau_ngải_cứu_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_ngổ a agri:LeafyVegetable ;
+    rdfs:label "Rau ngổ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_ngổ_Nảy_mầm,
+        agri:Rau_ngổ_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_ngổ_đắng a agri:LeafyVegetable ;
+    rdfs:label "Rau ngổ đắng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_ngổ_đắng_Nảy_mầm,
+        agri:Rau_ngổ_đắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_trũng ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_om a agri:LeafyVegetable ;
+    rdfs:label "Rau om"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_om_Nảy_mầm,
+        agri:Rau_om_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_quế_vị a agri:LeafyVegetable ;
+    rdfs:label "Rau quế vị"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_quế_vị_Nảy_mầm,
+        agri:Rau_quế_vị_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_rau_đắng a agri:LeafyVegetable ;
+    rdfs:label "Rau rau đắng"@vi ;
+    agri:attackedBy agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_rau_đắng_Nảy_mầm,
+        agri:Rau_rau_đắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_romaine a agri:LeafyVegetable ;
+    rdfs:label "Rau romaine"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_romaine_Nảy_mầm,
+        agri:Rau_romaine_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_rễ .
+
+agri:Rau_ráy a agri:LeafyVegetable ;
+    rdfs:label "Rau ráy"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_ráy_Nảy_mầm,
+        agri:Rau_ráy_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_thối_gốc .
+
+agri:Rau_sắn a agri:LeafyVegetable ;
+    rdfs:label "Rau sắn"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_sắn_Mọc_ngọn,
+        agri:Rau_sắn_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_sắng a agri:LeafyVegetable ;
+    rdfs:label "Rau sắng"@vi ;
+    agri:attackedBy agri:Sâu_ăn_lá,
+        agri:Sâu_đục_thân ;
+    agri:hasGrowthStage agri:Rau_sắng_Mọc_mầm,
+        agri:Rau_sắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_sắng_chùa_Hương a agri:LeafyVegetable ;
+    rdfs:label "Rau sắng chùa Hương"@vi ;
+    agri:attackedBy agri:Sâu_ăn_lá,
+        agri:Sâu_đục_thân ;
+    agri:hasGrowthStage agri:Rau_sắng_chùa_Hương_Mọc_mầm,
+        agri:Rau_sắng_chùa_Hương_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_thì_là_thân_gỗ a agri:LeafyVegetable ;
+    rdfs:label "Rau thì là thân gỗ"@vi ;
+    agri:attackedBy agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Rau_thì_là_thân_gỗ_Nảy_mầm,
+        agri:Rau_thì_là_thân_gỗ_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_rễ .
+
+agri:Rau_trai a agri:LeafyVegetable ;
+    rdfs:label "Rau trai"@vi ;
+    agri:attackedBy agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_trai_Nảy_mầm,
+        agri:Rau_trai_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_tía_tía a agri:LeafyVegetable ;
+    rdfs:label "Rau tía tía"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_tía_tía_Nảy_mầm,
+        agri:Rau_tía_tía_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_tía_tô_dại a agri:LeafyVegetable ;
+    rdfs:label "Rau tía tô dại"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Rau_tía_tô_dại_Nảy_mầm,
+        agri:Rau_tía_tô_dại_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_tầm_bóp a agri:LeafyVegetable ;
+    rdfs:label "Rau tầm bóp"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Rau_tầm_bóp_Nảy_mầm,
+        agri:Rau_tầm_bóp_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thối_quả .
+
+agri:Rau_tần_ô a agri:LeafyVegetable ;
+    rdfs:label "Rau tần ô"@vi ;
+    agri:attackedBy agri:Sâu_đo ;
+    agri:hasGrowthStage agri:Rau_tần_ô_Nảy_mầm,
+        agri:Rau_tần_ô_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ .
+
+agri:Rau_xà_lách a agri:LeafyVegetable ;
+    rdfs:label "Rau xà lách"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_xà_lách_Nảy_mầm,
+        agri:Rau_xà_lách_Phát_triển_tán_lá,
+        agri:Rau_xà_lách_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_xà_lách_lolo_xanh a agri:LeafyVegetable ;
+    rdfs:label "Rau xà lách lolo xanh"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_xà_lách_lolo_xanh_Nảy_mầm,
+        agri:Rau_xà_lách_lolo_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_xà_lách_lolo_đỏ a agri:LeafyVegetable ;
+    rdfs:label "Rau xà lách lolo đỏ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_xà_lách_lolo_đỏ_Nảy_mầm,
+        agri:Rau_xà_lách_lolo_đỏ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_xà_lách_lốm_đốm a agri:LeafyVegetable ;
+    rdfs:label "Rau xà lách lốm đốm"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_xà_lách_lốm_đốm_Nảy_mầm,
+        agri:Rau_xà_lách_lốm_đốm_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_cháy_đầu_lá,
+        agri:Bệnh_thối_bẹ .
+
+agri:Rau_xà_lách_mỡ a agri:LeafyVegetable ;
+    rdfs:label "Rau xà lách mỡ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_xà_lách_mỡ_Nảy_mầm,
+        agri:Rau_xà_lách_mỡ_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_bẹ,
+        agri:Bệnh_thối_rễ .
+
+agri:Rau_đắng_biển a agri:LeafyVegetable ;
+    rdfs:label "Rau đắng biển"@vi ;
+    agri:attackedBy agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_đắng_biển_Nảy_mầm,
+        agri:Rau_đắng_biển_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_ẩm ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Rau_đắng_đất a agri:LeafyVegetable ;
+    rdfs:label "Rau đắng đất"@vi ;
+    agri:attackedBy agri:Sâu_khoang,
+        agri:Sâu_ăn_lá ;
+    agri:hasGrowthStage agri:Rau_đắng_đất_Nảy_mầm,
+        agri:Rau_đắng_đất_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ,
+        agri:Bệnh_đốm_lá .
+
+agri:Riềng a agri:RootVegetable ;
+    rdfs:label "Riềng"@vi ;
+    agri:attackedBy agri:Sâu_đục_thân,
+        agri:Tuyến_trùng ;
+    agri:hasGrowthStage agri:Riềng_Nảy_mầm,
+        agri:Riềng_Phát_triển_củ,
+        agri:Riềng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_củ,
+        agri:Bệnh_đốm_lá .
+
+agri:Su_hào a agri:RootVegetable ;
+    rdfs:label "Su hào"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ ;
+    agri:hasGrowthStage agri:Su_hào_Nảy_mầm,
+        agri:Su_hào_Phát_triển_củ,
+        agri:Su_hào_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_nhũn .
+
+agri:Súp_lơ_trắng a agri:LeafyVegetable ;
+    rdfs:label "Súp lơ trắng"@vi ;
+    agri:attackedBy agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Súp_lơ_trắng_Hình_thành_hoa,
+        agri:Súp_lơ_trắng_Nảy_mầm,
+        agri:Súp_lơ_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thối_hoa,
+        agri:Bệnh_thối_nhũn .
+
+agri:Súp_lơ_xanh a agri:LeafyVegetable ;
+    rdfs:label "Súp lơ xanh"@vi ;
+    agri:attackedBy agri:Bọ_nhảy,
+        agri:Sâu_tơ,
+        agri:Sâu_xanh ;
+    agri:hasGrowthStage agri:Súp_lơ_xanh_Hình_thành_hoa,
+        agri:Súp_lơ_xanh_Nảy_mầm,
+        agri:Súp_lơ_xanh_Phát_triển_lá,
+        agri:Súp_lơ_xanh_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_hoa,
+        agri:Bệnh_thối_nhũn .
+
+agri:Sả a agri:StemVegetable ;
+    rdfs:label "Sả"@vi ;
+    agri:attackedBy agri:Rệp_sáp,
+        agri:Sâu_đục_thân ;
+    agri:hasGrowthStage agri:Sả_Nảy_mầm,
+        agri:Sả_Thu_hoạch,
+        agri:Sả_Đẻ_nhánh ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_thối_gốc,
+        agri:Bệnh_đốm_lá .
+
+agri:Thì_là a agri:LeafyVegetable ;
+    rdfs:label "Thì là"@vi ;
+    agri:attackedBy agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Thì_là_Nảy_mầm,
+        agri:Thì_là_Phát_triển_lá,
+        agri:Thì_là_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_rễ .
+
+agri:Thì_là_dại a agri:LeafyVegetable ;
+    rdfs:label "Thì là dại"@vi ;
+    agri:attackedBy agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Thì_là_dại_Nảy_mầm,
+        agri:Thì_là_dại_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_rễ .
+
+agri:Thì_là_lá_rậm a agri:LeafyVegetable ;
+    rdfs:label "Thì là lá rậm"@vi ;
+    agri:attackedBy agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Thì_là_lá_rậm_Nảy_mầm,
+        agri:Thì_là_lá_rậm_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_rễ .
+
+agri:Thì_là_tây a agri:LeafyVegetable ;
+    rdfs:label "Thì là tây"@vi ;
+    agri:attackedBy agri:Rệp_muội ;
+    agri:hasGrowthStage agri:Thì_là_tây_Nảy_mầm,
+        agri:Thì_là_tây_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thối_gốc,
+        agri:Bệnh_thối_rễ .
+
+agri:Tía_tơ a agri:LeafyVegetable ;
+    rdfs:label "Tía tơ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_khoang ;
+    agri:hasGrowthStage agri:Tía_tơ_Nảy_mầm,
+        agri:Tía_tơ_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_cháy_lá,
+        agri:Bệnh_đốm_lá .
+
+agri:Tỏi a agri:RootVegetable ;
+    rdfs:label "Tỏi"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_gặm_củ ;
+    agri:hasGrowthStage agri:Tỏi_Nảy_mầm,
+        agri:Tỏi_Phát_triển_củ,
+        agri:Tỏi_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_sương_mai,
+        agri:Bệnh_thối_củ .
+
+agri:Ôn_hòa a agri:ClimateCondition ;
+    rdfs:label "Ôn hòa"@vi .
+
+agri:Đậu_Hà_Lan a agri:FruitVegetable ;
+    rdfs:label "Đậu Hà Lan"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_Hà_Lan_Nảy_mầm,
+        agri:Đậu_Hà_Lan_Ra_hoa,
+        agri:Đậu_Hà_Lan_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_phấn_trắng,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_Hà_Lan_leo a agri:FruitVegetable ;
+    rdfs:label "Đậu Hà Lan leo"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_Hà_Lan_leo_Leo_giàn,
+        agri:Đậu_Hà_Lan_leo_Nảy_mầm,
+        agri:Đậu_Hà_Lan_leo_Thu_hoạch ;
+    agri:plantedInSeason agri:Đông_Xuân ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_phấn_trắng,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_bắp a agri:FruitVegetable ;
+    rdfs:label "Đậu bắp"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_bắp_Nảy_mầm,
+        agri:Đậu_bắp_Phát_triển_thân,
+        agri:Đậu_bắp_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thán_thư,
+        agri:Bệnh_đốm_lá .
+
+agri:Đậu_bắp_đỏ a agri:FruitVegetable ;
+    rdfs:label "Đậu bắp đỏ"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_bắp_đỏ_Nảy_mầm,
+        agri:Đậu_bắp_đỏ_Thu_hoạch ;
+    agri:plantedInSeason agri:Hè_Thu ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_héo_xanh,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_cô_le a agri:FruitVegetable ;
+    rdfs:label "Đậu cô le"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_cô_le_Leo_giàn,
+        agri:Đậu_cô_le_Nảy_mầm,
+        agri:Đậu_cô_le_Ra_hoa,
+        agri:Đậu_cô_le_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_cúc a agri:FruitVegetable ;
+    rdfs:label "Đậu cúc"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_cúc_Nảy_mầm,
+        agri:Đậu_cúc_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_ngự a agri:FruitVegetable ;
+    rdfs:label "Đậu ngự"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_ngự_Nảy_mầm,
+        agri:Đậu_ngự_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_ngự_đỏ a agri:FruitVegetable ;
+    rdfs:label "Đậu ngự đỏ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_ngự_đỏ_Nảy_mầm,
+        agri:Đậu_ngự_đỏ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_nành_edamame a agri:FruitVegetable ;
+    rdfs:label "Đậu nành edamame"@vi ;
+    agri:attackedBy agri:Sâu_khoang,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_nành_edamame_Nảy_mầm,
+        agri:Đậu_nành_edamame_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_phù_sa ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_rồng a agri:FruitVegetable ;
+    rdfs:label "Đậu rồng"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_rồng_Leo_giàn,
+        agri:Đậu_rồng_Nảy_mầm,
+        agri:Đậu_rồng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_ván a agri:FruitVegetable ;
+    rdfs:label "Đậu ván"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_ván_Nảy_mầm,
+        agri:Đậu_ván_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_ván_trắng a agri:FruitVegetable ;
+    rdfs:label "Đậu ván trắng"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_ván_trắng_Nảy_mầm,
+        agri:Đậu_ván_trắng_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_ván_tím a agri:FruitVegetable ;
+    rdfs:label "Đậu ván tím"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_ván_tím_Nảy_mầm,
+        agri:Đậu_ván_tím_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_đao a agri:FruitVegetable ;
+    rdfs:label "Đậu đao"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_đao_Nảy_mầm,
+        agri:Đậu_đao_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_đũa a agri:FruitVegetable ;
+    rdfs:label "Đậu đũa"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_đũa_Bò_giàn,
+        agri:Đậu_đũa_Nảy_mầm,
+        agri:Đậu_đũa_Ra_hoa,
+        agri:Đậu_đũa_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Đậu_đũa_đỏ a agri:FruitVegetable ;
+    rdfs:label "Đậu đũa đỏ"@vi ;
+    agri:attackedBy agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Đậu_đũa_đỏ_Nảy_mầm,
+        agri:Đậu_đũa_đỏ_Thu_hoạch ;
+    agri:plantedInSeason agri:Xuân_Hè ;
+    agri:requiresSoil agri:Đất_cát_pha ;
+    agri:susceptibleTo agri:Bệnh_gỉ_sắt,
+        agri:Bệnh_thán_thư .
+
+agri:Ấm_áp a agri:ClimateCondition ;
+    rdfs:label "Ấm áp"@vi .
+
+agri:Ớt a agri:FruitVegetable ;
+    rdfs:label "Ớt"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Nhện_đỏ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_Nảy_mầm,
+        agri:Ớt_Phát_triển_tán,
+        agri:Ớt_Ra_hoa,
+        agri:Ớt_Thu_hoạch,
+        agri:Ớt_Đậu_quả ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_thán_thư .
+
+agri:Ớt_chuông a agri:FruitVegetable ;
+    rdfs:label "Ớt chuông"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_chuông_Nảy_mầm,
+        agri:Ớt_chuông_Ra_hoa,
+        agri:Ớt_chuông_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_thán_thư .
+
+agri:Ớt_chỉ_thiên a agri:FruitVegetable ;
+    rdfs:label "Ớt chỉ thiên"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Nhện_đỏ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_chỉ_thiên_Nảy_mầm,
+        agri:Ớt_chỉ_thiên_Phát_triển_tán,
+        agri:Ớt_chỉ_thiên_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_thán_thư .
+
+agri:Ớt_hiểm a agri:FruitVegetable ;
+    rdfs:label "Ớt hiểm"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_hiểm_Nảy_mầm,
+        agri:Ớt_hiểm_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_thán_thư .
+
+agri:Ớt_ngọt a agri:FruitVegetable ;
+    rdfs:label "Ớt ngọt"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_ngọt_Nảy_mầm,
+        agri:Ớt_ngọt_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_tơi_xốp ;
+    agri:susceptibleTo agri:Bệnh_thán_thư .
+
+agri:Ớt_sừng a agri:FruitVegetable ;
+    rdfs:label "Ớt sừng"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Rệp_muội,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_sừng_Nảy_mầm,
+        agri:Ớt_sừng_Phát_triển_tán,
+        agri:Ớt_sừng_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_thịt_nhẹ ;
+    agri:susceptibleTo agri:Bệnh_khảm_lá,
+        agri:Bệnh_thán_thư .
+
+agri:Ớt_xiêm a agri:FruitVegetable ;
+    rdfs:label "Ớt xiêm"@vi ;
+    agri:attackedBy agri:Bọ_trĩ,
+        agri:Sâu_đục_quả ;
+    agri:hasGrowthStage agri:Ớt_xiêm_Nảy_mầm,
+        agri:Ớt_xiêm_Thu_hoạch ;
+    agri:plantedInSeason agri:Quanh_năm ;
+    agri:requiresSoil agri:Đất_đồi_núi ;
+    agri:susceptibleTo agri:Bệnh_thán_thư .
+
+agri:Bí_ngòi_vàng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Bí_ngòi_vàng_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 20 .
+
+agri:Bí_ngòi_vàng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Bí_ngòi_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Bí_ngòi_xanh_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 20 .
+
+agri:Bí_ngòi_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Bí_nụ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Bí_nụ_Phát_triển_nụ a agri:GrowthStage ;
+    rdfs:label "Phát triển nụ"@vi ;
+    agri:durationDays 20 .
+
+agri:Bí_nụ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Bí_rợ_Bò_giàn a agri:GrowthStage ;
+    rdfs:label "Bò giàn"@vi ;
+    agri:durationDays 30 .
+
+agri:Bí_rợ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_rợ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Bí_xanh_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 30 .
+
+agri:Bí_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Bí_đao_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 30 .
+
+agri:Bí_đao_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_đao_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Bí_đao_chanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_đao_chanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Bí_đao_thơm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_đao_thơm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Bí_đỏ_Bò_giàn a agri:GrowthStage ;
+    rdfs:label "Bò giàn"@vi ;
+    agri:durationDays 25 .
+
+agri:Bí_đỏ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_đỏ_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 15 .
+
+agri:Bí_đỏ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Bí_đỏ_bánh_xe_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_đỏ_bánh_xe_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Bí_đỏ_hồ_lô_Bò_giàn a agri:GrowthStage ;
+    rdfs:label "Bò giàn"@vi ;
+    agri:durationDays 25 .
+
+agri:Bí_đỏ_hồ_lô_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Bí_đỏ_hồ_lô_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Bí_đỏ_Đậu_quả a agri:GrowthStage ;
+    rdfs:label "Đậu quả"@vi ;
+    agri:durationDays 40 .
+
+agri:Bầu_Bò_giàn a agri:GrowthStage ;
+    rdfs:label "Bò giàn"@vi ;
+    agri:durationDays 25 .
+
+agri:Bầu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Bầu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Bầu_dài_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Bầu_dài_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Bầu_hồ_lô_Bò_giàn a agri:GrowthStage ;
+    rdfs:label "Bò giàn"@vi ;
+    agri:durationDays 25 .
+
+agri:Bầu_hồ_lô_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Bầu_hồ_lô_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Bầu_sao_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Bầu_sao_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Bắp_cải_Cuộn_bắp a agri:GrowthStage ;
+    rdfs:label "Cuộn bắp"@vi ;
+    agri:durationDays 30 .
+
+agri:Bắp_cải_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Bắp_cải_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 25 .
+
+agri:Bắp_cải_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Bắp_cải_tí_hon_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Bắp_cải_tí_hon_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Bệnh_thối_lá a agri:Disease ;
+    rdfs:label "Bệnh thối lá"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ .
+
+agri:Bệnh_thối_nụ a agri:Disease ;
+    rdfs:label "Bệnh thối nụ"@vi ;
+    agri:treatedWith agri:Phân_Kali .
+
+agri:Bệnh_thối_đen a agri:Disease ;
+    rdfs:label "Bệnh thối đen"@vi ;
+    agri:treatedWith agri:Phân_Kali .
+
+agri:Bệnh_đốm_mắt_cua a agri:Disease ;
+    rdfs:label "Bệnh đốm mắt cua"@vi ;
+    agri:treatedWith agri:Phân_đạm .
+
+agri:Cà_bung_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_bung_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_bát_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_bát_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 25 .
+
+agri:Cà_bát_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 20 .
+
+agri:Cà_bát_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_chua_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cà_chua_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 30 .
+
+agri:Cà_chua_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Cà_chua_Thắt_thân a agri:GrowthStage ;
+    rdfs:label "Thắt thân"@vi ;
+    agri:durationDays 15 .
+
+agri:Cà_chua_cherry_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cà_chua_cherry_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 25 .
+
+agri:Cà_chua_cherry_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Cà_chua_socola_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cà_chua_socola_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_chua_Đậu_quả a agri:GrowthStage ;
+    rdfs:label "Đậu quả"@vi ;
+    agri:durationDays 25 .
+
+agri:Cà_dĩa_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_dĩa_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_dĩa_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_dĩa_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_dĩa_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_dĩa_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_pháo_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_pháo_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 25 .
+
+agri:Cà_pháo_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Cà_pháo_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_pháo_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Cà_pháo_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_pháo_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Cà_rốt_Hình_thành_củ a agri:GrowthStage ;
+    rdfs:label "Hình thành củ"@vi ;
+    agri:durationDays 35 .
+
+agri:Cà_rốt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Cà_rốt_Phát_triển_rễ a agri:GrowthStage ;
+    rdfs:label "Phát triển rễ"@vi ;
+    agri:durationDays 30 .
+
+agri:Cà_rốt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Cà_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_tím_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 30 .
+
+agri:Cà_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 50 .
+
+agri:Cà_tím_dài_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_tím_dài_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 30 .
+
+agri:Cà_tím_dài_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Cà_tím_tròn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Cà_tím_tròn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Cải_bẹ_dún_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_bẹ_dún_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_bẹ_nhún_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_bẹ_nhún_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_bẹ_nhún_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Cải_bẹ_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_bẹ_xanh_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_bẹ_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Cải_cúc_tía_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Cải_cúc_tía_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_cúc_đắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Cải_cúc_đắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_cầu_vồng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cải_cầu_vồng_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 35 .
+
+agri:Cải_cầu_vồng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Cải_củ_sâm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cải_củ_sâm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Cải_củ_đỏ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Cải_củ_đỏ_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_củ_đỏ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Cải_kale_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cải_kale_Phát_triển_tán_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển tán lá"@vi ;
+    agri:durationDays 40 .
+
+agri:Cải_kale_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Cải_làn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Cải_làn_Phát_triển_ngồng a agri:GrowthStage ;
+    rdfs:label "Phát triển ngồng"@vi ;
+    agri:durationDays 30 .
+
+agri:Cải_làn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Cải_mơ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_mơ_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 18 .
+
+agri:Cải_mơ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Cải_ngọt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_ngọt_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 18 .
+
+agri:Cải_ngọt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Cải_ngồng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Cải_ngồng_Phát_triển_ngồng a agri:GrowthStage ;
+    rdfs:label "Phát triển ngồng"@vi ;
+    agri:durationDays 25 .
+
+agri:Cải_ngồng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 12 .
+
+agri:Cải_thìa_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_thìa_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 18 .
+
+agri:Cải_thìa_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Cải_thìa_thìa_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Cải_thìa_thìa_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Cải_xoong_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Cải_xoong_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Cải_xoong_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Cần_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Cần_tây_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 40 .
+
+agri:Cần_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Cần_tây_nếp_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Cần_tây_nếp_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 35 .
+
+agri:Cần_tây_nếp_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_cải_khổng_lồ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Củ_cải_khổng_lồ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Củ_cải_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Củ_cải_trắng_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_cải_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_cải_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Củ_cải_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Củ_cải_đường_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Củ_cải_đường_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Củ_cải_đỏ_tí_hon_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Củ_cải_đỏ_tí_hon_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Củ_củ_năng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Củ_củ_năng_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 80 .
+
+agri:Củ_củ_năng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_củ_đậu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Củ_củ_đậu_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 90 .
+
+agri:Củ_củ_đậu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Củ_dong_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_dong_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 90 .
+
+agri:Củ_dong_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_dền_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Củ_dền_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 35 .
+
+agri:Củ_dền_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_gừng_gió_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_gừng_gió_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 90 .
+
+agri:Củ_gừng_sẻ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_gừng_sẻ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_hũ_khóm_Phát_triển a agri:GrowthStage ;
+    rdfs:label "Phát triển"@vi ;
+    agri:durationDays 90 .
+
+agri:Củ_hũ_khóm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_kiệu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Củ_kiệu_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 70 .
+
+agri:Củ_kiệu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Củ_mỡ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_mỡ_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 100 .
+
+agri:Củ_mỡ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_nghệ_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_nghệ_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_nghệ_đen_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_nghệ_đen_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_nần_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_nần_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 90 .
+
+agri:Củ_riềng_nếp_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_riềng_nếp_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 120 .
+
+agri:Củ_sắn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_sắn_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 120 .
+
+agri:Củ_sắn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_sắn_dây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Củ_sắn_dây_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 150 .
+
+agri:Củ_sắn_dây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Củ_từ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Củ_từ_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 90 .
+
+agri:Củ_từ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Củ_ấu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Củ_ấu_Phát_triển_quả a agri:GrowthStage ;
+    rdfs:label "Phát triển quả"@vi ;
+    agri:durationDays 60 .
+
+agri:Củ_ấu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Dưa_chuột_bao_tử_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_chuột_bao_tử_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Dưa_chuột_mèo_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Dưa_chuột_mèo_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Dưa_chuột_nếp_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_chuột_nếp_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_gang_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Dưa_gang_Phát_triển_quả a agri:GrowthStage ;
+    rdfs:label "Phát triển quả"@vi ;
+    agri:durationDays 30 .
+
+agri:Dưa_gang_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_gang_tròn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Dưa_gang_tròn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Dưa_gang_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Dưa_gang_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Dưa_hấu_Bò_dây a agri:GrowthStage ;
+    rdfs:label "Bò dây"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_hấu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_hấu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_hấu_hắc_mỹ_nhân_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_hấu_hắc_mỹ_nhân_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_hấu_không_hạt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_hấu_không_hạt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Dưa_hấu_ruột_vàng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_hấu_ruột_vàng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_hấu_Đậu_quả a agri:GrowthStage ;
+    rdfs:label "Đậu quả"@vi ;
+    agri:durationDays 25 .
+
+agri:Dưa_leo_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_leo_Phát_triển_thân_vòi a agri:GrowthStage ;
+    rdfs:label "Phát triển thân vòi"@vi ;
+    agri:durationDays 15 .
+
+agri:Dưa_leo_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 10 .
+
+agri:Dưa_leo_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_leo_chùm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_leo_chùm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_leo_gai_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_leo_gai_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_leo_Đậu_quả a agri:GrowthStage ;
+    rdfs:label "Đậu quả"@vi ;
+    agri:durationDays 15 .
+
+agri:Dưa_lê_Bò_dây a agri:GrowthStage ;
+    rdfs:label "Bò dây"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_lê_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_lê_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_lưới_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 20 .
+
+agri:Dưa_lưới_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Dưa_lưới_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Dưa_lưới_Tạo_lưới a agri:GrowthStage ;
+    rdfs:label "Tạo lưới"@vi ;
+    agri:durationDays 30 .
+
+agri:Gừng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Gừng_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 120 .
+
+agri:Gừng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Hành_boa_rô_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Hành_boa_rô_Phát_triển_thân a agri:GrowthStage ;
+    rdfs:label "Phát triển thân"@vi ;
+    agri:durationDays 40 .
+
+agri:Hành_boa_rô_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Hành_củ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Hành_củ_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 35 .
+
+agri:Hành_củ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hành_hương_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Hành_hương_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hành_hẹ_hoa_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Hành_hẹ_hoa_Phát_triển_ngồng a agri:GrowthStage ;
+    rdfs:label "Phát triển ngồng"@vi ;
+    agri:durationDays 25 .
+
+agri:Hành_hẹ_hoa_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hành_lá_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Hành_lá_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hành_lá_Đẻ_nhánh a agri:GrowthStage ;
+    rdfs:label "Đẻ nhánh"@vi ;
+    agri:durationDays 25 .
+
+agri:Hành_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Hành_tây_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 40 .
+
+agri:Hành_tây_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 30 .
+
+agri:Hành_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hành_tây_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Hành_tây_tím_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 40 .
+
+agri:Hành_tây_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hành_tăm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Hành_tăm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Hành_tỏi_Lý_Sơn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Hành_tỏi_Lý_Sơn_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 60 .
+
+agri:Hành_tỏi_Lý_Sơn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Hành_tỏi_băm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Hành_tỏi_băm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Húng_chanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Húng_chanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Húng_cây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Húng_cây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Húng_quế_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Húng_quế_Phát_triển_cành_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển cành lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Húng_quế_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Húng_quế_Tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Húng_quế_Tây_Phát_triển_cành_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển cành lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Húng_quế_Tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Hẹ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Hẹ_Phát_triển_bẹ a agri:GrowthStage ;
+    rdfs:label "Phát triển bẹ"@vi ;
+    agri:durationDays 30 .
+
+agri:Hẹ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Khoai_lang_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_lang_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 50 .
+
+agri:Khoai_lang_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_lang_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Khoai_lang_mật_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_lang_mật_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Khoai_lang_nhật_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_lang_nhật_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Khoai_lang_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_lang_tím_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 50 .
+
+agri:Khoai_lang_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Khoai_môn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Khoai_môn_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 90 .
+
+agri:Khoai_môn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_môn_cao_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Khoai_môn_cao_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_mỡ_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Khoai_mỡ_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_mỡ_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Khoai_mỡ_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_sọ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Khoai_sọ_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 80 .
+
+agri:Khoai_sọ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Khoai_sọ_sáp_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Khoai_sọ_sáp_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Khoai_tây_Hình_thành_củ a agri:GrowthStage ;
+    rdfs:label "Hình thành củ"@vi ;
+    agri:durationDays 25 .
+
+agri:Khoai_tây_Mọc_mầm_thân a agri:GrowthStage ;
+    rdfs:label "Mọc mầm thân"@vi ;
+    agri:durationDays 20 .
+
+agri:Khoai_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Khoai_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_tây_Tích_lũy_tinh_bột a agri:GrowthStage ;
+    rdfs:label "Tích lũy tinh bột"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_tây_ruột_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Khoai_tây_ruột_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_tây_ruột_vàng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Khoai_tây_ruột_vàng_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 30 .
+
+agri:Khoai_tây_ruột_vàng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Khoai_tây_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Khoai_tây_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Khổ_qua_rừng_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 20 .
+
+agri:Khổ_qua_rừng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Khổ_qua_rừng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Kinh_giới_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Kinh_giới_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Măng_bát_độ_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Măng_bát_độ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Măng_giang_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Măng_giang_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Măng_nứa_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Măng_nứa_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Măng_sặt_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Măng_sặt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Măng_trúc_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Măng_trúc_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Măng_tây_Mọc_măng a agri:GrowthStage ;
+    rdfs:label "Mọc măng"@vi ;
+    agri:durationDays 40 .
+
+agri:Măng_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Măng_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Măng_tây_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Măng_tây_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Măng_tây_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Măng_tây_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Măng_tây_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Măng_tây_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Măng_điền_trúc_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Măng_điền_trúc_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Mướp_hương_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 20 .
+
+agri:Mướp_hương_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_hương_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Mướp_khía_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_khía_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Mướp_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Mướp_đắn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_đắn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Mướp_đắng_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 20 .
+
+agri:Mướp_đắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_đắng_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 15 .
+
+agri:Mướp_đắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Mướp_đắng_rừng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_đắng_rừng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Mướp_đắng_trái_dài_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Mướp_đắng_trái_dài_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Mướp_đắng_Đậu_quả a agri:GrowthStage ;
+    rdfs:label "Đậu quả"@vi ;
+    agri:durationDays 20 .
+
+agri:Nghệ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Nghệ_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 150 .
+
+agri:Nghệ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Ngò_gai_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Ngò_gai_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 35 .
+
+agri:Ngò_gai_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Ngò_rí_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Ngò_rí_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 18 .
+
+agri:Ngò_rí_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Ngò_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Ngò_tây_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 25 .
+
+agri:Ngò_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Phân_lân a agri:FertilizerType ;
+    rdfs:label "Phân lân"@vi .
+
+agri:Rau_bina_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_bina_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_bina_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_bò_khai_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_bò_khai_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Rau_bò_khai_rừng_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_bò_khai_rừng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Rau_bóp_củ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Rau_bóp_củ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_bắp_cải_tím_Cuộn_bắp a agri:GrowthStage ;
+    rdfs:label "Cuộn bắp"@vi ;
+    agri:durationDays 35 .
+
+agri:Rau_bắp_cải_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Rau_bắp_cải_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_bồ_ngót_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Rau_bồ_ngót_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Rau_chùm_ngây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_chùm_ngây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_càng_cua_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Rau_càng_cua_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_cúc_tần_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Rau_cúc_tần_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_cải_cúc_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_cải_cúc_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_cải_cúc_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_cải_cúc_đắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_cải_cúc_đắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_cần_nước_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Rau_cần_nước_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_cần_tây_Mỹ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Rau_cần_tây_Mỹ_Phát_triển_thân a agri:GrowthStage ;
+    rdfs:label "Phát triển thân"@vi ;
+    agri:durationDays 45 .
+
+agri:Rau_cần_tây_Mỹ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_diếp_cá_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Rau_diếp_cá_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_diếp_ngô_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_diếp_ngô_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_diếp_thơm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_diếp_thơm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_dền_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_dền_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_dền_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_dền_ba_màu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_dền_ba_màu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_dền_cơm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_dền_cơm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_dền_gai_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_dền_gai_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_dớn_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 12 .
+
+agri:Rau_dớn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_khoai_lang_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_khoai_lang_Phát_triển_ngọn a agri:GrowthStage ;
+    rdfs:label "Phát triển ngọn"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_khoai_lang_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_lốt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_lốt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 35 .
+
+agri:Rau_muống_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_muống_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_muống_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_muống_hạt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_muống_hạt_Phát_triển_thân_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển thân lá"@vi ;
+    agri:durationDays 16 .
+
+agri:Rau_muống_hạt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_muống_ngọn_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_muống_ngọn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_màng_màng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_màng_màng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_má_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_má_Phát_triển_bò a agri:GrowthStage ;
+    rdfs:label "Phát triển bò"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_má_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_má_ngố_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_má_ngố_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_mương_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_mương_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_mồng_tơi_Bò_leo a agri:GrowthStage ;
+    rdfs:label "Bò leo"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_mồng_tơi_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_mồng_tơi_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_ngót_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Rau_ngót_Phát_triển_cành_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển cành lá"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_ngót_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Rau_ngải_cứu_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Rau_ngải_cứu_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_ngổ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_ngổ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_ngổ_đắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Rau_ngổ_đắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_om_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_om_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_quế_vị_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_quế_vị_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_rau_đắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_rau_đắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_romaine_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_romaine_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_ráy_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_ráy_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Rau_sắn_Mọc_ngọn a agri:GrowthStage ;
+    rdfs:label "Mọc ngọn"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_sắn_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_sắng_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_sắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Rau_sắng_chùa_Hương_Mọc_mầm a agri:GrowthStage ;
+    rdfs:label "Mọc mầm"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_sắng_chùa_Hương_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Rau_thì_là_thân_gỗ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Rau_thì_là_thân_gỗ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_trai_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_trai_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_tía_tía_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_tía_tía_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_tía_tô_dại_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_tía_tô_dại_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Rau_tầm_bóp_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Rau_tầm_bóp_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Rau_tần_ô_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 4 .
+
+agri:Rau_tần_ô_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_xà_lách_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_xà_lách_Phát_triển_tán_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển tán lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_xà_lách_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 10 .
+
+agri:Rau_xà_lách_lolo_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_xà_lách_lolo_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_xà_lách_lolo_đỏ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_xà_lách_lolo_đỏ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_xà_lách_lốm_đốm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_xà_lách_lốm_đốm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_xà_lách_mỡ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_xà_lách_mỡ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_đắng_biển_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_đắng_biển_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Rau_đắng_đất_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Rau_đắng_đất_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Riềng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 15 .
+
+agri:Riềng_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 180 .
+
+agri:Riềng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Su_hào_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Su_hào_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 35 .
+
+agri:Su_hào_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Sâu_28_chấm a agri:Pest ;
+    rdfs:label "Sâu 28 chấm"@vi .
+
+agri:Sâu_gặm_lá a agri:Pest ;
+    rdfs:label "Sâu gặm lá"@vi .
+
+agri:Súp_lơ_trắng_Hình_thành_hoa a agri:GrowthStage ;
+    rdfs:label "Hình thành hoa"@vi ;
+    agri:durationDays 25 .
+
+agri:Súp_lơ_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Súp_lơ_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Súp_lơ_xanh_Hình_thành_hoa a agri:GrowthStage ;
+    rdfs:label "Hình thành hoa"@vi ;
+    agri:durationDays 25 .
+
+agri:Súp_lơ_xanh_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Súp_lơ_xanh_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 30 .
+
+agri:Súp_lơ_xanh_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Sả_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Sả_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Sả_Đẻ_nhánh a agri:GrowthStage ;
+    rdfs:label "Đẻ nhánh"@vi ;
+    agri:durationDays 60 .
+
+agri:Thì_là_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Thì_là_Phát_triển_lá a agri:GrowthStage ;
+    rdfs:label "Phát triển lá"@vi ;
+    agri:durationDays 20 .
+
+agri:Thì_là_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Thì_là_dại_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Thì_là_dại_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Thì_là_lá_rậm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Thì_là_lá_rậm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 15 .
+
+agri:Thì_là_tây_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Thì_là_tây_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Tía_tơ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Tía_tơ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Tỏi_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Tỏi_Phát_triển_củ a agri:GrowthStage ;
+    rdfs:label "Phát triển củ"@vi ;
+    agri:durationDays 60 .
+
+agri:Tỏi_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 20 .
+
+agri:Đất_bùn a agri:SoilType ;
+    rdfs:label "Đất bùn"@vi .
+
+agri:Đất_phèn a agri:SoilType ;
+    rdfs:label "Đất phèn"@vi .
+
+agri:Đậu_Hà_Lan_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Đậu_Hà_Lan_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 20 .
+
+agri:Đậu_Hà_Lan_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Đậu_Hà_Lan_leo_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 25 .
+
+agri:Đậu_Hà_Lan_leo_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Đậu_Hà_Lan_leo_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Đậu_bắp_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Đậu_bắp_Phát_triển_thân a agri:GrowthStage ;
+    rdfs:label "Phát triển thân"@vi ;
+    agri:durationDays 20 .
+
+agri:Đậu_bắp_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Đậu_bắp_đỏ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Đậu_bắp_đỏ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Đậu_cô_le_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 20 .
+
+agri:Đậu_cô_le_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Đậu_cô_le_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 15 .
+
+agri:Đậu_cô_le_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 25 .
+
+agri:Đậu_cúc_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Đậu_cúc_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Đậu_ngự_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Đậu_ngự_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Đậu_ngự_đỏ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Đậu_ngự_đỏ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Đậu_nành_edamame_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 5 .
+
+agri:Đậu_nành_edamame_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Đậu_rồng_Leo_giàn a agri:GrowthStage ;
+    rdfs:label "Leo giàn"@vi ;
+    agri:durationDays 25 .
+
+agri:Đậu_rồng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 7 .
+
+agri:Đậu_rồng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Đậu_ván_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Đậu_ván_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 50 .
+
+agri:Đậu_ván_trắng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Đậu_ván_trắng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 50 .
+
+agri:Đậu_ván_tím_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Đậu_ván_tím_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 50 .
+
+agri:Đậu_đao_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Đậu_đao_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 40 .
+
+agri:Đậu_đũa_Bò_giàn a agri:GrowthStage ;
+    rdfs:label "Bò giàn"@vi ;
+    agri:durationDays 20 .
+
+agri:Đậu_đũa_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Đậu_đũa_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 15 .
+
+agri:Đậu_đũa_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Đậu_đũa_đỏ_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 6 .
+
+agri:Đậu_đũa_đỏ_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 30 .
+
+agri:Ớt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Ớt_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 25 .
+
+agri:Ớt_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 20 .
+
+agri:Ớt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Ớt_chuông_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Ớt_chuông_Ra_hoa a agri:GrowthStage ;
+    rdfs:label "Ra hoa"@vi ;
+    agri:durationDays 30 .
+
+agri:Ớt_chuông_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Ớt_chỉ_thiên_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Ớt_chỉ_thiên_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 25 .
+
+agri:Ớt_chỉ_thiên_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 50 .
+
+agri:Ớt_hiểm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Ớt_hiểm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Ớt_ngọt_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 10 .
+
+agri:Ớt_ngọt_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Ớt_sừng_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Ớt_sừng_Phát_triển_tán a agri:GrowthStage ;
+    rdfs:label "Phát triển tán"@vi ;
+    agri:durationDays 25 .
+
+agri:Ớt_sừng_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 45 .
+
+agri:Ớt_xiêm_Nảy_mầm a agri:GrowthStage ;
+    rdfs:label "Nảy mầm"@vi ;
+    agri:durationDays 8 .
+
+agri:Ớt_xiêm_Thu_hoạch a agri:GrowthStage ;
+    rdfs:label "Thu hoạch"@vi ;
+    agri:durationDays 60 .
+
+agri:Ớt_Đậu_quả a agri:GrowthStage ;
+    rdfs:label "Đậu quả"@vi ;
+    agri:durationDays 30 .
+
+agri:Bệnh_lở_cổ_rễ a agri:Disease ;
+    rdfs:label "Bệnh lở cổ rễ"@vi ;
+    agri:treatedWith agri:Phân_đạm .
+
+agri:Bệnh_thối_hoa a agri:Disease ;
+    rdfs:label "Bệnh thối hoa"@vi ;
+    agri:treatedWith agri:Phân_NPK .
+
+agri:Bệnh_thối_thâm a agri:Disease ;
+    rdfs:label "Bệnh thối thâm"@vi ;
+    agri:treatedWith agri:Phân_NPK .
+
+agri:Bệnh_xoăn_lá a agri:Disease ;
+    rdfs:label "Bệnh xoăn lá"@vi ;
+    agri:treatedWith agri:Phân_đạm .
+
+agri:Sâu_vẽ_bùa a agri:Pest ;
+    rdfs:label "Sâu vẽ bùa"@vi .
+
+agri:Bệnh_gỉ_trắng a agri:Disease ;
+    rdfs:label "Bệnh gỉ trắng"@vi ;
+    agri:treatedWith agri:Phân_đạm .
+
+agri:Sâu_gặm_củ a agri:Pest ;
+    rdfs:label "Sâu gặm củ"@vi .
+
+agri:Sâu_vòi_xịt a agri:Pest ;
+    rdfs:label "Sâu vòi xịt"@vi .
+
+agri:Sâu_đo a agri:Pest ;
+    rdfs:label "Sâu đo"@vi .
+
+agri:Bệnh_thối_măng a agri:Disease ;
+    rdfs:label "Bệnh thối măng"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_NPK .
+
+agri:Bọ_xít a agri:Pest ;
+    rdfs:label "Bọ xít"@vi .
+
+agri:Bệnh_khảm_lá a agri:Disease ;
+    rdfs:label "Bệnh khảm lá"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_NPK .
+
+agri:Bệnh_mốc_sương a agri:Disease ;
+    rdfs:label "Bệnh mốc sương"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK .
+
+agri:Bọ_hà a agri:Pest ;
+    rdfs:label "Bọ hà"@vi .
+
+agri:Sâu_hành a agri:Pest ;
+    rdfs:label "Sâu hành"@vi .
+
+agri:Đất_trũng a agri:SoilType ;
+    rdfs:label "Đất trũng"@vi .
+
+agri:Bệnh_héo_rũ a agri:Disease ;
+    rdfs:label "Bệnh héo rũ"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK .
+
+agri:Sâu_đục_thân a agri:Pest ;
+    rdfs:label "Sâu đục thân"@vi .
+
+agri:Bệnh_cháy_đầu_lá a agri:Disease ;
+    rdfs:label "Bệnh cháy đầu lá"@vi ;
+    agri:treatedWith agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Nhện_đỏ a agri:Pest ;
+    rdfs:label "Nhện đỏ"@vi .
+
+agri:Rệp_sáp a agri:Pest ;
+    rdfs:label "Rệp sáp"@vi .
+
+agri:Bệnh_cháy_lá a agri:Disease ;
+    rdfs:label "Bệnh cháy lá"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Sâu_tơ a agri:Pest ;
+    rdfs:label "Sâu tơ"@vi .
+
+agri:Phân_đạm a agri:FertilizerType ;
+    rdfs:label "Phân đạm"@vi .
+
+agri:Đất_đồi_núi a agri:SoilType ;
+    rdfs:label "Đất đồi núi"@vi .
+
+agri:Đất_ẩm a agri:SoilType ;
+    rdfs:label "Đất ẩm"@vi .
+
+agri:Phân_Hữu_cơ a agri:FertilizerType ;
+    rdfs:label "Phân Hữu cơ"@vi .
+
+agri:Phân_Kali a agri:FertilizerType ;
+    rdfs:label "Phân Kali"@vi .
+
+agri:Phân_NPK a agri:FertilizerType ;
+    rdfs:label "Phân NPK"@vi .
+
+agri:Bệnh_thối_nhũn a agri:Disease ;
+    rdfs:label "Bệnh thối nhũn"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_đạm .
+
+agri:Sâu_xanh a agri:Pest ;
+    rdfs:label "Sâu xanh"@vi .
+
+agri:Bệnh_gỉ_sắt a agri:Disease ;
+    rdfs:label "Bệnh gỉ sắt"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Bệnh_thối_gốc a agri:Disease ;
+    rdfs:label "Bệnh thối gốc"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_đạm .
+
+agri:Hè_Thu a agri:Season ;
+    rdfs:label "Hè Thu"@vi .
+
+agri:Bọ_nhảy a agri:Pest ;
+    rdfs:label "Bọ nhảy"@vi .
+
+agri:Bệnh_phấn_trắng a agri:Disease ;
+    rdfs:label "Bệnh phấn trắng"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK .
+
+agri:Bệnh_thối_bẹ a agri:Disease ;
+    rdfs:label "Bệnh thối bẹ"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Bệnh_héo_xanh a agri:Disease ;
+    rdfs:label "Bệnh héo xanh"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK .
+
+agri:Sâu_khoang a agri:Pest ;
+    rdfs:label "Sâu khoang"@vi .
+
+agri:Ruồi_đục_quả a agri:Pest ;
+    rdfs:label "Ruồi đục quả"@vi .
+
+agri:Tuyến_trùng a agri:Pest ;
+    rdfs:label "Tuyến trùng"@vi .
+
+agri:Bệnh_thối_quả a agri:Disease ;
+    rdfs:label "Bệnh thối quả"@vi ;
+    agri:treatedWith agri:Phân_Kali,
+        agri:Phân_NPK .
+
+agri:Sâu_đục_quả a agri:Pest ;
+    rdfs:label "Sâu đục quả"@vi .
+
+agri:Đất_phù_sa a agri:SoilType ;
+    rdfs:label "Đất phù sa"@vi .
+
+agri:Bệnh_thán_thư a agri:Disease ;
+    rdfs:label "Bệnh thán thư"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Bệnh_thối_rễ a agri:Disease ;
+    rdfs:label "Bệnh thối rễ"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_lân,
+        agri:Phân_đạm .
+
+agri:Bệnh_thối_củ a agri:Disease ;
+    rdfs:label "Bệnh thối củ"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali .
+
+agri:Đất_cát_pha a agri:SoilType ;
+    rdfs:label "Đất cát pha"@vi .
+
+agri:Đất_thịt_nhẹ a agri:SoilType ;
+    rdfs:label "Đất thịt nhẹ"@vi .
+
+agri:Đất_tơi_xốp a agri:SoilType ;
+    rdfs:label "Đất tơi xốp"@vi .
+
+agri:Bệnh_đốm_lá a agri:Disease ;
+    rdfs:label "Bệnh đốm lá"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Sâu_ăn_lá a agri:Pest ;
+    rdfs:label "Sâu ăn lá"@vi .
+
+agri:Bệnh_sương_mai a agri:Disease ;
+    rdfs:label "Bệnh sương mai"@vi ;
+    agri:treatedWith agri:Phân_Hữu_cơ,
+        agri:Phân_Kali,
+        agri:Phân_NPK,
+        agri:Phân_đạm .
+
+agri:Quanh_năm a agri:Season ;
+    rdfs:label "Quanh năm"@vi .
+
+agri:Đông_Xuân a agri:Season ;
+    rdfs:label "Đông Xuân"@vi .
+
+agri:Rệp_muội a agri:Pest ;
+    rdfs:label "Rệp muội"@vi .
+
+agri:Xuân_Hè a agri:Season ;
+    rdfs:label "Xuân Hè"@vi .
+
+agri:Bọ_trĩ a agri:Pest ;
+    rdfs:label "Bọ trĩ"@vi .
+
