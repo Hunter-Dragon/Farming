@@ -4,22 +4,29 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from rag_retriever import vectordb
 import pickle
 
-# Đường dẫn tới file mới muốn thêm
-new_file_path = "./docs/ky-thuat-moi.txt"
+# Danh sách các file mới muốn thêm vào RAG
+new_files = [
+    "./docs/ky-thuat-bap-cai.txt",
+    "./docs/ky-thuat-dua-leo.txt",
+    "./docs/ky-thuat-su-hao.txt",
+]
 
-loader = TextLoader(new_file_path, encoding="utf-8")
-docs = loader.load()
-
+all_new_chunks = []
 splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-new_chunks = splitter.split_documents(docs)
 
-vectordb.add_documents(new_chunks)
+for file_path in new_files:
+    loader = TextLoader(file_path, encoding="utf-8")
+    docs = loader.load()
+    chunks = splitter.split_documents(docs)
+    all_new_chunks.extend(chunks)
+    print(f"Đã xử lý {file_path}: {len(chunks)} đoạn")
 
-# Cập nhật lại chunks_cache.pkl (cộng dồn cho BM25)
+vectordb.add_documents(all_new_chunks)
+
 with open("chunks_cache.pkl", "rb") as f:
     all_chunks = pickle.load(f)
-all_chunks.extend(new_chunks)
+all_chunks.extend(all_new_chunks)
 with open("chunks_cache.pkl", "wb") as f:
     pickle.dump(all_chunks, f)
 
-print(f"Đã thêm {len(new_chunks)} đoạn mới")
+print(f"\nHoàn tất: đã thêm {len(all_new_chunks)} đoạn mới từ {len(new_files)} file")
