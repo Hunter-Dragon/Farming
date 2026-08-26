@@ -21,10 +21,9 @@
       "total_expected": 10,
       "recall": 1.0
     },
-    "latency_sec": 12.0,
+    "latency_sec": 7.34,
     "tools_called": [
-      "query_crop_knowledge_graph",
-      "search_agriculture_documents"
+      "query_crop_knowledge_graph"
     ]
   },
   {
@@ -43,7 +42,7 @@
       "total_expected": 4,
       "recall": 1.0
     },
-    "latency_sec": 9.33,
+    "latency_sec": 6.62,
     "tools_called": [
       "query_crop_knowledge_graph"
     ]
@@ -54,17 +53,22 @@
     "crop": "Cà chua",
     "question": "Cách bón phân và chăm sóc cà chua trong giai đoạn ra hoa như thế nào?",
     "keypoint_recall": {
-      "matched": [
-        "làm giàn hoặc cắm cọc chống đổ"
-      ],
+      "matched": [],
       "missing": [
         "bón thêm phân kali để tăng tỷ lệ đậu quả",
-        "hạn chế bón đạm quá nhiều vì dễ khiến cây phát triển thân lá mà ít ra hoa"
+        "hạn chế bón đạm quá nhiều vì dễ khiến cây phát triển thân lá mà ít ra hoa",
+        "làm giàn hoặc cắm cọc chống đổ"
       ],
       "total_expected": 3,
-      "recall": 0.333
+      "recall": 0.0
     },
-    "latency_sec": 10.7,
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 5,
+      "groundedness": 4,
+      "note": "Nêu đúng và đầy đủ các ý chính, đồng thời bổ sung hướng dẫn chăm sóc cụ thể; tuy nhiên một số chi tiết như thời gian sinh trưởng, liều cọc và lợi ích canxi chưa được đối chiếu rõ từ dữ liệu gốc."
+    },
+    "latency_sec": 13.95,
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
@@ -97,7 +101,13 @@
       "total_expected": 14,
       "recall": 0.714
     },
-    "latency_sec": 43.71,
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 3,
+      "groundedness": 4,
+      "note": "Nêu đúng đủ các giai đoạn và thời lượng, chăm sóc ra hoa hợp lý, nhưng bỏ sót toàn bộ bốn bệnh cần đề cập: héo xanh, mốc sương, sương mai và đốm lá."
+    },
+    "latency_sec": 16.93,
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
@@ -123,10 +133,9 @@
       "total_expected": 8,
       "recall": 1.0
     },
-    "latency_sec": 11.33,
+    "latency_sec": 7.01,
     "tools_called": [
-      "query_crop_knowledge_graph",
-      "search_agriculture_documents"
+      "query_crop_knowledge_graph"
     ]
   },
   {
@@ -143,7 +152,7 @@
       "total_expected": 2,
       "recall": 1.0
     },
-    "latency_sec": 37.51,
+    "latency_sec": 7.68,
     "tools_called": [
       "query_crop_knowledge_graph"
     ]
@@ -154,17 +163,22 @@
     "crop": "Bắp cải",
     "question": "Làm thế nào để phòng trừ bệnh thối nhũn trên bắp cải hiệu quả?",
     "keypoint_recall": {
-      "matched": [
-        "đảm bảo hệ thống thoát nước tốt",
-        "tránh tưới quá đẫm"
-      ],
+      "matched": [],
       "missing": [
+        "đảm bảo hệ thống thoát nước tốt",
+        "tránh tưới quá đẫm",
         "luân canh với cây khác họ"
       ],
       "total_expected": 3,
-      "recall": 0.667
+      "recall": 0.0
     },
-    "latency_sec": 40.35,
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 5,
+      "groundedness": 5,
+      "note": "Câu trả lời đúng và bao quát đầy đủ ba ý chính, đồng thời bổ sung thông tin cụ thể, phù hợp về điều kiện phát sinh và triệu chứng bệnh."
+    },
+    "latency_sec": 15.46,
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
@@ -193,7 +207,13 @@
       "total_expected": 10,
       "recall": 0.2
     },
-    "latency_sec": 86.65,
+    "llm_judge": {
+      "accuracy": 4,
+      "completeness": 2,
+      "groundedness": 4,
+      "note": "Nêu đúng hai bệnh và biện pháp cho bệnh thối nhũn, nhưng thiếu hoàn toàn các giai đoạn sinh trưởng bắt buộc và chưa có cách phòng trừ bệnh sương mai."
+    },
+    "latency_sec": 13.35,
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
@@ -219,10 +239,9 @@
       "total_expected": 8,
       "recall": 1.0
     },
-    "latency_sec": 48.13,
+    "latency_sec": 6.9,
     "tools_called": [
-      "query_crop_knowledge_graph",
-      "search_agriculture_documents"
+      "query_crop_knowledge_graph"
     ]
   },
   {
@@ -240,7 +259,7 @@
       "total_expected": 3,
       "recall": 1.0
     },
-    "latency_sec": 7.82,
+    "latency_sec": 7.43,
     "tools_called": [
       "query_crop_knowledge_graph"
     ]
@@ -251,19 +270,23 @@
     "crop": "Cà rốt",
     "question": "Vì sao không nên bón phân chuồng tươi trực tiếp khi trồng cà rốt?",
     "keypoint_recall": {
-      "matched": [
-        "dễ làm củ bị phân nhánh"
-      ],
+      "matched": [],
       "missing": [
+        "dễ làm củ bị phân nhánh",
         "nên dùng phân chuồng đã hoai mục hoàn toàn"
       ],
       "total_expected": 2,
-      "recall": 0.5
+      "recall": 0.0
     },
-    "latency_sec": 28.97,
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 5,
+      "groundedness": 5,
+      "note": "Câu trả lời nêu đúng nguyên nhân củ bị phân nhánh và khuyến nghị sử dụng phân chuồng đã hoai mục hoàn toàn."
+    },
+    "latency_sec": 5.47,
     "tools_called": [
-      "search_agriculture_documents",
-      "query_crop_knowledge_graph"
+      "search_agriculture_documents"
     ]
   },
   {
@@ -271,90 +294,346 @@
     "category": "multi",
     "crop": "Cà rốt",
     "question": "Cà rốt hay bị bệnh gì, và cần chú ý gì về đất trồng để hạn chế bệnh đó?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 20.800315918s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Bệnh cháy lá",
+        "Bệnh thối rễ",
+        "Bệnh thối đen"
+      ],
+      "missing": [
+        "Nảy mầm",
+        "10",
+        "Phát triển rễ",
+        "30",
+        "Hình thành củ",
+        "35",
+        "Thu hoạch",
+        "15"
+      ],
+      "total_expected": 11,
+      "recall": 0.273
+    },
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 3,
+      "groundedness": 5,
+      "note": "Nêu đúng ba bệnh và các lưu ý về đất, thoát nước, tưới và luân canh; tuy nhiên bỏ sót toàn bộ các giai đoạn sinh trưởng và thời lượng tương ứng."
+    },
+    "latency_sec": 18.98,
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ]
   },
   {
     "id": "kg-013",
     "category": "kg",
     "crop": "Dưa leo",
     "question": "Cây Dưa leo có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.360584403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Nảy mầm",
+        "5",
+        "Phát triển thân vòi",
+        "15",
+        "Ra hoa",
+        "10",
+        "Đậu quả",
+        "15",
+        "Thu hoạch",
+        "20"
+      ],
+      "missing": [],
+      "total_expected": 10,
+      "recall": 1.0
+    },
+    "latency_sec": 7.32,
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ]
   },
   {
     "id": "kg-014",
     "category": "kg",
     "crop": "Dưa leo",
     "question": "Dưa leo thường mắc những loại bệnh nào?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 8.93877094s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Bệnh héo xanh",
+        "Bệnh phấn trắng",
+        "Bệnh sương mai"
+      ],
+      "missing": [],
+      "total_expected": 3,
+      "recall": 1.0
+    },
+    "latency_sec": 5.71,
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ]
   },
   {
     "id": "rag-015",
     "category": "rag",
     "crop": "Dưa leo",
     "question": "Kỹ thuật làm giàn cho dưa leo cần lưu ý gì?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 34.172640935s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    "keypoint_recall": {
+      "matched": [],
+      "missing": [
+        "làm giàn hoặc cắm cọc ngay khi cây con có 2-3 lá thật",
+        "nếu để bò trên đất quả dễ bị cong vẹo, tiếp xúc đất gây thối"
+      ],
+      "total_expected": 2,
+      "recall": 0.0
+    },
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 5,
+      "groundedness": 5,
+      "note": "Câu trả lời nêu đúng thời điểm làm giàn, giải thích rõ nguy cơ quả cong vẹo và thối khi tiếp xúc đất, đồng thời bổ sung các lưu ý cụ thể, phù hợp."
+    },
+    "latency_sec": 13.88,
+    "tools_called": [
+      "search_agriculture_documents"
+    ]
   },
   {
     "id": "multi-016",
     "category": "multi",
     "crop": "Dưa leo",
     "question": "Dưa leo có những giai đoạn sinh trưởng nào, và giai đoạn ra hoa cần chăm sóc gì đặc biệt?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 57.848326904s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Nảy mầm",
+        "5",
+        "15",
+        "Ra hoa",
+        "10",
+        "Đậu quả",
+        "15",
+        "Thu hoạch",
+        "20"
+      ],
+      "missing": [
+        "Phát triển thân vòi",
+        "Bệnh héo xanh",
+        "Bệnh phấn trắng",
+        "Bệnh sương mai"
+      ],
+      "total_expected": 13,
+      "recall": 0.692
+    },
+    "llm_judge": {
+      "accuracy": 4,
+      "completeness": 2,
+      "groundedness": 4,
+      "note": "Nêu đúng các giai đoạn và thời lượng cùng chăm sóc ra hoa khá cụ thể, nhưng bỏ sót cả ba bệnh héo xanh, phấn trắng và sương mai."
+    },
+    "latency_sec": 14.5,
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ]
   },
   {
     "id": "kg-017",
     "category": "kg",
     "crop": "Rau muống",
     "question": "Cây Rau muống có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 20.903759923s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Nảy mầm",
+        "5",
+        "15",
+        "Thu hoạch",
+        "20"
+      ],
+      "missing": [
+        "Phát triển thân lá"
+      ],
+      "total_expected": 6,
+      "recall": 0.833
+    },
+    "latency_sec": 7.84,
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ]
   },
   {
     "id": "kg-018",
     "category": "kg",
     "crop": "Rau muống",
     "question": "Rau muống thường mắc những loại bệnh nào?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.480156812s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Bệnh gỉ sắt",
+        "Bệnh thán thư"
+      ],
+      "missing": [],
+      "total_expected": 2,
+      "recall": 1.0
+    },
+    "latency_sec": 6.53,
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ]
   },
   {
     "id": "rag-019",
     "category": "rag",
     "crop": "Rau muống",
     "question": "Rau muống cần được bón phân và tưới nước như thế nào để đạt năng suất cao?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 8.872101017s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}"
+    "keypoint_recall": {
+      "matched": [],
+      "missing": [
+        "bón phân đạm định kỳ 7-10 ngày một lần",
+        "tưới nước 2 lần mỗi ngày vào sáng sớm và chiều mát"
+      ],
+      "total_expected": 2,
+      "recall": 0.0
+    },
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 5,
+      "groundedness": 5,
+      "note": "Nêu đúng cả hai ý chính về bón đạm định kỳ 7–10 ngày/lần và tưới nước hai lần mỗi ngày vào sáng sớm, chiều mát, đồng thời bổ sung hướng dẫn kỹ thuật cụ thể."
+    },
+    "latency_sec": 9.34,
+    "tools_called": [
+      "search_agriculture_documents"
+    ]
   },
   {
     "id": "multi-020",
     "category": "multi",
     "crop": "Rau muống",
     "question": "Rau muống có những giai đoạn sinh trưởng nào, và cần tưới nước ra sao ở giai đoạn thân lá?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 32.791743931s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Nảy mầm",
+        "5",
+        "Phát triển thân lá",
+        "15",
+        "Thu hoạch",
+        "20"
+      ],
+      "missing": [
+        "Bệnh gỉ sắt",
+        "Bệnh thán thư"
+      ],
+      "total_expected": 8,
+      "recall": 0.75
+    },
+    "llm_judge": {
+      "accuracy": 4,
+      "completeness": 2,
+      "groundedness": 4,
+      "note": "Nêu đúng các mốc 5, 15 và 20 ngày, cùng hướng dẫn tưới khá cụ thể; tuy nhiên bỏ sót hoàn toàn bệnh gỉ sắt và bệnh thán thư."
+    },
+    "latency_sec": 11.95,
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ]
   },
   {
     "id": "kg-021",
     "category": "kg",
     "crop": "Su hào",
     "question": "Cây Su hào có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 56.711830784s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Nảy mầm",
+        "7",
+        "Phát triển củ",
+        "35",
+        "Thu hoạch",
+        "15"
+      ],
+      "missing": [],
+      "total_expected": 6,
+      "recall": 1.0
+    },
+    "latency_sec": 7.61,
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ]
   },
   {
     "id": "kg-022",
     "category": "kg",
     "crop": "Su hào",
     "question": "Su hào thường mắc những loại bệnh nào?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 21.47412825s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Bệnh sương mai",
+        "Bệnh thối nhũn"
+      ],
+      "missing": [],
+      "total_expected": 2,
+      "recall": 1.0
+    },
+    "latency_sec": 6.73,
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ]
   },
   {
     "id": "rag-023",
     "category": "rag",
     "crop": "Su hào",
     "question": "Dấu hiệu nào cho biết su hào đã đến độ thu hoạch?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.445500574s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+    "keypoint_recall": {
+      "matched": [],
+      "missing": [
+        "củ đạt đường kính khoảng 8-10cm",
+        "vỏ củ căng bóng"
+      ],
+      "total_expected": 2,
+      "recall": 0.0
+    },
+    "llm_judge": {
+      "accuracy": 5,
+      "completeness": 5,
+      "groundedness": 5,
+      "note": "Câu trả lời nêu đầy đủ hai dấu hiệu chính là đường kính củ 8–10 cm và vỏ củ căng bóng, đồng thời bổ sung các thông tin phù hợp."
+    },
+    "latency_sec": 7.04,
+    "tools_called": [
+      "search_agriculture_documents"
+    ]
   },
   {
     "id": "multi-024",
     "category": "multi",
     "crop": "Su hào",
     "question": "Su hào thường gặp sâu bệnh gì, và cần làm gì để phòng trừ trong giai đoạn cây con?",
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 10.228361624s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '10s'}]}}"
+    "kg_score": {
+      "matched": [
+        "Bệnh sương mai",
+        "Bệnh thối nhũn"
+      ],
+      "missing": [
+        "Nảy mầm",
+        "7",
+        "Phát triển củ",
+        "35",
+        "Thu hoạch",
+        "15"
+      ],
+      "total_expected": 8,
+      "recall": 0.25
+    },
+    "llm_judge": {
+      "accuracy": 4,
+      "completeness": 3,
+      "groundedness": 4,
+      "note": "Câu trả lời nêu đúng hai bệnh và nhiều biện pháp phòng trừ phù hợp, nhưng bỏ sót các mốc giai đoạn 7, 35 và 15 ngày theo dữ liệu yêu cầu."
+    },
+    "latency_sec": 14.89,
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ]
   }
 ]

@@ -5,7 +5,7 @@ Cau hoi loai "kg": cham tu dong bang cach kiem tra cau tra loi co chua dung
   cac gia tri ground truth (ten giai doan, so ngay, ten benh) hay khong
   -> tinh Precision / Recall / F1 tren tap "field" ky vong xuat hien.
 
-Cau hoi loai "rag" va "multi": dung LLM-as-judge (goi lai Gemini) de cham
+Cau hoi loai "rag" va "multi": dung LLM-as-judge (goi lai Gemini/Claude) de cham
   diem 1-5 theo 3 tieu chi: do chinh xac, do day du, co can cu (khong bia).
   Can GOOGLE_API_KEY hop le. Neu muon bo qua buoc nay (vi du chi can so lieu
   KG truoc), dung --skip-llm-judge.
@@ -16,12 +16,17 @@ Chay tu thu muc goc project:
 """
 import argparse
 import json
+import os
 import re
 import sys
 import time
 import unicodedata
 from pathlib import Path
 
+from dotenv import load_dotenv
+from langchain_anthropic import ChatAnthropic
+
+load_dotenv()
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
@@ -80,7 +85,12 @@ def score_keypoints(record, ground_truth):
             missing.append(point)
     total = len(key_points)
     recall = len(matched) / total if total else None
-    return {"matched": matched, "missing": missing, "total_expected": total, "recall": round(recall, 3) if recall is not None else None}
+    return {
+        "matched": matched,
+        "missing": missing,
+        "total_expected": total,
+        "recall": round(recall, 3) if recall is not None else None,
+    }
 
 
 LLM_JUDGE_PROMPT = """Ban la giam khao danh gia chat luong cau tra loi cua mot chatbot tu van nong nghiep.
@@ -123,32 +133,64 @@ def llm_judge(record, ground_truth, llm):
     text = response.content if hasattr(response, "content") else str(response)
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if not match:
-        return {"accuracy": None, "completeness": None, "groundedness": None, "note": f"khong parse duoc: {text[:200]}"}
+        return {
+            "accuracy": None,
+            "completeness": None,
+            "groundedness": None,
+            "note": f"khong parse duoc: {text[:200]}",
+        }
     try:
         return json.loads(match.group(0))
     except json.JSONDecodeError:
-        return {"accuracy": None, "completeness": None, "groundedness": None, "note": f"JSON loi: {text[:200]}"}
+        return {
+            "accuracy": None,
+            "completeness": None,
+            "groundedness": None,
+            "note": f"JSON loi: {text[:200]}",
+        }
 
 
-def run(results_path: Path, questions_path: Path, output_path: Path, skip_llm_judge: bool, sleep_sec: float):
-    results = {r["id"]: r for r in json.loads(results_path.read_text(encoding="utf-8"))}
-    questions = {q["id"]: q for q in json.loads(questions_path.read_text(encoding="utf-8"))}
+def run(
+    results_path: Path,
+    questions_path: Path,
+    output_path: Path,
+    skip_llm_judge: bool,
+    sleep_sec: float,
+):
+    results = {
+        r["id"]: r for r in json.loads(results_path.read_text(encoding="utf-8"))
+    }
+    questions = {
+        q["id"]: q for q in json.loads(questions_path.read_text(encoding="utf-8"))
+    }
 
     llm = None
     if not skip_llm_judge:
-        import os
-        from dotenv import load_dotenv
-        from langchain_google_genai import ChatGoogleGenerativeAI
-
-        load_dotenv()
-        llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", temperature=0, api_key=os.getenv("GOOGLE_API_KEY"))
+        load_dotenv("api-key.env")
+        llm = ChatAnthropic(
+            model="claude-haiku-4-5",
+            temperature=0,
+            api_key=os.getenv("GOOGLE_API_KEY"),
+            base_url="https://chat.trollllm.xyz",
+            default_headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                    " AppleWebKit/537.36"
+                )
+            },
+        )
 
     scored = []
     for qid, record in results.items():
         q = questions.get(qid)
         if q is None:
             continue
-        entry = {"id": qid, "category": q["category"], "crop": q["crop"], "question": q["question"]}
+        entry = {
+            "id": qid,
+            "category": q["category"],
+            "crop": q["crop"],
+            "question": q["question"],
+        }
 
         if record.get("error"):
             entry["error"] = record["error"]
@@ -161,7 +203,9 @@ def run(results_path: Path, questions_path: Path, output_path: Path, skip_llm_ju
             if q["category"] == "multi":
                 entry["kg_score"] = score_kg(record, q["ground_truth"])
             if "key_points" in q["ground_truth"]:
-                entry["keypoint_recall"] = score_keypoints(record, q["ground_truth"])
+                entry["keypoint_recall"] = score_keypoints(
+                    record, q["ground_truth"]
+                )
             if not skip_llm_judge:
                 print(f"Cham LLM-judge: {qid}")
                 entry["llm_judge"] = llm_judge(record, q["ground_truth"], llm)
@@ -172,35 +216,68 @@ def run(results_path: Path, questions_path: Path, output_path: Path, skip_llm_ju
         entry["tools_called"] = record.get("tools_called")
         scored.append(entry)
 
-    output_path.write_text(json.dumps(scored, ensure_ascii=False, indent=2), encoding="utf-8")
+    output_path.write_text(
+        json.dumps(scored, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     print(f"\nDa cham diem {len(scored)} cau -> {output_path}")
     print_summary(scored)
 
 
 def print_summary(scored):
-    kg_recalls = [e["kg_score"]["recall"] for e in scored if "kg_score" in e and e["kg_score"]["recall"] is not None]
-    judged = [e["llm_judge"] for e in scored if "llm_judge" in e and e["llm_judge"].get("accuracy") is not None]
+    kg_recalls = [
+        e["kg_score"]["recall"]
+        for e in scored
+        if "kg_score" in e and e["kg_score"]["recall"] is not None
+    ]
+    judged = [
+        e["llm_judge"]
+        for e in scored
+        if "llm_judge" in e and e["llm_judge"].get("accuracy") is not None
+    ]
 
     print("\n=== TOM TAT ===")
     if kg_recalls:
-        print(f"KG recall trung binh: {sum(kg_recalls)/len(kg_recalls):.2%} ({len(kg_recalls)} cau)")
+        print(
+            f"KG recall trung binh: {sum(kg_recalls)/len(kg_recalls):.2%}"
+            f" ({len(kg_recalls)} cau)"
+        )
     if judged:
         for key in ("accuracy", "completeness", "groundedness"):
             vals = [j[key] for j in judged if j.get(key) is not None]
             if vals:
-                print(f"LLM-judge {key} trung binh: {sum(vals)/len(vals):.2f}/5 ({len(vals)} cau)")
-    latencies = [e["latency_sec"] for e in scored if e.get("latency_sec") is not None]
+                print(
+                    f"LLM-judge {key} trung binh:"
+                    f" {sum(vals)/len(vals):.2f}/5 ({len(vals)} cau)"
+                )
+    latencies = [
+        e["latency_sec"] for e in scored if e.get("latency_sec") is not None
+    ]
     if latencies:
-        print(f"Latency trung binh: {sum(latencies)/len(latencies):.2f}s (min={min(latencies):.2f}s, max={max(latencies):.2f}s)")
+        print(
+            f"Latency trung binh: {sum(latencies)/len(latencies):.2f}s"
+            f" (min={min(latencies):.2f}s, max={max(latencies):.2f}s)"
+        )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--results", default=str(Path(__file__).parent / "results_raw.json"))
-    parser.add_argument("--questions", default=str(Path(__file__).parent / "questions.json"))
-    parser.add_argument("--output", default=str(Path(__file__).parent / "scored_results.json"))
+    parser.add_argument(
+        "--results", default=str(Path(__file__).parent / "results_raw.json")
+    )
+    parser.add_argument(
+        "--questions", default=str(Path(__file__).parent / "questions.json")
+    )
+    parser.add_argument(
+        "--output", default=str(Path(__file__).parent / "scored_results.json")
+    )
     parser.add_argument("--skip-llm-judge", action="store_true")
     parser.add_argument("--sleep", type=float, default=1.0)
     args = parser.parse_args()
 
-    run(Path(args.results), Path(args.questions), Path(args.output), args.skip_llm_judge, args.sleep)
+    run(
+        Path(args.results),
+        Path(args.questions),
+        Path(args.output),
+        args.skip_llm_judge,
+        args.sleep,
+    )

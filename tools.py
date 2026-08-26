@@ -4,6 +4,8 @@ from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 from hybrid_retriever import hybrid_search
 
+import json
+
 # Client gọi GraphQL API đã dựng ở Bước 2
 transport = RequestsHTTPTransport(url="http://localhost:8001/graphql")
 gql_client = Client(transport=transport, fetch_schema_from_transport=True)
@@ -22,7 +24,7 @@ def query_crop_knowledge_graph(crop_name: str) -> str:
         }}
     ''')
     result = gql_client.execute(query)
-    return str(result)
+    return json.dumps(result, ensure_ascii=False)
 
 @tool
 def search_agriculture_documents(question: str) -> str:
@@ -39,7 +41,7 @@ def list_all_diseases() -> str:
         query { allDiseases { name } }
     ''')
     result = gql_client.execute(query)
-    return str(result)
+    return json.dumps(result, ensure_ascii=False)
 
 @tool
 def list_all_crops() -> str:
@@ -53,7 +55,7 @@ def list_all_crops() -> str:
         }
     ''')
     result = gql_client.execute(query)
-    return str(result)
+    return json.dumps(result, ensure_ascii=False)
 
 @tool
 def list_all_soil_types() -> str:
@@ -62,7 +64,7 @@ def list_all_soil_types() -> str:
         query { allSoilTypes }
     ''')
     result = gql_client.execute(query)
-    return str(result)
+    return json.dumps(result, ensure_ascii=False)
 
 @tool
 def list_all_seasons() -> str:
@@ -71,6 +73,6 @@ def list_all_seasons() -> str:
         query { allSeasons }
     ''')
     result = gql_client.execute(query)
-    return str(result)
+    return json.dumps(result, ensure_ascii=False)
 
 tools = [query_crop_knowledge_graph, search_agriculture_documents, list_all_diseases, list_all_crops, list_all_soil_types, list_all_seasons]

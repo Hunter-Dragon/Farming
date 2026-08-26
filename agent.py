@@ -1,16 +1,25 @@
-# agent.py
-
-from langchain_classic.agents import create_tool_calling_agent, AgentExecutor
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.prompts import ChatPromptTemplate
-from tools import tools
+import os
 from dotenv import load_dotenv
 
-import os
+from langchain_classic.agents import AgentExecutor, create_tool_calling_agent
+from langchain_core.prompts import ChatPromptTemplate
+# 1. Import đúng ChatAnthropic từ langchain_anthropic
+from langchain_anthropic import ChatAnthropic
+
+from tools import tools
 
 load_dotenv("api-key.env")
 
-llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", temperature=0, api_key=os.getenv("GOOGLE_API_KEY"))
+# 2. Khởi tạo LLM với ChatAnthropic đúng cấu hình TrollLLM
+llm = ChatAnthropic(
+    model="claude-haiku-4-5",
+    temperature=0,
+    api_key=os.getenv("GOOGLE_API_KEY"),  # đây là key TrollLLM
+    base_url="https://chat.trollllm.xyz",  # ĐÚNG - không có /v1, khớp tài liệu
+    default_headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+)
 
 SYSTEM_PROMPT = """Bạn là trợ lý AI chuyên về nông nghiệp rau củ.
 Bạn có 2 công cụ:
@@ -41,20 +50,23 @@ QUAN TRỌNG: Chỉ trả lời dựa trên kết quả tool trả về. Nếu k
 hãy nói rõ là không tìm thấy dữ liệu, KHÔNG được bịa thông tin.
 """
 
-prompt = ChatPromptTemplate.from_messages([
-    ("system", SYSTEM_PROMPT),
-    ("human", "{input}"),
-    ("placeholder", "{agent_scratchpad}"),
-])
+prompt = ChatPromptTemplate.from_messages(
+    [
+        ("system", SYSTEM_PROMPT),
+        ("human", "{input}"),
+        ("placeholder", "{agent_scratchpad}"),
+    ]
+)
 
 agent = create_tool_calling_agent(llm, tools, prompt)
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+
 
 def ask(question: str) -> str:
     result = agent_executor.invoke({"input": question})
     output = result["output"]
 
-    # Trường hợp 1: output là list chứa dict (dạng content blocks)
+    # Xử lý format trả về của Anthropic Messages nếu bị trả dạng list/content blocks
     if isinstance(output, list):
         texts = []
         for item in output:
@@ -64,9 +76,9 @@ def ask(question: str) -> str:
                 texts.append(str(item))
         return "\n".join(texts)
 
-    # Trường hợp 2: output là string nhưng trông giống list (do bị str() nhầm ở đâu đó)
     if isinstance(output, str) and output.strip().startswith("[{"):
         import ast
+
         try:
             parsed = ast.literal_eval(output)
             if isinstance(parsed, list):

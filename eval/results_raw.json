@@ -5,12 +5,11 @@
     "crop": "Cà chua",
     "question": "Cây Cà chua có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": "Dựa trên dữ liệu từ hệ thống, các giai đoạn sinh trưởng của cây Cà chua và thời gian tương ứng được ghi nhận như sau:\n\n### 1. Dữ liệu giai đoạn sinh trưởng chi tiết:\n* **Giai đoạn Nảy mầm:** 7 ngày\n* **Giai đoạn Thắt thân:** 15 ngày\n* **Giai đoạn Đậu quả:** 25 ngày\n* **Giai đoạn Ra hoa:** 30 ngày\n* **Giai đoạn Thu hoạch:** 20 ngày\n\n### 2. Thông tin bổ sung từ tài liệu kỹ thuật:\n* **Giai đoạn phát triển thân lá:** Kéo dài khoảng **25–30 ngày** sau khi trồng (cây vươn cao, phân cành mạnh mẽ).\n* **Giai đoạn ra hoa và đậu quả:** Kéo dài khoảng **40–50 ngày**.\n* **Tổng thời gian sinh trưởng:** Từ khi trồng đến khi bắt đầu thu hoạch kéo dài khoảng **75–90 ngày**. Quả đến độ thu hoạch có vỏ chuyển từ xanh sang vàng cam rồi đỏ tươi, căng mọng và chắc tay.",
+    "answer": "Cây cà chua có các giai đoạn sinh trưởng sau:\n\n- **Nảy mầm:** 7 ngày  \n- **Thắt thân:** 15 ngày  \n- **Ra hoa:** 30 ngày  \n- **Đậu quả:** 25 ngày  \n- **Thu hoạch:** 20 ngày  \n\nĐây là các giai đoạn và thời lượng được ghi nhận trong hệ thống.",
     "tools_called": [
-      "query_crop_knowledge_graph",
-      "search_agriculture_documents"
+      "query_crop_knowledge_graph"
     ],
-    "latency_sec": 12.0,
+    "latency_sec": 7.34,
     "error": null
   },
   {
@@ -19,11 +18,11 @@
     "crop": "Cà chua",
     "question": "Cà chua thường mắc những loại bệnh nào?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": "Theo dữ liệu trong hệ thống, cây **Cà chua** thường mắc các loại bệnh sau:\n\n1. **Bệnh sương mai**\n2. **Bệnh héo xanh**\n3. **Bệnh đốm lá**\n4. **Bệnh mốc sương**",
+    "answer": "Cà chua thường mắc các bệnh sau:\n\n- Bệnh sương mai\n- Bệnh héo xanh\n- Bệnh đốm lá\n- Bệnh mốc sương",
     "tools_called": [
       "query_crop_knowledge_graph"
     ],
-    "latency_sec": 9.33,
+    "latency_sec": 6.62,
     "error": null
   },
   {
@@ -32,12 +31,12 @@
     "crop": "Cà chua",
     "question": "Cách bón phân và chăm sóc cà chua trong giai đoạn ra hoa như thế nào?",
     "expected_tool": "search_agriculture_documents",
-    "answer": "Dưới đây là hướng dẫn bón phân và chăm sóc cà chua trong giai đoạn ra hoa dựa trên dữ liệu hệ thống:\n\n### 1. Thông tin chung về giai đoạn ra hoa\n- **Thời điểm bắt đầu:** Khoảng 25–30 ngày sau khi trồng.\n- **Thời gian kéo dài:** Giai đoạn ra hoa kéo dài khoảng 30 ngày (giai đoạn ra hoa và đậu quả kéo dài từ 40–50 ngày).\n\n---\n\n### 2. Kỹ thuật bón phân\n- **Tăng cường Kali và Canxi:** Đây là dinh dưỡng then chốt giúp tăng tỷ lệ đậu quả, giúp hoa đậu nhiều, vỏ quả dày, bóng đẹp, chắc thịt và phòng tránh hiện tượng nứt quả hoặc thối đít quả.\n- **Hạn chế đạm:** Tránh bón quá nhiều phân đạm vì sẽ khiến cây tập trung phát triển thân lá mà ít ra hoa.\n\n---\n\n### 3. Kỹ thuật chăm sóc\n- **Làm giàn/cắm cọc:** Tiến hành làm giàn hoặc cắm cọc chống đổ khi cây bắt đầu ra hoa vì thân cây cà chua tương đối yếu.\n- **Tưới nước:** Tưới nước đều đặn quanh gốc để giữ ẩm. Tránh tưới quá đẫm đột ngột làm rụng hoa hoặc gây nứt quả về sau.\n\n---\n\n### 4. Sâu bệnh hại cần lưu ý phòng trừ đối với cây cà chua\nTrong quá trình canh tác, cần chú ý theo dõi các loại bệnh hại phổ biến ở cà chua như:\n- Bệnh sương mai\n- Bệnh mốc sương\n- Bệnh héo xanh\n- Bệnh đốm lá",
+    "answer": "Trong giai đoạn **ra hoa**, cà chua cần được chăm sóc như sau:\n\n- **Bón phân:** Tăng cường phân **kali** để nâng tỷ lệ đậu quả. Bổ sung **canxi** giúp quả chắc, vỏ bóng, hạn chế nứt quả và thối đít quả.\n- **Hạn chế đạm:** Không bón quá nhiều đạm vì cây dễ phát triển thân lá mạnh nhưng ít hoa.\n- **Tưới nước:** Tưới đều quanh gốc, giữ ẩm ổn định; tránh tưới quá đẫm hoặc thay đổi lượng nước đột ngột vì có thể làm rụng hoa và nứt quả.\n- **Làm giàn:** Cắm cọc hoặc làm giàn khi cây bắt đầu ra hoa để tránh đổ ngã. Có thể dùng cọc đơn cao khoảng **1,5–1,8 m** hoặc giàn hình chữ A.\n- **Tỉa cành:** Tỉa bỏ chồi nách yếu, giữ thân chính và khoảng **1–2 nhánh khỏe** để cây tập trung dinh dưỡng cho hoa và quả.\n\nTheo dữ liệu hệ thống, giai đoạn ra hoa của cà chua kéo dài khoảng **30 ngày**; giai đoạn ra hoa và đậu quả kéo dài khoảng **40–50 ngày**. Kết quả tra cứu không cung cấp liều lượng cụ thể cho từng loại phân, nên không nên tự áp dụng một liều cố định.",
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
     ],
-    "latency_sec": 10.7,
+    "latency_sec": 13.95,
     "error": null
   },
   {
@@ -46,12 +45,12 @@
     "crop": "Cà chua",
     "question": "Cây cà chua có những giai đoạn sinh trưởng nào, và ở giai đoạn ra hoa cần chăm sóc như thế nào để tăng tỷ lệ đậu quả?",
     "expected_tool": "both",
-    "answer": "Dựa trên dữ liệu hệ thống, dưới đây là thông tin về các giai đoạn sinh trưởng của cây cà chua và kỹ thuật chăm sóc giai đoạn ra hoa:\n\n### 1. Các giai đoạn sinh trưởng của cây cà chua\n* **Giai đoạn nảy mầm:** khoảng 7 ngày.\n* **Giai đoạn thắt thân:** khoảng 15 ngày.\n* **Giai đoạn ra hoa:** khoảng 30 ngày.\n* **Giai đoạn đậu quả:** khoảng 25 ngày.\n* **Giai đoạn thu hoạch:** khoảng 20 ngày.\n\n---\n\n### 2. Kỹ thuật chăm sóc giai đoạn ra hoa để tăng tỷ lệ đậu quả\n* **Bón phân & Dinh dưỡng:**\n  * **Tăng cường Kali, Canxi và Bo:** Giúp tăng tỷ lệ đậu quả, giúp hoa đậu nhiều, vỏ quả dày, bóng đẹp, ngăn ngừa tình trạng thối đít quả và nứt quả.\n  * **Hạn chế bón quá nhiều Đạm:** Việc bón thừa đạm sẽ khiến cây tập trung phát triển thân lá, giảm khả năng ra hoa và đậu quả.\n* **Chế độ tưới nước:**\n  * Duy trì độ ẩm đất ổn định và tưới nước đều đặn quanh gốc.\n  * Tránh để đất quá khô hạn hoặc ngập vũng; không tưới quá đẫm đột ngột vì có thể gây rụng hoa và rụng quả non.\n* **Kỹ thuật canh tác:**\n  * Cắm cọc hoặc làm giàn chống đổ cho cây khi bắt đầu ra hoa để nâng đỡ thân cây yếu.",
+    "answer": "## Các giai đoạn sinh trưởng của cà chua\n\nTheo dữ liệu hệ thống, cà chua có các giai đoạn:\n\n1. **Nảy mầm:** khoảng 7 ngày  \n2. **Thắt thân:** khoảng 15 ngày  \n3. **Ra hoa:** khoảng 30 ngày  \n4. **Đậu quả:** khoảng 25 ngày  \n5. **Thu hoạch:** khoảng 20 ngày  \n\n*Tài liệu kỹ thuật ghi nhận giai đoạn phát triển thân lá thường kéo dài khoảng 25–30 ngày sau trồng; giai đoạn ra hoa thường bắt đầu khoảng 25–30 ngày sau trồng.*\n\n## Chăm sóc khi cây ra hoa để tăng tỷ lệ đậu quả\n\n- **Tăng cường kali:** Bón thúc thêm kali để hỗ trợ ra hoa và tăng tỷ lệ đậu quả.\n- **Bổ sung canxi:** Kali và canxi giúp hoa đậu tốt hơn, quả chắc, vỏ bóng và hạn chế nứt hoặc thối đáy quả.\n- **Không bón quá nhiều đạm:** Thừa đạm khiến cây tập trung phát triển thân lá, làm giảm khả năng ra hoa và đậu quả.\n- **Tưới nước ổn định:** Tưới đều quanh gốc, duy trì ẩm độ đất ổn định; tránh để cây quá khô hoặc tưới quá đẫm đột ngột vì có thể làm rụng hoa, đồng thời gây nứt quả khi quả lớn nhanh.\n- **Làm giàn hoặc cắm cọc:** Thực hiện khi cây bắt đầu ra hoa để nâng đỡ thân, hạn chế đổ ngã.\n- **Tỉa chồi nách yếu:** Có thể giữ thân chính và 1–2 nhánh khỏe, giúp cây thông thoáng và tập trung dinh dưỡng cho hoa, quả.",
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
     ],
-    "latency_sec": 43.71,
+    "latency_sec": 16.93,
     "error": null
   },
   {
@@ -60,12 +59,11 @@
     "crop": "Bắp cải",
     "question": "Cây Bắp cải có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": "Dựa trên dữ liệu hệ thống, cây **Bắp cải** có các giai đoạn sinh trưởng với thời gian kéo dài cụ thể như sau:\n\n### 1. Dữ liệu từ cơ sở tri thức (Knowledge Graph):\n* **Giai đoạn Nảy mầm:** kéo dài khoảng **8 ngày**.\n* **Giai đoạn Phát triển lá:** kéo dài khoảng **25 ngày**.\n* **Giai đoạn Cuộn bắp:** kéo dài khoảng **30 ngày**.\n* **Giai đoạn Thu hoạch:** kéo dài khoảng **15 ngày**.\n\n---\n\n### 2. Thông tin kỹ thuật chi tiết từ tài liệu canh tác:\n* **Giai đoạn nảy mầm (vườn ươm):** Kéo dài khoảng **5–6 ngày** sau khi gieo hạt. Cây con đạt 4–5 lá thật (khoảng 25–30 ngày sau gieo) sẽ được đem ra ruộng trồng.\n* **Giai đoạn phát triển lá:** Kéo dài khoảng **20–25 ngày** sau khi trồng ra ruộng, tập trung phát triển bộ lá trước khi vào cuộn.\n* **Tổng thời gian sinh trưởng:** Từ khi trồng ra ruộng đến khi thu hoạch kéo dài khoảng **80–100 ngày** (tùy thuộc vào từng giống bắp cải).",
+    "answer": "Cây **bắp cải** có các giai đoạn sinh trưởng sau:\n\n1. **Nảy mầm:** khoảng **8 ngày**  \n2. **Phát triển lá:** khoảng **25 ngày**  \n3. **Cuộn bắp:** khoảng **30 ngày**  \n4. **Thu hoạch:** khoảng **15 ngày**",
     "tools_called": [
-      "query_crop_knowledge_graph",
-      "search_agriculture_documents"
+      "query_crop_knowledge_graph"
     ],
-    "latency_sec": 11.33,
+    "latency_sec": 7.01,
     "error": null
   },
   {
@@ -74,11 +72,11 @@
     "crop": "Bắp cải",
     "question": "Bắp cải thường mắc những loại bệnh nào?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": "Theo dữ liệu hệ thống, cây **bắp cải** thường mắc các loại bệnh sau:\n\n1. **Bệnh sương mai**\n2. **Bệnh thối nhũn**",
+    "answer": "Bắp cải thường mắc các bệnh sau:\n\n- **Bệnh sương mai**\n- **Bệnh thối nhũn**",
     "tools_called": [
       "query_crop_knowledge_graph"
     ],
-    "latency_sec": 37.51,
+    "latency_sec": 7.68,
     "error": null
   },
   {
@@ -87,12 +85,12 @@
     "crop": "Bắp cải",
     "question": "Làm thế nào để phòng trừ bệnh thối nhũn trên bắp cải hiệu quả?",
     "expected_tool": "search_agriculture_documents",
-    "answer": "Dựa trên dữ liệu từ hệ thống, dưới đây là thông tin về **bệnh thối nhũn trên bắp cải** và các biện pháp phòng trừ:\n\n### 1. Đặc điểm và biểu hiện bệnh\n* **Nguyên nhân & Điều kiện phát sinh:** Bệnh thối nhũn vi khuẩn là bệnh hại nghiêm trọng trên bắp cải (bên cạnh bệnh sương mai), đặc biệt phát triển mạnh trong điều kiện nóng ẩm hoặc đất thoát nước kém.\n* **Biểu hiện:** Phần gốc và bắp cải bị thối nhũn, chảy nước và có mùi hôi đặc trưng.\n\n---\n\n### 2. Biện pháp phòng trừ hiệu quả\nĐể phòng trừ bệnh thối nhũn trên bắp cải hiệu quả, bạn cần thực hiện các kỹ thuật canh tác sau:\n* **Quản lý nước và đất trồng:** Đảm bảo hệ thống thoát nước tốt, không để đất bị ngập vũng và tránh tưới quá đẫm.\n* **Luân canh cây trồng:** Luân canh bắp cải với các cây trồng khác họ để hạn chế nguồn vi khuẩn gây bệnh tích lũy trong đất.",
+    "answer": "Để phòng trừ **bệnh thối nhũn vi khuẩn trên bắp cải**, nên:\n\n- **Cải thiện thoát nước**, tránh để ruộng úng hoặc đất quá ẩm.\n- **Không tưới quá đẫm**, vì ẩm độ cao tạo điều kiện bệnh phát triển.\n- **Luân canh với cây trồng khác họ** để hạn chế nguồn vi khuẩn tích lũy trong đất.\n- Chú ý phòng bệnh trong điều kiện **nóng ẩm**, là thời tiết bệnh dễ phát sinh.\n- Bệnh thường gây **thối nhũn ở phần gốc và bắp, chảy nước và có mùi hôi**; cần phát hiện sớm để xử lý và hạn chế lây lan.\n\nHệ thống hiện chưa cung cấp hướng dẫn cụ thể về loại thuốc hoặc chế phẩm xử lý trực tiếp cho bệnh này trên bắp cải.",
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
     ],
-    "latency_sec": 40.35,
+    "latency_sec": 15.46,
     "error": null
   },
   {
@@ -101,12 +99,12 @@
     "crop": "Bắp cải",
     "question": "Bắp cải thường mắc bệnh gì, và cách phòng trừ bệnh đó ra sao?",
     "expected_tool": "both",
-    "answer": "Theo dữ liệu từ hệ thống:\n\n### 1. Các bệnh thường gặp trên Bắp cải\nTheo cơ sở dữ liệu, Bắp cải thường mắc 2 loại bệnh chính:\n* **Bệnh thối nhũn**\n* **Bệnh sương mai**\n\n---\n\n### 2. Biện pháp phòng trừ\n* **Bệnh thối nhũn (do vi khuẩn):**\n  * **Đặc điểm/Biểu hiện:** Là bệnh hại nghiêm trọng nhất trên bắp cải, đặc biệt phát triển trong điều kiện nóng ẩm hoặc đất thoát nước kém. Biểu hiện là phần gốc và bắp bị thối nhũn, có mùi hôi đặc trưng.\n  * **Cách phòng trừ:** \n    * Đảm bảo hệ thống thoát nước tốt cho vườn trồng.\n    * Tránh tưới quá đẫm nước.\n    * Luân canh bắp cải với các cây trồng khác họ để hạn chế nguồn bệnh tích lũy trong đất.\n\n* **Bệnh sương mai:** \n  * Hiện tại hệ thống **chưa có tài liệu hướng dẫn kỹ thuật chi tiết về cách phòng trừ** cho bệnh sương mai trên cây bắp cải.",
+    "answer": "Theo dữ liệu hệ thống, **bắp cải thường mắc**:\n\n1. **Bệnh sương mai**\n   - Đây là bệnh được ghi nhận trên bắp cải.\n   - Hệ thống hiện **chưa có thông tin cụ thể về triệu chứng và cách phòng trừ** bệnh này.\n\n2. **Bệnh thối nhũn vi khuẩn**\n   - Là bệnh hại nghiêm trọng, thường phát triển mạnh trong điều kiện **nóng ẩm hoặc đất thoát nước kém**.\n   - **Biểu hiện:** phần gốc và bắp bị thối nhũn, thường có mùi hôi đặc trưng.\n   - **Phòng trừ:**\n     - Bảo đảm đất và ruộng có khả năng thoát nước tốt.\n     - Tránh tưới quá đẫm.\n     - Luân canh bắp cải với cây trồng khác họ để hạn chế nguồn bệnh tích lũy trong đất.\n\nHệ thống chưa cung cấp biện pháp phòng trừ chi tiết hơn cho bệnh sương mai.",
     "tools_called": [
       "query_crop_knowledge_graph",
       "search_agriculture_documents"
     ],
-    "latency_sec": 86.65,
+    "latency_sec": 13.35,
     "error": null
   },
   {
@@ -115,12 +113,11 @@
     "crop": "Cà rốt",
     "question": "Cây Cà rốt có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": "Theo dữ liệu trong hệ thống, cây Cà rốt có các giai đoạn sinh trưởng với thời gian kéo dài cụ thể như sau:\n\n1. **Giai đoạn Nảy mầm:** kéo dài **10 ngày** *(hạt cà rốt nảy mầm khá chậm, cần duy trì độ ẩm đất liên tục)*.\n2. **Giai đoạn Phát triển rễ:** kéo dài **30 ngày**.\n3. **Giai đoạn Hình thành củ:** kéo dài **35 ngày**.\n4. **Giai đoạn Thu hoạch:** kéo dài **15 ngày**.\n\n**Tổng thời gian sinh trưởng:** khoảng **90 ngày**.",
+    "answer": "Cây cà rốt có các giai đoạn sinh trưởng sau:\n\n1. **Nảy mầm:** khoảng **10 ngày**  \n2. **Phát triển rễ:** khoảng **30 ngày**  \n3. **Hình thành củ:** khoảng **35 ngày**  \n4. **Thu hoạch:** khoảng **15 ngày**",
     "tools_called": [
-      "query_crop_knowledge_graph",
-      "search_agriculture_documents"
+      "query_crop_knowledge_graph"
     ],
-    "latency_sec": 48.13,
+    "latency_sec": 6.9,
     "error": null
   },
   {
@@ -129,11 +126,11 @@
     "crop": "Cà rốt",
     "question": "Cà rốt thường mắc những loại bệnh nào?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": "Theo dữ liệu trong hệ thống, cây **cà rốt** thường mắc các loại bệnh sau:\n\n1. **Bệnh cháy lá**\n2. **Bệnh thối rễ**\n3. **Bệnh thối đen**",
+    "answer": "Cà rốt thường mắc các bệnh sau:\n\n- **Bệnh cháy lá**\n- **Bệnh thối rễ**\n- **Bệnh thối đen**",
     "tools_called": [
       "query_crop_knowledge_graph"
     ],
-    "latency_sec": 7.82,
+    "latency_sec": 7.43,
     "error": null
   },
   {
@@ -142,12 +139,11 @@
     "crop": "Cà rốt",
     "question": "Vì sao không nên bón phân chuồng tươi trực tiếp khi trồng cà rốt?",
     "expected_tool": "search_agriculture_documents",
-    "answer": "Không nên bón phân chuồng tươi trực tiếp khi trồng cà rốt vì:\n\n* **Dễ làm củ bị phân nhánh:** Phân chuồng tươi trực tiếp có thể ảnh hưởng đến quá trình phát triển củ, khiến củ cà rốt dễ bị dị dạng hoặc phân nhánh.\n\n**Khuyến cáo canh tác:** \n* Nên sử dụng **phân chuồng đã hoai mục hoàn toàn** hoặc **bón lót từ vụ trước**.\n* Đất trồng cần được cày bừa kỹ và làm tơi xốp đến độ sâu ít nhất 25–30 cm vì cà rốt là loại cây ăn củ sâu.",
+    "answer": "Không nên bón phân chuồng tươi trực tiếp khi trồng cà rốt vì có thể làm **củ bị phân nhánh, biến dạng**, ảnh hưởng đến chất lượng củ.\n\nNên dùng **phân chuồng đã hoai mục hoàn toàn**, hoặc bón lót phân chuồng từ vụ trước để phân phân hủy ổn định trước khi cà rốt phát triển củ.",
     "tools_called": [
-      "search_agriculture_documents",
-      "query_crop_knowledge_graph"
+      "search_agriculture_documents"
     ],
-    "latency_sec": 28.97,
+    "latency_sec": 5.47,
     "error": null
   },
   {
@@ -156,10 +152,13 @@
     "crop": "Cà rốt",
     "question": "Cà rốt hay bị bệnh gì, và cần chú ý gì về đất trồng để hạn chế bệnh đó?",
     "expected_tool": "both",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 36.2,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 20.800315918s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    "answer": "Cà rốt trong dữ liệu có các bệnh thường gặp:\n\n- **Bệnh cháy lá**\n- **Bệnh thối rễ**\n- **Bệnh thối đen**\n\nTrong đó, thông tin kỹ thuật hiện có nêu rõ nhất về **bệnh thối rễ**:\n\n- Bệnh dễ phát sinh khi **đất thoát nước kém** hoặc **tưới quá nhiều gây úng**.\n- Nên chọn đất **tơi xốp, sâu**, như **đất cát pha hoặc đất thịt nhẹ**.\n- Cần làm hệ thống **thoát nước tốt**, tránh để đất bị úng.\n- Không tưới quá đẫm, nhất là khi **củ đang phình to**.\n- Có thể **luân canh cây trồng** để hạn chế tuyến trùng và mầm bệnh tích lũy trong đất.\n\nHệ thống chưa có hướng dẫn kỹ thuật cụ thể về biện pháp phòng bệnh **cháy lá** và **thối đen** trên cà rốt.",
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 18.98,
+    "error": null
   },
   {
     "id": "kg-013",
@@ -167,10 +166,12 @@
     "crop": "Dưa leo",
     "question": "Cây Dưa leo có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 34.45,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.360584403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+    "answer": "Cây **dưa leo** có các giai đoạn sinh trưởng sau:\n\n| Giai đoạn | Thời gian |\n|---|---:|\n| Nảy mầm | 5 ngày |\n| Phát triển thân vòi | 15 ngày |\n| Ra hoa | 10 ngày |\n| Đậu quả | 15 ngày |\n| Thu hoạch | 20 ngày |",
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ],
+    "latency_sec": 7.32,
+    "error": null
   },
   {
     "id": "kg-014",
@@ -178,10 +179,12 @@
     "crop": "Dưa leo",
     "question": "Dưa leo thường mắc những loại bệnh nào?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.4,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 8.93877094s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}"
+    "answer": "Dưa leo thường mắc các bệnh:\n\n- **Bệnh phấn trắng**\n- **Bệnh sương mai**\n- **Bệnh héo xanh**",
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ],
+    "latency_sec": 5.71,
+    "error": null
   },
   {
     "id": "rag-015",
@@ -189,10 +192,12 @@
     "crop": "Dưa leo",
     "question": "Kỹ thuật làm giàn cho dưa leo cần lưu ý gì?",
     "expected_tool": "search_agriculture_documents",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 33.74,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 34.172640935s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}"
+    "answer": "Khi làm giàn cho dưa leo, cần lưu ý:\n\n- **Thời điểm:** Làm giàn ngay khi cây có **2–3 lá thật**, vì dưa leo phát triển nhanh và là cây thân leo.\n- **Mục đích:** Giúp cây leo bám, hạn chế thân và quả tiếp xúc với đất, từ đó giảm nguy cơ **quả cong vẹo, thối quả**.\n- **Độ thông thoáng:** Kết hợp **cắt tỉa lá già sát gốc** để ruộng thông thoáng, nhất là trong điều kiện ẩm độ cao hoặc mưa nhiều.\n- **Tưới nước:** Tránh tưới lên lá vào buổi tối để hạn chế bệnh **giả sương mai và sương mai**.\n- **Lưu ý về dữ liệu:** Tài liệu hiện có chưa nêu cụ thể kiểu giàn, chiều cao hay vật liệu làm giàn cho dưa leo.",
+    "tools_called": [
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 13.88,
+    "error": null
   },
   {
     "id": "multi-016",
@@ -200,10 +205,13 @@
     "crop": "Dưa leo",
     "question": "Dưa leo có những giai đoạn sinh trưởng nào, và giai đoạn ra hoa cần chăm sóc gì đặc biệt?",
     "expected_tool": "both",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.35,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 57.848326904s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}"
+    "answer": "Theo dữ liệu hệ thống, dưa leo có các giai đoạn sinh trưởng:\n\n1. **Nảy mầm**: khoảng **5 ngày**.  \n2. **Phát triển thân, vòi**: khoảng **15 ngày**.  \n3. **Ra hoa**: khoảng **10 ngày**.  \n4. **Đậu quả**: khoảng **15 ngày**.  \n5. **Thu hoạch**: khoảng **20 ngày**.  \n\nTài liệu kỹ thuật ghi nhận giai đoạn ra hoa thường bắt đầu khoảng **25–30 ngày sau trồng**; một tài liệu khác ghi giai đoạn ra hoa và đậu quả bắt đầu khoảng **35–40 ngày sau gieo**, nên thời điểm thực tế có thể thay đổi theo cách tính và điều kiện canh tác.\n\n### Chăm sóc đặc biệt khi ra hoa\n\n- **Bón bổ sung lân và kali**, đặc biệt kali; có thể chú ý thêm **bo** để hỗ trợ đậu quả, giúp quả phát triển tốt.\n- **Duy trì độ ẩm đất ổn định**: tưới đủ nước, tránh để đất quá khô hoặc bị úng vì có thể làm rụng hoa và quả non.\n- **Hạn chế bón quá nhiều đạm**, vì cây dễ tập trung phát triển thân lá nhưng ra hoa kém.\n- **Làm giàn hoặc cắm cọc chống đổ** khi cây bắt đầu ra hoa.\n- Dưa leo có **hoa đực và hoa cái riêng trên cùng cây**; hoa cái có bầu noãn và sẽ phát triển thành quả.",
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 14.5,
+    "error": null
   },
   {
     "id": "kg-017",
@@ -211,10 +219,12 @@
     "crop": "Rau muống",
     "question": "Cây Rau muống có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.92,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 20.903759923s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}"
+    "answer": "Rau muống có các giai đoạn sinh trưởng:\n\n1. **Nảy mầm:** khoảng **5 ngày**  \n2. **Phát triển thân, lá:** khoảng **15 ngày**  \n3. **Thu hoạch:** khoảng **20 ngày**",
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ],
+    "latency_sec": 7.84,
+    "error": null
   },
   {
     "id": "kg-018",
@@ -222,10 +232,12 @@
     "crop": "Rau muống",
     "question": "Rau muống thường mắc những loại bệnh nào?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 34.42,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.480156812s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+    "answer": "Rau muống thường mắc các bệnh:\n\n- **Bệnh thán thư**\n- **Bệnh gỉ sắt**",
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ],
+    "latency_sec": 6.53,
+    "error": null
   },
   {
     "id": "rag-019",
@@ -233,10 +245,12 @@
     "crop": "Rau muống",
     "question": "Rau muống cần được bón phân và tưới nước như thế nào để đạt năng suất cao?",
     "expected_tool": "search_agriculture_documents",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.59,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 8.872101017s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}"
+    "answer": "Để rau muống đạt năng suất cao:\n\n- **Tưới nước:**  \n  - Duy trì đất đủ ẩm, khoảng **80–85% độ ẩm**.  \n  - Tưới **2 lần/ngày vào sáng sớm và chiều mát**, đặc biệt trong giai đoạn cây con và thời tiết nóng.  \n  - Đất cần giữ ẩm tốt nhưng **không để ngập úng**; nên lên luống cao để thoát nước.\n\n- **Bón phân:**  \n  - Trước khi gieo, bón lót **phân chuồng hoai mục kết hợp phân lân**.  \n  - Khi cây có **2–3 lá thật**, bón thúc bằng **phân đạm hòa tan loãng hoặc phân hữu cơ vi sinh** để thúc thân, lá phát triển.  \n  - Có thể bón phân đạm định kỳ **7–10 ngày/lần**, nhưng cần tuân thủ thời gian cách ly phân bón trước khi thu hoạch để bảo đảm an toàn thực phẩm.",
+    "tools_called": [
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 9.34,
+    "error": null
   },
   {
     "id": "multi-020",
@@ -244,10 +258,13 @@
     "crop": "Rau muống",
     "question": "Rau muống có những giai đoạn sinh trưởng nào, và cần tưới nước ra sao ở giai đoạn thân lá?",
     "expected_tool": "both",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.09,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 32.791743931s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}"
+    "answer": "Rau muống có các giai đoạn sinh trưởng:\n\n1. **Nảy mầm:** khoảng **5 ngày** sau gieo.\n2. **Phát triển thân lá:** khoảng **15 ngày** theo dữ liệu hệ thống; tài liệu kỹ thuật ghi giai đoạn từ nảy mầm đến lứa thu hoạch đầu khoảng **20–25 ngày**.\n3. **Thu hoạch:** khoảng **20 ngày**, có thể thu nhiều lứa; mỗi lứa cách nhau **15–20 ngày**.\n\n**Tưới nước ở giai đoạn phát triển thân lá:**\n\n- Với **rau muống đất/rau muống cạn**, tưới **2 lần mỗi ngày**:\n  - Sáng sớm\n  - Chiều mát\n- Duy trì độ ẩm đất khoảng **80–85%**.\n- Đất cần giữ ẩm tốt nhưng **không bị ngập úng**.\n- Đặc biệt sau khi cây nảy mầm, cần duy trì tưới đều để cây con phát triển thân lá.",
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 11.95,
+    "error": null
   },
   {
     "id": "kg-021",
@@ -255,10 +272,12 @@
     "crop": "Su hào",
     "question": "Cây Su hào có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.08,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 56.711830784s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}"
+    "answer": "Cây **su hào** có 3 giai đoạn sinh trưởng:\n\n1. **Nảy mầm:** khoảng **7 ngày**  \n2. **Phát triển củ:** khoảng **35 ngày**  \n3. **Thu hoạch:** khoảng **15 ngày**",
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ],
+    "latency_sec": 7.61,
+    "error": null
   },
   {
     "id": "kg-022",
@@ -266,10 +285,12 @@
     "crop": "Su hào",
     "question": "Su hào thường mắc những loại bệnh nào?",
     "expected_tool": "query_crop_knowledge_graph",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 34.22,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 21.47412825s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}"
+    "answer": "Su hào thường mắc các bệnh:\n\n- **Bệnh sương mai**\n- **Bệnh thối nhũn**",
+    "tools_called": [
+      "query_crop_knowledge_graph"
+    ],
+    "latency_sec": 6.73,
+    "error": null
   },
   {
     "id": "rag-023",
@@ -277,10 +298,12 @@
     "crop": "Su hào",
     "question": "Dấu hiệu nào cho biết su hào đã đến độ thu hoạch?",
     "expected_tool": "search_agriculture_documents",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 35.02,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.445500574s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}"
+    "answer": "Su hào đã đến độ thu hoạch khi:\n\n- Củ phình to, tròn đều, bề mặt mịn.\n- Đường kính củ khoảng **8–10 cm**.\n- Vỏ củ căng, láng bóng; màu thường chuyển từ xanh thẫm sang xanh nhạt.\n- Phần vai củ tương đối bằng phẳng.\n\nThời gian thu hoạch thường khoảng **60–70 ngày sau trồng**, tùy giống. Không nên để quá lâu vì củ dễ bị xơ, cứng và giảm chất lượng.",
+    "tools_called": [
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 7.04,
+    "error": null
   },
   {
     "id": "multi-024",
@@ -288,9 +311,12 @@
     "crop": "Su hào",
     "question": "Su hào thường gặp sâu bệnh gì, và cần làm gì để phòng trừ trong giai đoạn cây con?",
     "expected_tool": "both",
-    "answer": null,
-    "tools_called": [],
-    "latency_sec": 34.22,
-    "error": "GoogleRateLimitError: Error calling model 'gemini-3.6-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 10.228361624s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '10s'}]}}"
+    "answer": "Ở su hào, các đối tượng thường gặp gồm:\n\n### Sâu hại\n- **Sâu xanh:** ăn lá, làm giảm diện tích quang hợp.\n- **Bọ nhảy:** đục nhiều lỗ trên lá non, khiến cây con chậm phát triển.\n- **Sâu tơ và sâu xanh da láng:** ăn thủng lá, thậm chí gây hại phần củ non.\n\n### Bệnh hại\n- **Bệnh sương mai:** thường phát sinh khi thời tiết nồm ẩm, gây đốm cháy vàng khô trên lá.\n- **Bệnh thối nhũn:** phát triển mạnh khi ẩm độ cao; củ bị thối, chảy nước và có mùi hôi.\n\n### Phòng trừ trong giai đoạn cây con\n1. **Theo dõi thường xuyên**, đặc biệt mặt dưới lá và các lá non, để phát hiện sâu sớm.\n2. Có thể dùng **bẫy pheromone** để theo dõi, hạn chế sâu tơ và một số sâu hại.\n3. Khi cần xử lý sâu, sử dụng và **luân phiên chế phẩm sinh học Bt** theo hướng dẫn trên nhãn nhằm hạn chế sâu kháng thuốc.\n4. **Làm luống cao, đất tơi xốp và thoát nước tốt**, tránh để cây con bị úng ẩm.\n5. **Luân canh** su hào với cây trồng khác và sử dụng các chế phẩm sinh học phòng bệnh định kỳ theo hướng dẫn.\n6. Giữ ruộng thông thoáng, vệ sinh đồng ruộng và loại bỏ cây hoặc lá bị bệnh để hạn chế lây lan.\n\nDữ liệu hệ thống chưa nêu biện pháp xử lý cụ thể bằng thuốc hóa học, nên không nên tự ý bổ sung hoặc sử dụng ngoài hướng dẫn trên nhãn.",
+    "tools_called": [
+      "query_crop_knowledge_graph",
+      "search_agriculture_documents"
+    ],
+    "latency_sec": 14.89,
+    "error": null
   }
 ]

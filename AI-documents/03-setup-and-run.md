@@ -51,7 +51,7 @@ Tóm tắt từ `README.md` gốc — xem file đó để có bản đầy đủ
    | GraphDB endpoint | `sparql_client.py`, biến `GRAPHDB_ENDPOINT` = `http://localhost:7200/repositories/Farming` | Sửa trực tiếp trong code nếu GraphDB chạy ở host/port khác |
    | GraphQL URL Agent gọi tới | `tools.py`, biến `transport` = `http://localhost:8001/graphql` | Tương tự, sửa trực tiếp trong code nếu cần |
    | Embedding model | `rag_retriever.py`, `ingest_rag.py` — `bkai-foundation-models/vietnamese-bi-encoder` | Tải tự động từ HuggingFace lần đầu chạy (cần internet, ~500MB) |
-   | LLM model | `agent.py` — `gemini-3.6-flash` | — |
+   | LLM model | `agent.py` — `claude-haiku-4-5` | — |
    | Trọng số Hybrid Retriever | `hybrid_retriever.py` — **CÓ đọc qua env var** `BM25_WEIGHT` / `SEMANTIC_WEIGHT`, mặc định `0.4`/`0.6` nếu không set | Đây là biến môi trường DUY NHẤT ngoài `GOOGLE_API_KEY` mà hệ thống thực sự đọc — chỉ cần set khi chạy `eval/ablation_run.py`, không cần set khi chạy app bình thường |
 
 4. **Thiết lập GraphDB**

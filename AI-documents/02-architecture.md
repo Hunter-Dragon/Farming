@@ -10,7 +10,7 @@ Streamlit UI (app.py)
    │  gọi hàm ask(question) từ agent.py
    ▼
 LangChain Tool-Calling Agent (agent.py)
-   │  model: ChatGoogleGenerativeAI (Gemini, model "gemini-3.6-flash", temperature=0)
+   │  model: ChatGoogleGenerativeAI (Gemini, model "claude-haiku-4-5", temperature=0)
    │  prompt: hệ thống ràng buộc "chỉ trả lời dựa trên tool trả về, không bịa"
    │
    ├──► Tool 1: query_crop_knowledge_graph (tools.py)

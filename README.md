@@ -213,7 +213,7 @@ streamlit run app.py
 | `GRAPHDB_ENDPOINT` | `sparql_client.py` | `http://localhost:7200/repositories/Farming` | Đường dẫn SPARQL endpoint của GraphDB |
 | `GRAPHQL_URL` | `tools.py` | `http://localhost:8001/graphql` | Đường dẫn kết nối đến GraphQL API |
 | `EMBEDDING_MODEL` | `rag_retriever.py`, `ingest_rag.py` | `bkai-foundation-models/vietnamese-bi-encoder` | Mô hình ngôn ngữ tạo vector nhúng tiếng Việt |
-| `LLM_MODEL` | `agent.py` | `gemini-3.6-flash` | Mô hình LLM phục vụ suy luận Agent |
+| `LLM_MODEL` | `agent.py` | `claude-haiku-4-5` | Mô hình LLM phục vụ suy luận Agent |
 
 ---
 
