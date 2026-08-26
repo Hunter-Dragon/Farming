@@ -6,9 +6,22 @@ import pickle
 
 # Danh sách các file mới muốn thêm vào RAG
 new_files = [
-    "./docs/ky-thuat-bap-cai.txt",
-    "./docs/ky-thuat-dua-leo.txt",
-    "./docs/ky-thuat-su-hao.txt",
+    "./docs/ky-thuat-bi-do.txt",
+    "./docs/ky-thuat-bi-xanh.txt",
+    "./docs/ky-thuat-ca-chua-2.txt",
+    "./docs/ky-thuat-ca-chua-3.txt",
+    "./docs/ky-thuat-ca-phao.txt",
+    "./docs/ky-thuat-cu-cai-trang.txt",
+    "./docs/ky-thuat-cu-den.txt",
+    "./docs/ky-thuat-dau-co-leo.txt",
+    "./docs/ky-thuat-dau-ha-lan.txt",
+    "./docs/ky-thuat-dua-leo-2.txt",
+    "./docs/ky-thuat-su-hao-2.txt",
+    "./docs/ky-thuat-hanh-tay.txt",
+    "./docs/ky-thuat-khoai-tay.txt",
+    "./docs/ky-thuat-muop-dang.txt",
+    "./docs/ky-thuat-ot-chuong.txt",
+    "./docs/ky-thuat-rau-muong-2.txt",
 ]
 
 all_new_chunks = []

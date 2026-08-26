@@ -1,0 +1,15 @@
+Kỹ thuật trồng Cà chua bằng phương pháp thủy canh
+
+Trồng cà chua thủy canh là phương pháp canh tác không sử dụng đất, cây được nuôi trồng trực tiếp trong dung dịch dinh dưỡng hoặc trên giá thể trơ như xơ dừa, đá perlite. Phương pháp này phù hợp với mô hình nông nghiệp đô thị, nhà kính, hoặc nơi có diện tích đất hạn chế.
+
+Hệ thống thủy canh phổ biến nhất cho cà chua là hệ thống NFT (Nutrient Film Technique) hoặc hệ thống nhỏ giọt kết hợp giá thể. Dung dịch dinh dưỡng cần được pha theo công thức chuẩn, đảm bảo đầy đủ các nguyên tố đa lượng (đạm, lân, kali) và vi lượng (sắt, kẽm, mangan), độ pH dung dịch duy trì trong khoảng 5.8-6.3 để cây hấp thụ dinh dưỡng tối ưu.
+
+Giai đoạn ươm cây con trong thủy canh thường sử dụng viên nén xơ dừa hoặc mút xốp, giữ ẩm bằng cách phun sương đều đặn. Sau khi cây con có 3-4 lá thật và bộ rễ phát triển đủ mạnh, chuyển sang hệ thống thủy canh chính thức, khoảng cách giữa các cây khoảng 40-45cm trên máng trồng.
+
+Khác với trồng đất, cây thủy canh cần theo dõi nồng độ dung dịch dinh dưỡng (đo bằng chỉ số EC) thường xuyên, điều chỉnh tăng dần theo giai đoạn sinh trưởng: giai đoạn cây con EC khoảng 1.5-2.0 mS/cm, giai đoạn ra hoa đậu quả tăng lên 2.5-3.5 mS/cm để đáp ứng nhu cầu dinh dưỡng cao hơn.
+
+Ưu điểm lớn nhất của thủy canh là hạn chế tối đa các bệnh có nguồn gốc từ đất như héo xanh vi khuẩn hay thối rễ, vì môi trường trồng được kiểm soát vô trùng. Tuy nhiên vẫn cần đề phòng bệnh nấm mốc sương và rệp muội tấn công qua đường không khí, nên đảm bảo hệ thống nhà kính thông thoáng, kiểm soát độ ẩm không khí dưới 75%.
+
+Nhiệt độ dung dịch dinh dưỡng lý tưởng nên duy trì từ 20-24 độ C, vì nhiệt độ quá cao sẽ làm giảm lượng oxy hòa tan, ảnh hưởng đến khả năng hấp thụ dinh dưỡng của rễ. Cần có máy sục khí hoặc bơm tuần hoàn để đảm bảo dung dịch luôn được oxy hóa đầy đủ.
+
+So với trồng đất truyền thống, thủy canh cho năng suất cao hơn đáng kể và rút ngắn thời gian sinh trưởng khoảng 5-10 ngày nhờ dinh dưỡng được cung cấp tối ưu liên tục, nhưng đòi hỏi chi phí đầu tư ban đầu cao hơn và yêu cầu kỹ thuật kiểm soát chặt chẽ hơn.

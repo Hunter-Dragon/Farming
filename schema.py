@@ -50,10 +50,37 @@ class Query:
     @strawberry.field
     def all_crops(self) -> list[Crop]:
         rows = run_sparql('''
-            SELECT ?label WHERE {
+            SELECT DISTINCT ?label WHERE {
                 ?crop a agri:Crop ; rdfs:label ?label .
             }
         ''')
         return [Crop(name=r["label"]["value"]) for r in rows]
+
+    @strawberry.field
+    def all_diseases(self) -> list[Disease]:
+        rows = run_sparql('''
+            SELECT DISTINCT ?label WHERE {
+                ?disease a agri:Disease ; rdfs:label ?label .
+            }
+        ''')
+        return [Disease(name=r["label"]["value"]) for r in rows]
+
+    @strawberry.field
+    def all_soil_types(self) -> list[str]:
+        rows = run_sparql('''
+            SELECT DISTINCT ?label WHERE {
+                ?soil a agri:SoilType ; rdfs:label ?label .
+            }
+        ''')
+        return [r["label"]["value"] for r in rows]
+
+    @strawberry.field
+    def all_seasons(self) -> list[str]:
+        rows = run_sparql('''
+            SELECT DISTINCT ?label WHERE {
+                ?season a agri:Season ; rdfs:label ?label .
+            }
+        ''')
+        return [r["label"]["value"] for r in rows]
 
 schema = strawberry.Schema(query=Query)

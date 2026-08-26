@@ -32,4 +32,45 @@ def search_agriculture_documents(question: str) -> str:
     chunks = hybrid_search(question)
     return "\n---\n".join(chunks)
 
-tools = [query_crop_knowledge_graph, search_agriculture_documents]
+@tool
+def list_all_diseases() -> str:
+    """Dùng khi câu hỏi yêu cầu liệt kê tất cả các loại bệnh có trong hệ thống."""
+    query = gql('''
+        query { allDiseases { name } }
+    ''')
+    result = gql_client.execute(query)
+    return str(result)
+
+@tool
+def list_all_crops() -> str:
+    """Dùng tool này khi câu hỏi yêu cầu liệt kê TẤT CẢ các loại cây trồng có trong
+    hệ thống, hoặc hỏi có bao nhiêu loại cây trồng trong dữ liệu."""
+    query = gql('''
+        query {
+            allCrops {
+                name
+            }
+        }
+    ''')
+    result = gql_client.execute(query)
+    return str(result)
+
+@tool
+def list_all_soil_types() -> str:
+    """Dùng khi câu hỏi yêu cầu liệt kê tất cả các loại đất có trong hệ thống."""
+    query = gql('''
+        query { allSoilTypes }
+    ''')
+    result = gql_client.execute(query)
+    return str(result)
+
+@tool
+def list_all_seasons() -> str:
+    """Dùng khi câu hỏi yêu cầu liệt kê tất cả các mùa vụ có trong hệ thống."""
+    query = gql('''
+        query { allSeasons }
+    ''')
+    result = gql_client.execute(query)
+    return str(result)
+
+tools = [query_crop_knowledge_graph, search_agriculture_documents, list_all_diseases, list_all_crops, list_all_soil_types, list_all_seasons]

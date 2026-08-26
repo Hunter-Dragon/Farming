@@ -1,0 +1,522 @@
+[
+  {
+    "id": "kg-001",
+    "category": "kg",
+    "crop": "Cà chua",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cây Cà chua có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 7
+        },
+        {
+          "name": "Thắt thân",
+          "duration_days": 15
+        },
+        {
+          "name": "Ra hoa",
+          "duration_days": 30
+        },
+        {
+          "name": "Đậu quả",
+          "duration_days": 25
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "kg-002",
+    "category": "kg",
+    "crop": "Cà chua",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cà chua thường mắc những loại bệnh nào?",
+    "ground_truth": {
+      "diseases": [
+        "Bệnh héo xanh",
+        "Bệnh mốc sương",
+        "Bệnh sương mai",
+        "Bệnh đốm lá"
+      ]
+    }
+  },
+  {
+    "id": "rag-003",
+    "category": "rag",
+    "crop": "Cà chua",
+    "expected_tool": "search_agriculture_documents",
+    "question": "Cách bón phân và chăm sóc cà chua trong giai đoạn ra hoa như thế nào?",
+    "ground_truth": {
+      "key_points": [
+        "bón thêm phân kali để tăng tỷ lệ đậu quả",
+        "hạn chế bón đạm quá nhiều vì dễ khiến cây phát triển thân lá mà ít ra hoa",
+        "làm giàn hoặc cắm cọc chống đổ"
+      ],
+      "source_doc": "docs/ky-thuat-ca-chua.txt"
+    }
+  },
+  {
+    "id": "multi-004",
+    "category": "multi",
+    "crop": "Cà chua",
+    "expected_tool": "both",
+    "question": "Cây cà chua có những giai đoạn sinh trưởng nào, và ở giai đoạn ra hoa cần chăm sóc như thế nào để tăng tỷ lệ đậu quả?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 7
+        },
+        {
+          "name": "Thắt thân",
+          "duration_days": 15
+        },
+        {
+          "name": "Ra hoa",
+          "duration_days": 30
+        },
+        {
+          "name": "Đậu quả",
+          "duration_days": 25
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 20
+        }
+      ],
+      "diseases": [
+        "Bệnh héo xanh",
+        "Bệnh mốc sương",
+        "Bệnh sương mai",
+        "Bệnh đốm lá"
+      ]
+    }
+  },
+  {
+    "id": "kg-005",
+    "category": "kg",
+    "crop": "Bắp cải",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cây Bắp cải có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 8
+        },
+        {
+          "name": "Phát triển lá",
+          "duration_days": 25
+        },
+        {
+          "name": "Cuộn bắp",
+          "duration_days": 30
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "kg-006",
+    "category": "kg",
+    "crop": "Bắp cải",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Bắp cải thường mắc những loại bệnh nào?",
+    "ground_truth": {
+      "diseases": [
+        "Bệnh sương mai",
+        "Bệnh thối nhũn"
+      ]
+    }
+  },
+  {
+    "id": "rag-007",
+    "category": "rag",
+    "crop": "Bắp cải",
+    "expected_tool": "search_agriculture_documents",
+    "question": "Làm thế nào để phòng trừ bệnh thối nhũn trên bắp cải hiệu quả?",
+    "ground_truth": {
+      "key_points": [
+        "đảm bảo hệ thống thoát nước tốt",
+        "tránh tưới quá đẫm",
+        "luân canh với cây khác họ"
+      ],
+      "source_doc": "docs/ky-thuat-bap-cai.txt"
+    }
+  },
+  {
+    "id": "multi-008",
+    "category": "multi",
+    "crop": "Bắp cải",
+    "expected_tool": "both",
+    "question": "Bắp cải thường mắc bệnh gì, và cách phòng trừ bệnh đó ra sao?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 8
+        },
+        {
+          "name": "Phát triển lá",
+          "duration_days": 25
+        },
+        {
+          "name": "Cuộn bắp",
+          "duration_days": 30
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 15
+        }
+      ],
+      "diseases": [
+        "Bệnh sương mai",
+        "Bệnh thối nhũn"
+      ]
+    }
+  },
+  {
+    "id": "kg-009",
+    "category": "kg",
+    "crop": "Cà rốt",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cây Cà rốt có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 10
+        },
+        {
+          "name": "Phát triển rễ",
+          "duration_days": 30
+        },
+        {
+          "name": "Hình thành củ",
+          "duration_days": 35
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "kg-010",
+    "category": "kg",
+    "crop": "Cà rốt",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cà rốt thường mắc những loại bệnh nào?",
+    "ground_truth": {
+      "diseases": [
+        "Bệnh cháy lá",
+        "Bệnh thối rễ",
+        "Bệnh thối đen"
+      ]
+    }
+  },
+  {
+    "id": "rag-011",
+    "category": "rag",
+    "crop": "Cà rốt",
+    "expected_tool": "search_agriculture_documents",
+    "question": "Vì sao không nên bón phân chuồng tươi trực tiếp khi trồng cà rốt?",
+    "ground_truth": {
+      "key_points": [
+        "dễ làm củ bị phân nhánh",
+        "nên dùng phân chuồng đã hoai mục hoàn toàn"
+      ],
+      "source_doc": "docs/ky-thuat-ca-rot.txt"
+    }
+  },
+  {
+    "id": "multi-012",
+    "category": "multi",
+    "crop": "Cà rốt",
+    "expected_tool": "both",
+    "question": "Cà rốt hay bị bệnh gì, và cần chú ý gì về đất trồng để hạn chế bệnh đó?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 10
+        },
+        {
+          "name": "Phát triển rễ",
+          "duration_days": 30
+        },
+        {
+          "name": "Hình thành củ",
+          "duration_days": 35
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 15
+        }
+      ],
+      "diseases": [
+        "Bệnh cháy lá",
+        "Bệnh thối rễ",
+        "Bệnh thối đen"
+      ]
+    }
+  },
+  {
+    "id": "kg-013",
+    "category": "kg",
+    "crop": "Dưa leo",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cây Dưa leo có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 5
+        },
+        {
+          "name": "Phát triển thân vòi",
+          "duration_days": 15
+        },
+        {
+          "name": "Ra hoa",
+          "duration_days": 10
+        },
+        {
+          "name": "Đậu quả",
+          "duration_days": 15
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "kg-014",
+    "category": "kg",
+    "crop": "Dưa leo",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Dưa leo thường mắc những loại bệnh nào?",
+    "ground_truth": {
+      "diseases": [
+        "Bệnh héo xanh",
+        "Bệnh phấn trắng",
+        "Bệnh sương mai"
+      ]
+    }
+  },
+  {
+    "id": "rag-015",
+    "category": "rag",
+    "crop": "Dưa leo",
+    "expected_tool": "search_agriculture_documents",
+    "question": "Kỹ thuật làm giàn cho dưa leo cần lưu ý gì?",
+    "ground_truth": {
+      "key_points": [
+        "làm giàn hoặc cắm cọc ngay khi cây con có 2-3 lá thật",
+        "nếu để bò trên đất quả dễ bị cong vẹo, tiếp xúc đất gây thối"
+      ],
+      "source_doc": "docs/ky-thuat-dua-leo.txt"
+    }
+  },
+  {
+    "id": "multi-016",
+    "category": "multi",
+    "crop": "Dưa leo",
+    "expected_tool": "both",
+    "question": "Dưa leo có những giai đoạn sinh trưởng nào, và giai đoạn ra hoa cần chăm sóc gì đặc biệt?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 5
+        },
+        {
+          "name": "Phát triển thân vòi",
+          "duration_days": 15
+        },
+        {
+          "name": "Ra hoa",
+          "duration_days": 10
+        },
+        {
+          "name": "Đậu quả",
+          "duration_days": 15
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 20
+        }
+      ],
+      "diseases": [
+        "Bệnh héo xanh",
+        "Bệnh phấn trắng",
+        "Bệnh sương mai"
+      ]
+    }
+  },
+  {
+    "id": "kg-017",
+    "category": "kg",
+    "crop": "Rau muống",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cây Rau muống có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 5
+        },
+        {
+          "name": "Phát triển thân lá",
+          "duration_days": 15
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "kg-018",
+    "category": "kg",
+    "crop": "Rau muống",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Rau muống thường mắc những loại bệnh nào?",
+    "ground_truth": {
+      "diseases": [
+        "Bệnh gỉ sắt",
+        "Bệnh thán thư"
+      ]
+    }
+  },
+  {
+    "id": "rag-019",
+    "category": "rag",
+    "crop": "Rau muống",
+    "expected_tool": "search_agriculture_documents",
+    "question": "Rau muống cần được bón phân và tưới nước như thế nào để đạt năng suất cao?",
+    "ground_truth": {
+      "key_points": [
+        "bón phân đạm định kỳ 7-10 ngày một lần",
+        "tưới nước 2 lần mỗi ngày vào sáng sớm và chiều mát"
+      ],
+      "source_doc": "docs/ky-thuat-rau-muong.txt"
+    }
+  },
+  {
+    "id": "multi-020",
+    "category": "multi",
+    "crop": "Rau muống",
+    "expected_tool": "both",
+    "question": "Rau muống có những giai đoạn sinh trưởng nào, và cần tưới nước ra sao ở giai đoạn thân lá?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 5
+        },
+        {
+          "name": "Phát triển thân lá",
+          "duration_days": 15
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 20
+        }
+      ],
+      "diseases": [
+        "Bệnh gỉ sắt",
+        "Bệnh thán thư"
+      ]
+    }
+  },
+  {
+    "id": "kg-021",
+    "category": "kg",
+    "crop": "Su hào",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Cây Su hào có những giai đoạn sinh trưởng nào và kéo dài bao lâu?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 7
+        },
+        {
+          "name": "Phát triển củ",
+          "duration_days": 35
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "kg-022",
+    "category": "kg",
+    "crop": "Su hào",
+    "expected_tool": "query_crop_knowledge_graph",
+    "question": "Su hào thường mắc những loại bệnh nào?",
+    "ground_truth": {
+      "diseases": [
+        "Bệnh sương mai",
+        "Bệnh thối nhũn"
+      ]
+    }
+  },
+  {
+    "id": "rag-023",
+    "category": "rag",
+    "crop": "Su hào",
+    "expected_tool": "search_agriculture_documents",
+    "question": "Dấu hiệu nào cho biết su hào đã đến độ thu hoạch?",
+    "ground_truth": {
+      "key_points": [
+        "củ đạt đường kính khoảng 8-10cm",
+        "vỏ củ căng bóng"
+      ],
+      "source_doc": "docs/ky-thuat-su-hao.txt"
+    }
+  },
+  {
+    "id": "multi-024",
+    "category": "multi",
+    "crop": "Su hào",
+    "expected_tool": "both",
+    "question": "Su hào thường gặp sâu bệnh gì, và cần làm gì để phòng trừ trong giai đoạn cây con?",
+    "ground_truth": {
+      "growth_stages": [
+        {
+          "name": "Nảy mầm",
+          "duration_days": 7
+        },
+        {
+          "name": "Phát triển củ",
+          "duration_days": 35
+        },
+        {
+          "name": "Thu hoạch",
+          "duration_days": 15
+        }
+      ],
+      "diseases": [
+        "Bệnh sương mai",
+        "Bệnh thối nhũn"
+      ]
+    }
+  }
+]
