@@ -6,7 +6,6 @@ from hybrid_retriever import hybrid_search
 
 import json
 
-# Client gọi GraphQL API đã dựng ở Bước 2
 transport = RequestsHTTPTransport(url="http://localhost:8001/graphql")
 gql_client = Client(transport=transport, fetch_schema_from_transport=True)
 
