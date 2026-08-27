@@ -3,14 +3,12 @@ from dotenv import load_dotenv
 
 from langchain_classic.agents import AgentExecutor, create_tool_calling_agent
 from langchain_core.prompts import ChatPromptTemplate
-# 1. Import đúng ChatAnthropic từ langchain_anthropic
 from langchain_anthropic import ChatAnthropic
 
 from tools import tools
 
 load_dotenv("api-key.env")
 
-# 2. Khởi tạo LLM với ChatAnthropic đúng cấu hình TrollLLM
 llm = ChatAnthropic(
     model="claude-haiku-4-5",
     temperature=0,
