@@ -83,12 +83,6 @@ flowchart TD
 ```text
 Farming/
 ├── docs/                        # Thư mục chứa tài liệu kỹ thuật canh tác (.txt)
-│   ├── ky-thuat-bap-cai.txt
-│   ├── ky-thuat-ca-chua.txt
-│   ├── ky-thuat-ca-rot.txt
-│   ├── ky-thuat-dua-leo.txt
-│   ├── ky-thuat-rau-muong.txt
-│   └── ky-thuat-su-hao.txt
 ├── chroma_db/                   # Thư mục cơ sở dữ liệu vector Chroma (tự sinh sau khi nạp)
 ├── chunks_cache.pkl             # File cache lưu trữ Document Chunks phục vụ BM25 Retriever
 ├── agri-ontology.ttl            # Định nghĩa Ontology nông nghiệp (OWL / RDF Schema)
